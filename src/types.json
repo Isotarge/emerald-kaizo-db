@@ -1,0 +1,573 @@
+{
+  "Normal": {
+    "contact": "Physical",
+    "color": "#A8A878",
+    "matchup": {
+      "offensive": {
+        "superEffective": [],
+        "notVeryEffective": [
+          "Rock",
+          "Steel"
+        ],
+        "immune": [
+          "Ghost"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Fighting"
+        ],
+        "notVeryEffective": [],
+        "immune": [
+          "Ghost"
+        ]
+      }
+    }
+  },
+  "Fighting": {
+    "contact": "Physical",
+    "color": "#C03028",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Normal",
+          "Rock",
+          "Steel",
+          "Ice",
+          "Dark"
+        ],
+        "notVeryEffective": [
+          "Flying",
+          "Poison",
+          "Bug",
+          "Psychic"
+        ],
+        "immune": [
+          "Ghost"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Flying",
+          "Psychic"
+        ],
+        "notVeryEffective": [
+          "Rock",
+          "Bug",
+          "Dark"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Flying": {
+    "contact": "Physical",
+    "color": "#A890F0",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Fighting",
+          "Bug",
+          "Grass"
+        ],
+        "notVeryEffective": [
+          "Rock",
+          "Steel",
+          "Electric"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Rock",
+          "Electric",
+          "Ice"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Bug",
+          "Grass"
+        ],
+        "immune": [
+          "Ground"
+        ]
+      }
+    }
+  },
+  "Poison": {
+    "contact": "Physical",
+    "color": "#A040A0",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Grass"
+        ],
+        "notVeryEffective": [
+          "Poison",
+          "Ground",
+          "Rock",
+          "Ghost"
+        ],
+        "immune": [
+          "Steel"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Ground",
+          "Psychic"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Poison",
+          "Bug",
+          "Grass"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Ground": {
+    "contact": "Physical",
+    "color": "#E0C068",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Poison",
+          "Rock",
+          "Steel",
+          "Fire",
+          "Electric"
+        ],
+        "notVeryEffective": [
+          "Bug",
+          "Grass"
+        ],
+        "immune": [
+          "Flying"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Water",
+          "Grass",
+          "Ice"
+        ],
+        "notVeryEffective": [
+          "Poison",
+          "Rock"
+        ],
+        "immune": [
+          "Electric"
+        ]
+      }
+    }
+  },
+  "Rock": {
+    "contact": "Physical",
+    "color": "#B8A038",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Flying",
+          "Bug",
+          "Fire",
+          "Ice"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Ground",
+          "Steel"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Fighting",
+          "Ground",
+          "Steel",
+          "Water",
+          "Grass"
+        ],
+        "notVeryEffective": [
+          "Normal",
+          "Flying",
+          "Poison",
+          "Fire"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Bug": {
+    "contact": "Physical",
+    "color": "#A8B820",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Grass",
+          "Psychic",
+          "Dark"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Flying",
+          "Poison",
+          "Ghost",
+          "Steel",
+          "Fire"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Flying",
+          "Rock",
+          "Fire"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Ground",
+          "Grass"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Ghost": {
+    "contact": "Physical",
+    "color": "#705898",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Ghost",
+          "Psychic"
+        ],
+        "notVeryEffective": [
+          "Steel",
+          "Dark"
+        ],
+        "immune": [
+          "Normal"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Ghost",
+          "Dark"
+        ],
+        "notVeryEffective": [
+          "Poison",
+          "Bug"
+        ],
+        "immune": [
+          "Normal",
+          "Fighting"
+        ]
+      }
+    }
+  },
+  "Steel": {
+    "contact": "Physical",
+    "color": "#B8B8D0",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Rock",
+          "Ice"
+        ],
+        "notVeryEffective": [
+          "Steel",
+          "Fire",
+          "Water",
+          "Electric"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Fighting",
+          "Ground",
+          "Fire"
+        ],
+        "notVeryEffective": [
+          "Normal",
+          "Flying",
+          "Rock",
+          "Bug",
+          "Ghost",
+          "Steel",
+          "Grass",
+          "Psychic",
+          "Ice",
+          "Dragon",
+          "Dark"
+        ],
+        "immune": [
+          "Poison"
+        ]
+      }
+    }
+  },
+  "Fire": {
+    "contact": "Special",
+    "color": "#F08030",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Bug",
+          "Steel",
+          "Grass",
+          "Ice"
+        ],
+        "notVeryEffective": [
+          "Rock",
+          "Fire",
+          "Water",
+          "Dragon"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Ground",
+          "Rock",
+          "Water"
+        ],
+        "notVeryEffective": [
+          "Bug",
+          "Steel",
+          "Fire",
+          "Grass",
+          "Ice"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Water": {
+    "contact": "Special",
+    "color": "#6890F0",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Ground",
+          "Rock",
+          "Fire"
+        ],
+        "notVeryEffective": [
+          "Water",
+          "Grass",
+          "Dragon"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Grass",
+          "Electric"
+        ],
+        "notVeryEffective": [
+          "Steel",
+          "Fire",
+          "Water",
+          "Ice"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Grass": {
+    "contact": "Special",
+    "color": "#78C850",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Ground",
+          "Rock",
+          "Water"
+        ],
+        "notVeryEffective": [
+          "Flying",
+          "Poison",
+          "Bug",
+          "Steel",
+          "Fire",
+          "Grass",
+          "Dragon"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Flying",
+          "Poison",
+          "Bug",
+          "Fire",
+          "Ice"
+        ],
+        "notVeryEffective": [
+          "Ground",
+          "Water",
+          "Grass",
+          "Electric"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Electric": {
+    "contact": "Special",
+    "color": "#F8D030",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Flying",
+          "Water"
+        ],
+        "notVeryEffective": [
+          "Grass",
+          "Electric",
+          "Dragon"
+        ],
+        "immune": [
+          "Ground"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Ground"
+        ],
+        "notVeryEffective": [
+          "Flying",
+          "Steel",
+          "Electric"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Psychic": {
+    "contact": "Special",
+    "color": "#F85888",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Fighting",
+          "Poison"
+        ],
+        "notVeryEffective": [
+          "Steel",
+          "Psychic"
+        ],
+        "immune": [
+          "Dark"
+        ]
+      },
+      "defensive": {
+        "superEffective": [
+          "Bug",
+          "Ghost",
+          "Dark"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Psychic"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Ice": {
+    "contact": "Special",
+    "color": "#98D8D8",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Flying",
+          "Ground",
+          "Grass",
+          "Dragon"
+        ],
+        "notVeryEffective": [
+          "Steel",
+          "Fire",
+          "Water",
+          "Ice"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Fighting",
+          "Rock",
+          "Steel",
+          "Fire"
+        ],
+        "notVeryEffective": [
+          "Ice"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Dragon": {
+    "contact": "Special",
+    "color": "#7038F8",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Dragon"
+        ],
+        "notVeryEffective": [
+          "Steel"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Ice",
+          "Dragon"
+        ],
+        "notVeryEffective": [
+          "Fire",
+          "Water",
+          "Grass",
+          "Electric"
+        ],
+        "immune": []
+      }
+    }
+  },
+  "Dark": {
+    "contact": "Special",
+    "color": "#705848",
+    "matchup": {
+      "offensive": {
+        "superEffective": [
+          "Ghost",
+          "Psychic"
+        ],
+        "notVeryEffective": [
+          "Fighting",
+          "Steel",
+          "Dark"
+        ],
+        "immune": []
+      },
+      "defensive": {
+        "superEffective": [
+          "Fighting",
+          "Bug"
+        ],
+        "notVeryEffective": [
+          "Ghost",
+          "Dark"
+        ],
+        "immune": [
+          "Psychic"
+        ]
+      }
+    }
+  }
+}
