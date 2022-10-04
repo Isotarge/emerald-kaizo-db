@@ -7,6 +7,5 @@ export default defineConfig({
   base: './',
   server: {
     host: true,
-  },
-  assetsInclude: "**/*.html"
+  }
 })
