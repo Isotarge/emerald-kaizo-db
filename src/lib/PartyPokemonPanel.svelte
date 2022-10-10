@@ -11,15 +11,17 @@
         checkTypeEffectiveness,
     } from "../state";
 
-    export let selectedPokemonName = "Scizor";
+    export let selectedPokemon = {
+        name: "Scizor",
+    };
     export let opponents = [];
     $: slowerOpponents = opponents.filter(
-        (opponent) => pokemonByName[opponent].speed < selectedPokemonData.speed
+        (opponent) => pokemonByName[opponent.name].speed < selectedPokemonData.speed
     );
     $: fasterOpponents = opponents.filter(
-        (opponent) => pokemonByName[opponent].speed >= selectedPokemonData.speed
+        (opponent) => pokemonByName[opponent.name].speed >= selectedPokemonData.speed
     );
-    $: selectedPokemonData = pokemonByName[selectedPokemonName];
+    $: selectedPokemonData = pokemonByName[selectedPokemon.name];
     $: baseStatTotal = getBaseStatTotal(selectedPokemonData);
     $: specialAttackBias =
         selectedPokemonData.specialAttack - selectedPokemonData.attack;
@@ -118,7 +120,7 @@
     <p>
         <AutoComplete
             items={pokemonNames}
-            bind:selectedItem={selectedPokemonName}
+            bind:selectedItem={selectedPokemon.name}
             hideArrow="true"
         />
         <img
