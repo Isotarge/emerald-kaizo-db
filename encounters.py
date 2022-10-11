@@ -1,7 +1,6 @@
 import csv
 import os
 import json
-from tokenize import Number
 
 locations = []
 

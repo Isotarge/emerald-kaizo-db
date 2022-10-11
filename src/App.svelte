@@ -1,5 +1,5 @@
 <script>
-    import PartyPokemonPanel from "./lib/PartyPokemonPanel.svelte";
+    import PokemonPanel from "./lib/PokemonPanel.svelte";
     import AutoComplete from "simple-svelte-autocomplete";
     import { encounterPresets } from "./state";
 
@@ -570,7 +570,7 @@
     <h2>Your Party</h2>
     <div id="party">
         {#each partyPokemon as _}
-            <PartyPokemonPanel
+            <PokemonPanel
                 bind:selectedPokemon={_}
                 opponents={opponentPokemon}
             />
@@ -584,10 +584,7 @@
     />
     <div id="opponent">
         {#each opponentPokemon as _}
-            <PartyPokemonPanel
-                bind:selectedPokemon={_}
-                opponents={partyPokemon}
-            />
+            <PokemonPanel bind:selectedPokemon={_} opponents={partyPokemon} />
         {/each}
     </div>
 </main>

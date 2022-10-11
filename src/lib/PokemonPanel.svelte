@@ -1,5 +1,5 @@
 <script>
-    import Type from "../lib/Type.svelte";
+    import Type from "./Type.svelte";
     import AutoComplete from "simple-svelte-autocomplete";
     import {
         MAX_TOTAL_BASE_STATS,
