@@ -16,10 +16,12 @@
     };
     export let opponents = [];
     $: slowerOpponents = opponents.filter(
-        (opponent) => pokemonByName[opponent.name].speed < selectedPokemonData.speed
+        (opponent) =>
+            pokemonByName[opponent.name].speed < selectedPokemonData.speed
     );
     $: fasterOpponents = opponents.filter(
-        (opponent) => pokemonByName[opponent.name].speed >= selectedPokemonData.speed
+        (opponent) =>
+            pokemonByName[opponent.name].speed >= selectedPokemonData.speed
     );
     $: selectedPokemonData = pokemonByName[selectedPokemon.name];
     $: baseStatTotal = getBaseStatTotal(selectedPokemonData);
@@ -140,7 +142,18 @@
                 specialDefenseBias={-specialAttackBias}
             />
         {/if}
-        <!-- {selectedPokemonData.eggGroup1} {selectedPokemonData.eggGroup2} -->
+    </p>
+    <p>
+        {#if selectedPokemon.encounterChance}
+            {selectedPokemon.encounterChance}% Chance
+        {/if}
+        {#if selectedPokemon.minLevel || selectedPokemon.maxLevel}
+            {#if selectedPokemon.minLevel === selectedPokemon.maxLevel}
+                @ Level {selectedPokemon.minLevel}
+            {:else}
+                @ Level {selectedPokemon.minLevel}-{selectedPokemon.maxLevel}
+            {/if}
+        {/if}
     </p>
     <table style="margin: auto; min-height: 4rem;">
         <tr>
@@ -308,13 +321,13 @@
         <h3 class="type-heading">Faster Than</h3>
         <div class="type-table">
             {#each slowerOpponents as slowerOpponent}
-                <span>{slowerOpponent}</span>
+                <span>{slowerOpponent.name}</span>
             {/each}
         </div>
         <h3 class="type-heading">Slower Than</h3>
         <div class="type-table">
             {#each fasterOpponents as fasterOpponent}
-                <span>{fasterOpponent}</span>
+                <span>{fasterOpponent.name}</span>
             {/each}
         </div>
     {/if}

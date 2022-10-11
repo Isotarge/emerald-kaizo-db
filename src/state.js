@@ -1,6 +1,7 @@
 import POKEMON from "./pkmn.json";
 import abilityData from "./abilities.json";
 import typeData from "./types.json";
+import encounters from "./encounters.json";
 
 // Used to fill in the pokemon selector dropdown
 export const pokemonNames = POKEMON.map(p => p.name);
@@ -66,5 +67,47 @@ export function checkTypeEffectivenessSTAB(attackerType1, attackerType2, defende
     return checkTypeEffectiveness(moveType, defenderType1, defenderType2) * STABMultiplier;
 }
 
+// Compute opponent presets for all encounters
+const encounterPresets = [];
+encounters.forEach(location => {
+    location.rooms.forEach(room => {
+        let roomName = location.name;
+        if (room.name !== 'main') {
+            roomName = `${roomName} - ${room.name}`;
+        }
+        if (room.hasOwnProperty("grass")) {
+            encounterPresets.push({
+                name: roomName,
+                team: room.grass,
+            });
+        }
+        if (room.hasOwnProperty("surf")) {
+            encounterPresets.push({
+                name: `${roomName} - Surf`,
+                team: room.surf,
+            });
+        }
+        if (room.hasOwnProperty("oldRod")) {
+            encounterPresets.push({
+                name: `${roomName} - Old Rod`,
+                team: room.oldRod,
+            });
+        }
+        if (room.hasOwnProperty("goodRod")) {
+            encounterPresets.push({
+                name: `${roomName} - Good Rod`,
+                team: room.goodRod,
+            });
+        }
+        if (room.hasOwnProperty("superRod")) {
+            encounterPresets.push({
+                name: `${roomName} - Super Rod`,
+                team: room.superRod,
+            });
+        }
+    })
+});
+
+export { encounterPresets as encounterPresets };
 export { abilityData as abilityData };
 export { typeData as typeData };
