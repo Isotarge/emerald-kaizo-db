@@ -25,4 +25,5 @@ dist-ssr
 
 *.csv#
 *.pkmn
+*.trainer
 __pycache__

@@ -147,12 +147,19 @@
         {#if selectedPokemon.encounterChance}
             {selectedPokemon.encounterChance}% Chance
         {/if}
-        {#if selectedPokemon.minLevel || selectedPokemon.maxLevel}
+        {#if selectedPokemon.level}
+            @ Level {selectedPokemon.level}
+        {:else if selectedPokemon.minLevel || selectedPokemon.maxLevel}
             {#if selectedPokemon.minLevel === selectedPokemon.maxLevel}
                 @ Level {selectedPokemon.minLevel}
             {:else}
                 @ Level {selectedPokemon.minLevel}-{selectedPokemon.maxLevel}
             {/if}
+        {/if}
+    </p>
+    <p>
+        {#if selectedPokemon.item}
+            Holding: {selectedPokemon.item}
         {/if}
     </p>
     <table style="margin: auto; min-height: 4rem;">

@@ -154,6 +154,11 @@ with open("encounters.csv", newline="") as csvfile:
 
                         del encounterPreset["level"]
 
+                        if encounterPreset["minLevel"] == encounterPreset["maxLevel"]:
+                            encounterPreset["level"] = encounterPreset["minLevel"]
+                            del encounterPreset["minLevel"]
+                            del encounterPreset["maxLevel"]
+
                         if rowIndex >= 8 and rowIndex <= 20:
                             room["grass"].append(encounterPreset)
                         elif rowIndex >= 21 and rowIndex <= 25:
