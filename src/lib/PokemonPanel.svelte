@@ -179,6 +179,7 @@
     </p>
     <button on:click={() => (selectedPanel = "Stats")}>Stats</button>
     <button on:click={() => (selectedPanel = "Weaknesses")}>Weaknesses</button>
+    <button on:click={() => (selectedPanel = "Moves")}>Moves</button>
     <button on:click={() => (selectedPanel = "Speed Matchup")}
         >Speed Matchup</button
     >
@@ -280,8 +281,7 @@
                 >
             </tr>
         </table>
-    {/if}
-    {#if selectedPanel === "Weaknesses"}
+    {:else if selectedPanel === "Weaknesses"}
         {#if doubleSuperEffectiveTypes.length > 0}
             <h3 class="type-heading">4x Effective</h3>
             <div class="type-table">
@@ -322,8 +322,15 @@
                 {/each}
             </div>
         {/if}
-    {/if}
-    {#if selectedPanel === "Speed Matchup"}
+    {:else if selectedPanel === "Moves"}
+        {#if selectedPokemon.moves}
+            <ul>
+                {#each selectedPokemon.moves as move}
+                    <li>{move}</li>
+                {/each}
+            </ul>
+        {/if}
+    {:else if selectedPanel === "Speed Matchup"}
         <br />Speed: {selectedPokemonData.speed}
         <h3 class="type-heading">Faster Than</h3>
         <div class="type-table">

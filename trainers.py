@@ -42,6 +42,7 @@ for root, dirs, files in os.walk(directory):
             if trainerData["item4"] == "None":
                 del trainerData["item4"]
             for pkmn in trainerData["team"]:
+
                 pkmn["name"] = pkmn["species_name"]
                 del pkmn["species"]
                 del pkmn["species_name"]
@@ -49,11 +50,28 @@ for root, dirs, files in os.walk(directory):
                 del pkmn["item_name"]
                 if pkmn["item"] == "None":
                     del pkmn["item"]
-                if trainerData["hasCustomAttacks"] == False:
-                    del pkmn["move1"]
-                    del pkmn["move2"]
-                    del pkmn["move3"]
-                    del pkmn["move4"]
+                if trainerData["hasCustomAttacks"]:
+                    pkmnMoves = []
+                    if pkmn["move1"] > 0:
+                        pkmnMoves.append(pkmn["move1_name"])
+                    if pkmn["move2"] > 0:
+                        pkmnMoves.append(pkmn["move2_name"])
+                    if pkmn["move3"] > 0:
+                        pkmnMoves.append(pkmn["move3_name"])
+                    if pkmn["move4"] > 0:
+                        pkmnMoves.append(pkmn["move4_name"])
+
+                    if len(pkmnMoves) > 0:
+                        pkmn["moves"] = pkmnMoves
+
+                del pkmn["move1"]
+                del pkmn["move2"]
+                del pkmn["move3"]
+                del pkmn["move4"]
+                del pkmn["move1_name"]
+                del pkmn["move2_name"]
+                del pkmn["move3_name"]
+                del pkmn["move4_name"]
 
             trainers.append(trainerData)
 

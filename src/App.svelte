@@ -3,6 +3,7 @@
     import AutoComplete from "simple-svelte-autocomplete";
     import { encounterPresets } from "./state";
     import trainerPresets from "./trainers.json";
+    import moves from "./moves.json";
 
     // TODO: Party presets
     // TODO: Search all presets for good matchups
