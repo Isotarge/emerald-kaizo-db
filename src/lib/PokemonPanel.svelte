@@ -10,6 +10,7 @@
         typeData,
         checkTypeEffectiveness,
     } from "../state";
+    import Move from "./Move.svelte";
 
     export let selectedPokemon = {
         name: "Scizor",
@@ -324,11 +325,9 @@
         {/if}
     {:else if selectedPanel === "Moves"}
         {#if selectedPokemon.moves}
-            <ul>
-                {#each selectedPokemon.moves as move}
-                    <li>{move}</li>
-                {/each}
-            </ul>
+            {#each selectedPokemon.moves as move}
+                <Move bind:moveName={move} bind:user={selectedPokemonData} />
+            {/each}
         {/if}
     {:else if selectedPanel === "Speed Matchup"}
         <br />Speed: {selectedPokemonData.speed}

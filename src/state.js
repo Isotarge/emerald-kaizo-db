@@ -2,6 +2,7 @@ import POKEMON from "./pkmn.json";
 import abilityData from "./abilities.json";
 import typeData from "./types.json";
 import encounters from "./encounters.json";
+import moves from "./moves.json";
 
 // Used to fill in the pokemon selector dropdown
 export const pokemonNames = POKEMON.map(p => p.name);
@@ -9,12 +10,20 @@ export const pokemonNames = POKEMON.map(p => p.name);
 POKEMON.forEach(p => p.totalBaseStats = p.hp + p.attack + p.defense + p.specialAttack + p.specialDefense + p.speed);
 
 // Quick lookup for pokemon by name based on JSON data
-export const pokemonByName = computePokemonByName();
 function computePokemonByName() {
     const byName = {};
     POKEMON.forEach(pokemonData => byName[pokemonData.name] = pokemonData);
     return byName;
 }
+export const pokemonByName = computePokemonByName();
+
+// Quick lookup for move by name based on JSON data
+function computeMovesByName() {
+    const byName = {};
+    moves.forEach(moveData => byName[moveData.name] = moveData);
+    return byName;
+}
+export const movesByName = computeMovesByName();
 
 export { POKEMON as pokemon };
 

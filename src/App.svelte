@@ -3,18 +3,35 @@
     import AutoComplete from "simple-svelte-autocomplete";
     import { encounterPresets } from "./state";
     import trainerPresets from "./trainers.json";
-    import moves from "./moves.json";
 
     // TODO: Party presets
     // TODO: Search all presets for good matchups
     // TODO: Import pokemon from .sav?
     const partyPokemon = [
-        { name: "Scizor" },
-        { name: "Vileplume" },
-        { name: "Gyarados" },
-        { name: "Flygon" },
-        { name: "Spinda" },
-        { name: "Electrode" },
+        {
+            name: "Scizor",
+            moves: ["X-Scissors", "Steel Wing", "Air Slash", "Double-Edge"],
+        },
+        {
+            name: "Vileplume",
+            moves: ["Sludge Bomb", "Cut", "Petal Dance", "Toxic"],
+        },
+        {
+            name: "Gyarados",
+            moves: ["Strength", "Surf", "Rock Smash", "Waterfall"],
+        },
+        {
+            name: "Flygon",
+            moves: ["Fly", "Earthquake", "Dragon Claw", "Strength"],
+        },
+        {
+            name: "Spinda",
+            moves: ["Hyper Voice", "Superpower", "Shadow Ball", "Hypnosis"],
+        },
+        {
+            name: "Electrode",
+            moves: ["Thunderbolt", "Signal Beam", "Explosion", "Thunder Wave"],
+        },
     ];
 
     const opponentPresets = [...encounterPresets, ...trainerPresets];

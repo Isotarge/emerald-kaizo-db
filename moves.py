@@ -19,7 +19,8 @@ movesSorted = sorted(moves, key=lambda x: int(x["index"]))
 # Clean up the data
 for move in movesSorted:
     del move["index"]
-    # Move all fields from attackData to base object, equivalent of spread
+
+    # Move all fields from attackData to base object, equivalent of JavaScript's spread operator
     for key in move["attackData"]:
         move[key] = move["attackData"][key]
 
@@ -27,7 +28,12 @@ for move in movesSorted:
 
     move["type"] = move["type_name"]
     del move["type_name"]
-    # Fix hidden power names
+
+    # Fix Curse type
+    if move["name"] == "Curse":
+        move["type"] = "Ghost"
+
+    # Fix Hidden Power names
     if move["name"] == "Hidden Power" and move["power"] == 70:
         move["name"] = f'{move["name"]} ({move["type"]})'
         del move["description"]
