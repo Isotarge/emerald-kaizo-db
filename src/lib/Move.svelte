@@ -12,16 +12,34 @@
         moveData.power > 0;
 </script>
 
-<p>
-    <Type whichType={moveData.type} specialDefenseBias={-specialAttackBias} />
-    <!-- {user.name} -->
-    <!-- {moveName} -->
-    {#if STAB}
-        <b>{moveData.name}</b>
-    {:else}
-        <span>{moveData.name}</span>
-    {/if}
-</p>
+<tr>
+    <td>
+        <Type
+            whichType={moveData.type}
+            specialDefenseBias={-specialAttackBias}
+        />
+    </td>
+    <td>
+        {#if STAB}
+            <b>{moveData.name}</b>
+        {:else}
+            <span>{moveData.name}</span>
+        {/if}
+    </td>
+    <td>
+        {#if moveData.power > 1}
+            {moveData.power}
+        {/if}
+    </td>
+    <td>
+        {#if moveData.accuracy > 0}
+            {moveData.accuracy}%
+        {/if}
+    </td>
+    <td>
+        {moveData.pp}
+    </td>
+</tr>
 
 <style>
 </style>

@@ -132,18 +132,16 @@
             style="margin-top:-20px"
         /><br />
     </p>
-    <p>
+    <Type
+        whichType={selectedPokemonData.type1}
+        specialDefenseBias={-specialAttackBias}
+    />
+    {#if selectedPokemonData.type2 !== selectedPokemonData.type1}
         <Type
-            whichType={selectedPokemonData.type1}
+            whichType={selectedPokemonData.type2}
             specialDefenseBias={-specialAttackBias}
         />
-        {#if selectedPokemonData.type2 !== selectedPokemonData.type1}
-            <Type
-                whichType={selectedPokemonData.type2}
-                specialDefenseBias={-specialAttackBias}
-            />
-        {/if}
-    </p>
+    {/if}
     <p>
         {#if selectedPokemon.encounterChance}
             {selectedPokemon.encounterChance}% Chance
@@ -325,9 +323,23 @@
         {/if}
     {:else if selectedPanel === "Moves"}
         {#if selectedPokemon.moves}
-            {#each selectedPokemon.moves as move}
-                <Move bind:moveName={move} bind:user={selectedPokemonData} />
-            {/each}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Move</th>
+                        <th>Power</th>
+                        <th>Accuracy</th>
+                        <th>PP</th>
+                    </tr>
+                </thead>
+                {#each selectedPokemon.moves as move}
+                    <Move
+                        bind:moveName={move}
+                        bind:user={selectedPokemonData}
+                    />
+                {/each}
+            </table>
         {/if}
     {:else if selectedPanel === "Speed Matchup"}
         <br />Speed: {selectedPokemonData.speed}

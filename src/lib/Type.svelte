@@ -21,12 +21,13 @@
     }
 </script>
 
-<span style="background: {typeData[whichType].color}" class={classes}
-    ><b>{whichType}</b> ({typeData[whichType].contact})</span
->
+<div style="background: {typeData[whichType].color}" class={classes}>
+    <b>{whichType}</b>
+</div>
 
 <style>
-    span {
+    div {
+        display: inline-block;
         --shadow-colour: #333;
         border: 3px var(--shadow-colour) solid;
         border-radius: 7px;
