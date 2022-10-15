@@ -25,6 +25,10 @@ function computeMovesByName() {
 }
 export const movesByName = computeMovesByName();
 
+export function moveDoesDamage(move) {
+    return move.power > 0;
+}
+
 export { POKEMON as pokemon };
 
 // Compute the base stat total of a given pokemon

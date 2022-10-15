@@ -5,7 +5,6 @@
     import trainerPresets from "./trainers.json";
 
     // TODO: Party presets
-    // TODO: Search all presets for good matchups
     // TODO: Import pokemon from .sav?
     const partyPokemon = [
         {

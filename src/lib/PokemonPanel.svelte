@@ -335,8 +335,9 @@
                 </thead>
                 {#each selectedPokemon.moves as move}
                     <Move
-                        bind:moveName={move}
-                        bind:user={selectedPokemonData}
+                        moveName={move}
+                        user={selectedPokemonData}
+                        {opponents}
                     />
                 {/each}
             </table>
