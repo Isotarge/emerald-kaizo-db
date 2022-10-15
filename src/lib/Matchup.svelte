@@ -63,32 +63,36 @@
 {/if}
 <table>
     {#if showAllMoves}
-        <tr
-            ><td colspan="2"><b>{yourPokemon.name} moves</b></td><td
-                ><b>Score</b></td
-            ></tr
-        >
-        {#each yourEffectiveness as _}
-            <Move
-                moveName={_.moveName}
-                user={pokemonByName[yourPokemon.name]}
-                readOnly={true}
-                score={_.score}
-            />
-        {/each}
-        <tr
-            ><td colspan="2"><b>{opponent.name} moves</b></td><td
-                ><b>Score</b></td
-            ></tr
-        >
-        {#each opponentEffectiveness as _}
-            <Move
-                moveName={_.moveName}
-                user={pokemonByName[opponent.name]}
-                readOnly={true}
-                score={_.score}
-            />
-        {/each}
+        {#if yourEffectiveness.length > 0}
+            <tr
+                ><td colspan="2"><b>{yourPokemon.name} moves</b></td><td
+                    ><b>Score</b></td
+                ></tr
+            >
+            {#each yourEffectiveness as _}
+                <Move
+                    moveName={_.moveName}
+                    user={pokemonByName[yourPokemon.name]}
+                    readOnly={true}
+                    score={_.score}
+                />
+            {/each}
+        {/if}
+        {#if opponentEffectiveness.length > 0}
+            <tr
+                ><td colspan="2"><b>{opponent.name} moves</b></td><td
+                    ><b>Score</b></td
+                ></tr
+            >
+            {#each opponentEffectiveness as _}
+                <Move
+                    moveName={_.moveName}
+                    user={pokemonByName[opponent.name]}
+                    readOnly={true}
+                    score={_.score}
+                />
+            {/each}
+        {/if}
     {:else}
         {#if yourEffectiveness.length > 0}
             <tr
