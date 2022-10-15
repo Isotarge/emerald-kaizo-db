@@ -29,6 +29,67 @@ export function moveDoesDamage(move) {
     return move.power > 0;
 }
 
+export function computeMoveEffectiveness(moveData, user, opponent) {
+    // Move is not attacking, save some cycles
+    if (!moveDoesDamage(moveData)) {
+        return 0;
+    }
+
+    // Base power
+    let effectiveness = moveData.power;
+
+    // Base stat synergy
+    const userData = pokemonByName[user.name];
+    const opponentData = pokemonByName[opponent.name];
+    const type = typeData[moveData.type];
+    if (type.contact === "Physical") {
+        effectiveness += userData.attack;
+        effectiveness -= (opponentData.hp + opponentData.defense) / 2;
+    } else if (type.contact === "Special") {
+        effectiveness += userData.specialAttack;
+        effectiveness -=
+            (opponentData.hp + opponentData.specialDefense) / 2;
+    }
+
+    // TODO: Held items
+    // Black Belt
+    // Black Glasses
+    // Charcoal
+    // Dragon Fang
+    // Magnet
+    // Miracle Seed
+    // Mystic Water
+    // Never-Melt Ice
+    // Sea Incense
+    // Sharp Beak
+    // Silk Scarf
+    // Silver Powder
+    // Soft Sand
+    // Spell Tag
+    // Twisted Spoon
+
+    // Soul Dew
+    // Stick
+    // Thick Club
+    // Light Ball
+
+    // STAB & Opponent type matchup
+    effectiveness *= checkTypeEffectivenessSTAB(
+        userData.type1,
+        userData.type2,
+        opponentData.type1,
+        opponentData.type2,
+        moveData.type
+    );
+
+    // Accuracy
+    if (moveData.accuracy > 0) {
+        effectiveness *= moveData.accuracy / 100;
+    }
+
+    return Math.round(effectiveness);
+}
+
 export { POKEMON as pokemon };
 
 // Compute the base stat total of a given pokemon

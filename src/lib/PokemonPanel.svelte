@@ -334,11 +334,7 @@
                     </tr>
                 </thead>
                 {#each selectedPokemon.moves as move}
-                    <Move
-                        moveName={move}
-                        user={selectedPokemonData}
-                        {opponents}
-                    />
+                    <Move moveName={move} user={selectedPokemonData} />
                 {/each}
             </table>
         {/if}

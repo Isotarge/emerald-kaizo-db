@@ -1,11 +1,14 @@
 <script>
     import PokemonPanel from "./lib/PokemonPanel.svelte";
     import AutoComplete from "simple-svelte-autocomplete";
-    import { encounterPresets } from "./state";
+    import { encounterPresets, pokemonByName } from "./state";
     import trainerPresets from "./trainers.json";
+    import Matchup from "./lib/Matchup.svelte";
 
     // TODO: Party presets
     // TODO: Import pokemon from .sav?
+    // TODO: Add ability to input moveset for pokemon in a panel
+    // TODO: Add ability to export and import party
     const partyPokemon = [
         {
             name: "Scizor",
@@ -33,7 +36,15 @@
         },
     ];
 
-    const opponentPresets = [...encounterPresets, ...trainerPresets];
+    // const nationalDexPreset = pokemonNames.map((pkmn) => {
+    //     return { name: pkmn };
+    // });
+
+    const opponentPresets = [
+        ...encounterPresets,
+        ...trainerPresets,
+        // { name: "National Dex", team: nationalDexPreset },
+    ];
 
     let selectedOpponentPreset = opponentPresets[0].name;
     $: opponentPokemon = [
@@ -42,10 +53,7 @@
         ).team,
     ];
 
-    // TODO: Add ability to input available moves for pokemon in a panel
-    // TODO: For each opponent, compute most effective available move
-    // TODO: For each opponent, compute safest defensive typing
-    // TODO: Add ability to export and import party and moves
+    let showAllMoves = false;
 </script>
 
 <main>
@@ -70,6 +78,45 @@
             <PokemonPanel bind:selectedPokemon={_} opponents={partyPokemon} />
         {/each}
     </div>
+    <h2>Matchup</h2>
+    <input type="checkbox" bind:checked={showAllMoves} /> Show All Moves
+    <div id="matchup">
+        <table>
+            <tr>
+                <td />
+                {#each partyPokemon as yourPokemon}
+                    <td
+                        ><img
+                            src="pokemon_sprites/{pokemonByName[
+                                yourPokemon.name
+                            ].dex}.png"
+                            alt={yourPokemon.name}
+                        /></td
+                    >
+                {/each}
+            </tr>
+            {#each opponentPokemon as opponent}
+                <tr>
+                    <td
+                        ><img
+                            src="pokemon_sprites/{pokemonByName[opponent.name]
+                                .dex}.png"
+                            alt={opponent.name}
+                        /></td
+                    >
+                    {#each partyPokemon as yourPokemon}
+                        <td>
+                            <Matchup
+                                {opponent}
+                                {yourPokemon}
+                                bind:showAllMoves
+                            />
+                        </td>
+                    {/each}
+                </tr>
+            {/each}
+        </table>
+    </div>
 </main>
 
 <style>
@@ -77,5 +124,11 @@
     #opponent {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
+    }
+    #matchup table,
+    #matchup th,
+    #matchup td {
+        border: 1px solid black;
+        border-collapse: collapse;
     }
 </style>
