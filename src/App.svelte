@@ -128,6 +128,7 @@
     #matchup table,
     #matchup th,
     #matchup td {
+        padding: 4px;
         border: 1px solid black;
         border-collapse: collapse;
     }

@@ -50,4 +50,7 @@
 </tr>
 
 <style>
+    td {
+        padding: 4px;
+    }
 </style>

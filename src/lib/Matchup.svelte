@@ -63,6 +63,11 @@
 {/if}
 <table>
     {#if showAllMoves}
+        <tr
+            ><td colspan="2"><b>{yourPokemon.name} moves</b></td><td
+                ><b>Score</b></td
+            ></tr
+        >
         {#each yourEffectiveness as _}
             <Move
                 moveName={_.moveName}
@@ -71,6 +76,11 @@
                 score={_.score}
             />
         {/each}
+        <tr
+            ><td colspan="2"><b>{opponent.name} moves</b></td><td
+                ><b>Score</b></td
+            ></tr
+        >
         {#each opponentEffectiveness as _}
             <Move
                 moveName={_.moveName}
@@ -82,7 +92,8 @@
     {:else}
         {#if yourEffectiveness.length > 0}
             <tr
-                ><td colspan="2">{yourPokemon.name} best move</td><td>Score</td
+                ><td colspan="2"><b>{yourPokemon.name} best move</b></td><td
+                    ><b>Score</b></td
                 ></tr
             >
             <Move
@@ -93,7 +104,10 @@
             />
         {/if}
         {#if opponentEffectiveness.length > 0}
-            <tr><td colspan="2">{opponent.name} best move</td><td>Score</td></tr
+            <tr
+                ><td colspan="2"><b>{opponent.name} best move</b></td><td
+                    ><b>Score</b></td
+                ></tr
             >
             <Move
                 moveName={opponentEffectiveness[0].moveName}
