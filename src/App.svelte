@@ -54,6 +54,7 @@
     ];
 
     let showAllMoves = false;
+    let justTheArrows = false;
 </script>
 
 <main>
@@ -80,6 +81,7 @@
     </div>
     <h2>Matchup</h2>
     <input type="checkbox" bind:checked={showAllMoves} /> Show All Moves
+    <input type="checkbox" bind:checked={justTheArrows} /> Just The Arrows
     <div id="matchup">
         <table>
             <tr>
@@ -110,6 +112,7 @@
                                 {opponent}
                                 {yourPokemon}
                                 bind:showAllMoves
+                                bind:justTheArrows
                             />
                         </td>
                     {/each}
