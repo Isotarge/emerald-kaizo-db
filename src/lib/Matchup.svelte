@@ -55,8 +55,12 @@
                 (a, b) => b.score - a.score
             );
         }
-        yourEffectiveness.length > 0 ? yourEffectiveness[0].score : 0;
-        opponentEffectiveness.length > 0 ? opponentEffectiveness[0].score : 0;
+        yourBestEffectiveness =
+            yourEffectiveness.length > 0 ? yourEffectiveness[0].score : 0;
+        opponentBestEffectiveness =
+            opponentEffectiveness.length > 0
+                ? opponentEffectiveness[0].score
+                : 0;
     }
 </script>
 
