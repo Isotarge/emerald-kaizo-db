@@ -1,4 +1,5 @@
 <script>
+    // TODO: Type synergy border is wrong when changing moves via autocomplete, probably a biinding issue
     import {
         pokemonByName,
         movesByName,
@@ -18,7 +19,9 @@
     $: yourPokemon, opponent, updateEffectiveness();
 
     let yourEffectiveness = [];
+    export let yourBestEffectiveness = 0;
     let opponentEffectiveness = [];
+    export let opponentBestEffectiveness = 0;
     function updateEffectiveness() {
         yourEffectiveness = [];
         opponentEffectiveness = [];
@@ -52,21 +55,23 @@
                 (a, b) => b.score - a.score
             );
         }
-    }
-    $: yourBestEffectiveness =
         yourEffectiveness.length > 0 ? yourEffectiveness[0].score : 0;
-    $: opponentBestEffectiveness =
         opponentEffectiveness.length > 0 ? opponentEffectiveness[0].score : 0;
+    }
 </script>
 
 {#if yourBestEffectiveness > opponentBestEffectiveness}
-    <span style="color: #393">⮝ POWER</span>
+    <span style="color: #393"
+        >⮝ POWER ({yourBestEffectiveness - opponentBestEffectiveness})</span
+    >
 {:else if yourBestEffectiveness < opponentBestEffectiveness}
-    <span style="color: #933">⮜ POWER</span>
+    <span style="color: #933"
+        >⮜ POWER ({yourBestEffectiveness - opponentBestEffectiveness})</span
+    >
 {:else}
     <span style="color: #980">= POWER</span>
 {/if}
-
+<br />
 {#if yourPokemonData.speed > opponentData.speed}
     <span style="color: #393">⮝ SPEED</span>
 {:else if yourPokemonData.speed < opponentData.speed}

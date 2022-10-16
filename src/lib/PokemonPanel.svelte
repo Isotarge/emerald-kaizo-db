@@ -15,15 +15,6 @@
     export let selectedPokemon = {
         name: "Scizor",
     };
-    export let opponents = [];
-    $: slowerOpponents = opponents.filter(
-        (opponent) =>
-            pokemonByName[opponent.name].speed < selectedPokemonData.speed
-    );
-    $: fasterOpponents = opponents.filter(
-        (opponent) =>
-            pokemonByName[opponent.name].speed >= selectedPokemonData.speed
-    );
     $: selectedPokemonData = pokemonByName[selectedPokemon.name];
     $: baseStatTotal = getBaseStatTotal(selectedPokemonData);
     $: specialAttackBias =
@@ -179,9 +170,6 @@
     <button on:click={() => (selectedPanel = "Stats")}>Stats</button>
     <button on:click={() => (selectedPanel = "Weaknesses")}>Weaknesses</button>
     <button on:click={() => (selectedPanel = "Moves")}>Moves</button>
-    <button on:click={() => (selectedPanel = "Speed Matchup")}
-        >Speed Matchup</button
-    >
     {#if selectedPanel === "Stats"}
         <table style="margin: auto">
             <tr>
@@ -334,24 +322,13 @@
                     </tr>
                 </thead>
                 {#each selectedPokemon.moves as move}
-                    <Move moveName={move} user={selectedPokemonData} />
+                    <Move
+                        bind:moveName={move}
+                        bind:user={selectedPokemonData}
+                    />
                 {/each}
             </table>
         {/if}
-    {:else if selectedPanel === "Speed Matchup"}
-        <br />Speed: {selectedPokemonData.speed}
-        <h3 class="type-heading">Faster Than</h3>
-        <div class="type-table">
-            {#each slowerOpponents as slowerOpponent}
-                <span>{slowerOpponent.name}</span>
-            {/each}
-        </div>
-        <h3 class="type-heading">Slower Than</h3>
-        <div class="type-table">
-            {#each fasterOpponents as fasterOpponent}
-                <span>{fasterOpponent.name}</span>
-            {/each}
-        </div>
     {/if}
 </div>
 

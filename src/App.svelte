@@ -9,6 +9,7 @@
     // TODO: Import pokemon from .sav?
     // TODO: Add ability to input moveset for pokemon in a panel
     // TODO: Add ability to export and import party
+    // Isotarge Mid/Late Game Team
     const partyPokemon = [
         {
             name: "Scizor",
@@ -35,6 +36,33 @@
             moves: ["Thunderbolt", "Signal Beam", "Explosion", "Thunder Wave"],
         },
     ];
+    // Pokemon Challenges E4 Team
+    // const partyPokemon = [
+    //     {
+    //         name: "Dusclops",
+    //         moves: ["Shadow Ball", "Shadow Sneak", "Earthquake", "Ice Beam"],
+    //     },
+    //     {
+    //         name: "Wobbuffet",
+    //         moves: ["Destiny Bond", "Mirror Coat", "Encore", "Counter"],
+    //     },
+    //     {
+    //         name: "Ludicolo",
+    //         moves: ["Fake Out", "Giga Drain", "Magical Leaf", "Ice Beam"],
+    //     },
+    //     {
+    //         name: "Slowbro",
+    //         moves: ["Surf", "Flamethrower", "Slack Off", "Fire Blast"],
+    //     },
+    //     {
+    //         name: "Relicanth",
+    //         moves: ["Head Smash", "Ancientpower", "Earthquake", "Ice Beam"],
+    //     },
+    //     {
+    //         name: "Salamence",
+    //         moves: ["Brick Break", "Dragon Claw", "Rock Slide", "Rock Tomb"],
+    //     },
+    // ];
 
     // const nationalDexPreset = pokemonNames.map((pkmn) => {
     //     return { name: pkmn };
@@ -44,6 +72,26 @@
         ...encounterPresets,
         ...trainerPresets,
         // { name: "National Dex", team: nationalDexPreset },
+        {
+            name: "Elite Four",
+            team: [
+                ...trainerPresets.find(
+                    (preset) => preset.name === "Elite Four Sidney"
+                ).team,
+                ...trainerPresets.find(
+                    (preset) => preset.name === "Elite Four Phoebe"
+                ).team,
+                ...trainerPresets.find(
+                    (preset) => preset.name === "Elite Four Glacia"
+                ).team,
+                ...trainerPresets.find(
+                    (preset) => preset.name === "Elite Four Drake"
+                ).team,
+                ...trainerPresets.find(
+                    (preset) => preset.name === "Champion Steven (2)"
+                ).team,
+            ],
+        },
     ];
 
     let selectedOpponentPreset = opponentPresets[0].name;
@@ -62,10 +110,7 @@
     <h2>Your Party</h2>
     <div id="party">
         {#each partyPokemon as _}
-            <PokemonPanel
-                bind:selectedPokemon={_}
-                opponents={opponentPokemon}
-            />
+            <PokemonPanel bind:selectedPokemon={_} />
         {/each}
     </div>
     <h2>Opponents</h2>
@@ -76,7 +121,7 @@
     />
     <div id="opponent">
         {#each opponentPokemon as _}
-            <PokemonPanel bind:selectedPokemon={_} opponents={partyPokemon} />
+            <PokemonPanel bind:selectedPokemon={_} />
         {/each}
     </div>
     <h2>Matchup</h2>
@@ -109,8 +154,8 @@
                     {#each partyPokemon as yourPokemon}
                         <td>
                             <Matchup
-                                {opponent}
-                                {yourPokemon}
+                                bind:opponent
+                                bind:yourPokemon
                                 bind:showAllMoves
                                 bind:justTheArrows
                             />

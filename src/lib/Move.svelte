@@ -1,6 +1,12 @@
 <script>
+    import AutoComplete from "simple-svelte-autocomplete";
     import Type from "./Type.svelte";
-    import { movesByName, pokemonByName, moveDoesDamage } from "../state.js";
+    import {
+        moveNames,
+        movesByName,
+        pokemonByName,
+        moveDoesDamage,
+    } from "../state.js";
     export let moveName = "Pound";
     export let user = pokemonByName["Scizor"];
     export let readOnly = false;
@@ -21,10 +27,18 @@
         />
     </td>
     <td>
-        {#if STAB}
-            <b>{moveData.name}</b>
+        {#if readOnly}
+            {#if STAB}
+                <b>{moveData.name}</b>
+            {:else}
+                <span>{moveData.name}</span>
+            {/if}
         {:else}
-            <span>{moveData.name}</span>
+            <AutoComplete
+                items={moveNames}
+                bind:selectedItem={moveName}
+                hideArrow="true"
+            />
         {/if}
     </td>
     {#if !readOnly}
