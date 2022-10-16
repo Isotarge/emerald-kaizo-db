@@ -5,7 +5,6 @@
         MAX_TOTAL_BASE_STATS,
         pokemonByName,
         pokemonNames,
-        getBaseStatTotal,
         abilityData,
         typeData,
         checkTypeEffectiveness,
@@ -16,11 +15,6 @@
         name: "Scizor",
     };
     $: selectedPokemonData = pokemonByName[selectedPokemon.name];
-    $: baseStatTotal = getBaseStatTotal(selectedPokemonData);
-    $: specialAttackBias =
-        selectedPokemonData.specialAttack - selectedPokemonData.attack;
-    $: specialDefenseBias =
-        selectedPokemonData.specialDefense - selectedPokemonData.defense;
 
     $: typeMatchup = computeTypeMatchup(selectedPokemonData);
     $: doubleSuperEffectiveTypes = typeMatchup
@@ -90,23 +84,19 @@
     }
 
     function getGistOfPokemon(pokemonData) {
-        const specialAttackBias =
-            pokemonData.specialAttack - pokemonData.attack;
-        const specialDefenseBias =
-            pokemonData.specialDefense - pokemonData.defense;
         let attackType = "Mixed Attacker";
         let defenseType = "Mixed Defender";
-        if (specialAttackBias > 0) {
+        if (pokemonData.specialAttackBias > 0) {
             attackType = "Special Attacker";
-        } else if (specialAttackBias < 0) {
+        } else if (pokemonData.specialAttackBias < 0) {
             attackType = "Physical Attacker";
         }
-        if (specialDefenseBias > 0) {
+        if (pokemonData.specialDefenseBias > 0) {
             defenseType = "Special Defender";
-        } else if (specialDefenseBias < 0) {
+        } else if (pokemonData.specialDefenseBias < 0) {
             defenseType = "Physical Defender";
         }
-        return `${attackType} (${specialAttackBias}), ${defenseType} (${specialDefenseBias})`;
+        return `${attackType} (${pokemonData.specialAttackBias}), ${defenseType} (${pokemonData.specialDefenseBias})`;
     }
 </script>
 
@@ -125,12 +115,12 @@
     </p>
     <Type
         whichType={selectedPokemonData.type1}
-        specialDefenseBias={-specialAttackBias}
+        specialDefenseBias={-selectedPokemonData.specialAttackBias}
     />
     {#if selectedPokemonData.type2 !== selectedPokemonData.type1}
         <Type
             whichType={selectedPokemonData.type2}
-            specialDefenseBias={-specialAttackBias}
+            specialDefenseBias={-selectedPokemonData.specialAttackBias}
         />
     {/if}
     <p>
@@ -244,13 +234,13 @@
                 ></tr
             >
             <tr
-                ><td>Total</td><td>{baseStatTotal}</td><td
+                ><td>Total</td><td>{selectedPokemonData.totalBaseStats}</td><td
                     ><input
                         disabled
                         type="range"
                         min="0"
                         max={MAX_TOTAL_BASE_STATS}
-                        value={baseStatTotal}
+                        value={selectedPokemonData.totalBaseStats}
                     /></td
                 ></tr
             >
@@ -273,7 +263,10 @@
             <h3 class="type-heading">4x Effective</h3>
             <div class="type-table">
                 {#each doubleSuperEffectiveTypes as type}
-                    <Type whichType={type} {specialDefenseBias} />
+                    <Type
+                        whichType={type}
+                        specialDefenseBias={selectedPokemonData.specialDefenseBias}
+                    />
                 {/each}
             </div>
         {/if}
@@ -281,7 +274,10 @@
             <h3 class="type-heading">Super Effective</h3>
             <div class="type-table">
                 {#each superEffectiveTypes as type}
-                    <Type whichType={type} {specialDefenseBias} />
+                    <Type
+                        whichType={type}
+                        specialDefenseBias={selectedPokemonData.specialDefenseBias}
+                    />
                 {/each}
             </div>
         {/if}
@@ -289,7 +285,10 @@
             <h3 class="type-heading">Not Very Effective</h3>
             <div class="type-table">
                 {#each notVeryEffectiveTypes as type}
-                    <Type whichType={type} {specialDefenseBias} />
+                    <Type
+                        whichType={type}
+                        specialDefenseBias={selectedPokemonData.specialDefenseBias}
+                    />
                 {/each}
             </div>
         {/if}
@@ -297,7 +296,10 @@
             <h3 class="type-heading">0.25x Effective</h3>
             <div class="type-table">
                 {#each doubleNotVeryEffectiveTypes as type}
-                    <Type whichType={type} {specialDefenseBias} />
+                    <Type
+                        whichType={type}
+                        specialDefenseBias={selectedPokemonData.specialDefenseBias}
+                    />
                 {/each}
             </div>
         {/if}
@@ -305,7 +307,10 @@
             <h3 class="type-heading">Immune</h3>
             <div class="type-table">
                 {#each immuneTypes as type}
-                    <Type whichType={type} {specialDefenseBias} />
+                    <Type
+                        whichType={type}
+                        specialDefenseBias={selectedPokemonData.specialDefenseBias}
+                    />
                 {/each}
             </div>
         {/if}

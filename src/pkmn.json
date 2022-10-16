@@ -21,7 +21,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Abra",
-        "dex": 63
+        "dex": 63,
+        "totalBaseStats": 310,
+        "specialAttackBias": 85,
+        "specialDefenseBias": 40
     },
     {
         "hp": 65,
@@ -45,7 +48,10 @@
         "safariZoneRunRate": 0,
         "color": 136,
         "name": "Absol",
-        "dex": 359
+        "dex": 359,
+        "totalBaseStats": 465,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -69,7 +75,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Aerodactyl",
-        "dex": 142
+        "dex": 142,
+        "totalBaseStats": 515,
+        "specialAttackBias": -45,
+        "specialDefenseBias": 10
     },
     {
         "hp": 70,
@@ -93,7 +102,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Aggron",
-        "dex": 306
+        "dex": 306,
+        "totalBaseStats": 530,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -120
     },
     {
         "hp": 55,
@@ -117,7 +129,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Aipom",
-        "dex": 190
+        "dex": 190,
+        "totalBaseStats": 360,
+        "specialAttackBias": -30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 55,
@@ -141,7 +156,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Alakazam",
-        "dex": 65
+        "dex": 65,
+        "totalBaseStats": 500,
+        "specialAttackBias": 85,
+        "specialDefenseBias": 50
     },
     {
         "hp": 75,
@@ -165,7 +183,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Altaria",
-        "dex": 334
+        "dex": 334,
+        "totalBaseStats": 490,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 90,
@@ -189,7 +210,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Ampharos",
-        "dex": 181
+        "dex": 181,
+        "totalBaseStats": 510,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 5
     },
     {
         "hp": 45,
@@ -213,7 +237,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Anorith",
-        "dex": 347
+        "dex": 347,
+        "totalBaseStats": 355,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -237,7 +264,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Arbok",
-        "dex": 24
+        "dex": 24,
+        "totalBaseStats": 448,
+        "specialAttackBias": -30,
+        "specialDefenseBias": 10
     },
     {
         "hp": 90,
@@ -261,7 +291,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Arcanine",
-        "dex": 59
+        "dex": 59,
+        "totalBaseStats": 555,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -285,7 +318,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Ariados",
-        "dex": 168
+        "dex": 168,
+        "totalBaseStats": 400,
+        "specialAttackBias": -30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 75,
@@ -309,7 +345,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Armaldo",
-        "dex": 348
+        "dex": 348,
+        "totalBaseStats": 495,
+        "specialAttackBias": -55,
+        "specialDefenseBias": -20
     },
     {
         "hp": 50,
@@ -333,7 +372,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Aron",
-        "dex": 304
+        "dex": 304,
+        "totalBaseStats": 330,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -60
     },
     {
         "hp": 90,
@@ -357,7 +399,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Articuno",
-        "dex": 144
+        "dex": 144,
+        "totalBaseStats": 600,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 25
     },
     {
         "hp": 100,
@@ -381,7 +426,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Azumarill",
-        "dex": 184
+        "dex": 184,
+        "totalBaseStats": 430,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 50,
@@ -405,7 +453,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Azurill",
-        "dex": 298
+        "dex": 298,
+        "totalBaseStats": 190,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 45,
@@ -429,7 +480,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Bagon",
-        "dex": 371
+        "dex": 371,
+        "totalBaseStats": 300,
+        "specialAttackBias": -35,
+        "specialDefenseBias": -30
     },
     {
         "hp": 40,
@@ -453,7 +507,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Baltoy",
-        "dex": 343
+        "dex": 343,
+        "totalBaseStats": 300,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 64,
@@ -477,7 +534,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Banette",
-        "dex": 354
+        "dex": 354,
+        "totalBaseStats": 455,
+        "specialAttackBias": -32,
+        "specialDefenseBias": -2
     },
     {
         "hp": 50,
@@ -501,7 +561,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Barboach",
-        "dex": 339
+        "dex": 339,
+        "totalBaseStats": 288,
+        "specialAttackBias": -2,
+        "specialDefenseBias": -2
     },
     {
         "hp": 60,
@@ -525,7 +588,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Bayleef",
-        "dex": 153
+        "dex": 153,
+        "totalBaseStats": 405,
+        "specialAttackBias": 1,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -549,7 +615,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Beautifly",
-        "dex": 267
+        "dex": 267,
+        "totalBaseStats": 395,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -573,7 +642,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Beedrill",
-        "dex": 15
+        "dex": 15,
+        "totalBaseStats": 395,
+        "specialAttackBias": -45,
+        "specialDefenseBias": 40
     },
     {
         "hp": 40,
@@ -597,7 +669,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Beldum",
-        "dex": 374
+        "dex": 374,
+        "totalBaseStats": 300,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -20
     },
     {
         "hp": 75,
@@ -621,7 +696,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Bellossom",
-        "dex": 182
+        "dex": 182,
+        "totalBaseStats": 490,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 5
     },
     {
         "hp": 50,
@@ -645,7 +723,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Bellsprout",
-        "dex": 69
+        "dex": 69,
+        "totalBaseStats": 300,
+        "specialAttackBias": -5,
+        "specialDefenseBias": -5
     },
     {
         "hp": 79,
@@ -669,7 +750,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Blastoise",
-        "dex": 9
+        "dex": 9,
+        "totalBaseStats": 530,
+        "specialAttackBias": 2,
+        "specialDefenseBias": 5
     },
     {
         "hp": 80,
@@ -693,7 +777,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Blaziken",
-        "dex": 257
+        "dex": 257,
+        "totalBaseStats": 530,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 255,
@@ -717,7 +804,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Blissey",
-        "dex": 242
+        "dex": 242,
+        "totalBaseStats": 540,
+        "specialAttackBias": 70,
+        "specialDefenseBias": 80
     },
     {
         "hp": 60,
@@ -741,7 +831,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Breloom",
-        "dex": 286
+        "dex": 286,
+        "totalBaseStats": 460,
+        "specialAttackBias": -70,
+        "specialDefenseBias": -20
     },
     {
         "hp": 45,
@@ -765,7 +858,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Bulbasaur",
-        "dex": 1
+        "dex": 1,
+        "totalBaseStats": 318,
+        "specialAttackBias": 16,
+        "specialDefenseBias": 16
     },
     {
         "hp": 60,
@@ -789,7 +885,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Butterfree",
-        "dex": 12
+        "dex": 12,
+        "totalBaseStats": 395,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 30
     },
     {
         "hp": 50,
@@ -813,7 +912,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Cacnea",
-        "dex": 331
+        "dex": 331,
+        "totalBaseStats": 335,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -837,7 +939,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Cacturne",
-        "dex": 332
+        "dex": 332,
+        "totalBaseStats": 475,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -861,7 +966,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Camerupt",
-        "dex": 323
+        "dex": 323,
+        "totalBaseStats": 460,
+        "specialAttackBias": 5,
+        "specialDefenseBias": 5
     },
     {
         "hp": 45,
@@ -885,7 +993,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Carvanha",
-        "dex": 318
+        "dex": 318,
+        "totalBaseStats": 305,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 50,
@@ -909,7 +1020,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Cascoon",
-        "dex": 268
+        "dex": 268,
+        "totalBaseStats": 205,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -30
     },
     {
         "hp": 75,
@@ -933,7 +1047,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Castform",
-        "dex": 351
+        "dex": 351,
+        "totalBaseStats": 545,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 45,
@@ -957,7 +1074,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Caterpie",
-        "dex": 10
+        "dex": 10,
+        "totalBaseStats": 195,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -15
     },
     {
         "hp": 100,
@@ -981,7 +1101,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Celebi",
-        "dex": 251
+        "dex": 251,
+        "totalBaseStats": 600,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 250,
@@ -1005,7 +1128,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Chansey",
-        "dex": 113
+        "dex": 113,
+        "totalBaseStats": 470,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 80
     },
     {
         "hp": 78,
@@ -1029,7 +1155,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Charizard",
-        "dex": 6
+        "dex": 6,
+        "totalBaseStats": 534,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 7
     },
     {
         "hp": 39,
@@ -1053,7 +1182,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Charmander",
-        "dex": 4
+        "dex": 4,
+        "totalBaseStats": 309,
+        "specialAttackBias": 8,
+        "specialDefenseBias": 7
     },
     {
         "hp": 58,
@@ -1077,7 +1209,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Charmeleon",
-        "dex": 5
+        "dex": 5,
+        "totalBaseStats": 405,
+        "specialAttackBias": 16,
+        "specialDefenseBias": 7
     },
     {
         "hp": 45,
@@ -1101,7 +1236,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Chikorita",
-        "dex": 152
+        "dex": 152,
+        "totalBaseStats": 318,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 75,
@@ -1125,7 +1263,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Chimecho",
-        "dex": 358
+        "dex": 358,
+        "totalBaseStats": 455,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 10
     },
     {
         "hp": 75,
@@ -1149,7 +1290,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Chinchou",
-        "dex": 170
+        "dex": 170,
+        "totalBaseStats": 330,
+        "specialAttackBias": 18,
+        "specialDefenseBias": 18
     },
     {
         "hp": 35,
@@ -1173,7 +1317,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Clamperl",
-        "dex": 366
+        "dex": 366,
+        "totalBaseStats": 345,
+        "specialAttackBias": 10,
+        "specialDefenseBias": -30
     },
     {
         "hp": 60,
@@ -1197,7 +1344,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Claydol",
-        "dex": 344
+        "dex": 344,
+        "totalBaseStats": 500,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 95,
@@ -1221,7 +1371,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Clefable",
-        "dex": 36
+        "dex": 36,
+        "totalBaseStats": 483,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 17
     },
     {
         "hp": 70,
@@ -1245,7 +1398,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Clefairy",
-        "dex": 35
+        "dex": 35,
+        "totalBaseStats": 323,
+        "specialAttackBias": 15,
+        "specialDefenseBias": 17
     },
     {
         "hp": 50,
@@ -1269,7 +1425,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Cleffa",
-        "dex": 173
+        "dex": 173,
+        "totalBaseStats": 218,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 27
     },
     {
         "hp": 50,
@@ -1293,7 +1452,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Cloyster",
-        "dex": 91
+        "dex": 91,
+        "totalBaseStats": 550,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -110
     },
     {
         "hp": 60,
@@ -1317,7 +1479,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Combusken",
-        "dex": 256
+        "dex": 256,
+        "totalBaseStats": 405,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 43,
@@ -1341,7 +1506,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Corphish",
-        "dex": 341
+        "dex": 341,
+        "totalBaseStats": 308,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -30
     },
     {
         "hp": 65,
@@ -1365,7 +1533,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Corsola",
-        "dex": 222
+        "dex": 222,
+        "totalBaseStats": 410,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 86,
@@ -1389,7 +1560,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Cradily",
-        "dex": 346
+        "dex": 346,
+        "totalBaseStats": 495,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 10
     },
     {
         "hp": 63,
@@ -1413,7 +1587,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Crawdaunt",
-        "dex": 342
+        "dex": 342,
+        "totalBaseStats": 468,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -30
     },
     {
         "hp": 85,
@@ -1437,7 +1614,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Crobat",
-        "dex": 169
+        "dex": 169,
+        "totalBaseStats": 535,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -1461,7 +1641,10 @@
         "safariZoneRunRate": 0,
         "color": 129,
         "name": "Croconaw",
-        "dex": 159
+        "dex": 159,
+        "totalBaseStats": 405,
+        "specialAttackBias": -21,
+        "specialDefenseBias": -17
     },
     {
         "hp": 50,
@@ -1485,7 +1668,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Cubone",
-        "dex": 104
+        "dex": 104,
+        "totalBaseStats": 320,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -45
     },
     {
         "hp": 39,
@@ -1509,7 +1695,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Cyndaquil",
-        "dex": 155
+        "dex": 155,
+        "totalBaseStats": 309,
+        "specialAttackBias": 8,
+        "specialDefenseBias": 7
     },
     {
         "hp": 70,
@@ -1533,7 +1722,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Delcatty",
-        "dex": 301
+        "dex": 301,
+        "totalBaseStats": 400,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -10
     },
     {
         "hp": 45,
@@ -1557,7 +1749,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Delibird",
-        "dex": 225
+        "dex": 225,
+        "totalBaseStats": 330,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 50,
@@ -1581,7 +1776,10 @@
         "safariZoneRunRate": 0,
         "color": 128,
         "name": "Deoxys",
-        "dex": 386
+        "dex": 386,
+        "totalBaseStats": 600,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 90,
@@ -1605,7 +1803,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Dewgong",
-        "dex": 87
+        "dex": 87,
+        "totalBaseStats": 500,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 15
     },
     {
         "hp": 10,
@@ -1629,7 +1830,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Diglett",
-        "dex": 50
+        "dex": 50,
+        "totalBaseStats": 265,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 20
     },
     {
         "hp": 100,
@@ -1653,7 +1857,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Ditto",
-        "dex": 132
+        "dex": 132,
+        "totalBaseStats": 600,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -1677,7 +1884,10 @@
         "safariZoneRunRate": 10,
         "color": 5,
         "name": "Dodrio",
-        "dex": 85
+        "dex": 85,
+        "totalBaseStats": 470,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -10
     },
     {
         "hp": 35,
@@ -1701,7 +1911,10 @@
         "safariZoneRunRate": 8,
         "color": 5,
         "name": "Doduo",
-        "dex": 84
+        "dex": 84,
+        "totalBaseStats": 310,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -10
     },
     {
         "hp": 90,
@@ -1725,7 +1938,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Donphan",
-        "dex": 232
+        "dex": 232,
+        "totalBaseStats": 500,
+        "specialAttackBias": -60,
+        "specialDefenseBias": -60
     },
     {
         "hp": 61,
@@ -1749,7 +1965,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Dragonair",
-        "dex": 148
+        "dex": 148,
+        "totalBaseStats": 420,
+        "specialAttackBias": -14,
+        "specialDefenseBias": 5
     },
     {
         "hp": 91,
@@ -1773,7 +1992,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Dragonite",
-        "dex": 149
+        "dex": 149,
+        "totalBaseStats": 600,
+        "specialAttackBias": -34,
+        "specialDefenseBias": 5
     },
     {
         "hp": 41,
@@ -1797,7 +2019,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Dratini",
-        "dex": 147
+        "dex": 147,
+        "totalBaseStats": 300,
+        "specialAttackBias": -14,
+        "specialDefenseBias": 5
     },
     {
         "hp": 60,
@@ -1821,7 +2046,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Drowzee",
-        "dex": 96
+        "dex": 96,
+        "totalBaseStats": 328,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 45
     },
     {
         "hp": 35,
@@ -1845,7 +2073,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Dugtrio",
-        "dex": 51
+        "dex": 51,
+        "totalBaseStats": 425,
+        "specialAttackBias": -50,
+        "specialDefenseBias": 20
     },
     {
         "hp": 100,
@@ -1869,7 +2100,10 @@
         "safariZoneRunRate": 5,
         "color": 2,
         "name": "Dunsparce",
-        "dex": 206
+        "dex": 206,
+        "totalBaseStats": 415,
+        "specialAttackBias": -5,
+        "specialDefenseBias": -5
     },
     {
         "hp": 90,
@@ -1893,7 +2127,10 @@
         "safariZoneRunRate": 100,
         "color": 4,
         "name": "Dusclops",
-        "dex": 356
+        "dex": 356,
+        "totalBaseStats": 535,
+        "specialAttackBias": -40,
+        "specialDefenseBias": 0
     },
     {
         "hp": 20,
@@ -1917,7 +2154,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Duskull",
-        "dex": 355
+        "dex": 355,
+        "totalBaseStats": 295,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -1941,7 +2181,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Dustox",
-        "dex": 269
+        "dex": 269,
+        "totalBaseStats": 385,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 20
     },
     {
         "hp": 55,
@@ -1965,7 +2208,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Eevee",
-        "dex": 133
+        "dex": 133,
+        "totalBaseStats": 325,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 15
     },
     {
         "hp": 35,
@@ -1989,7 +2235,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Ekans",
-        "dex": 23
+        "dex": 23,
+        "totalBaseStats": 288,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 10
     },
     {
         "hp": 65,
@@ -2013,7 +2262,10 @@
         "safariZoneRunRate": 0,
         "color": 130,
         "name": "Electabuzz",
-        "dex": 125
+        "dex": 125,
+        "totalBaseStats": 490,
+        "specialAttackBias": 12,
+        "specialDefenseBias": 28
     },
     {
         "hp": 40,
@@ -2037,7 +2289,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Electrike",
-        "dex": 309
+        "dex": 309,
+        "totalBaseStats": 295,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -2061,7 +2316,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Electrode",
-        "dex": 101
+        "dex": 101,
+        "totalBaseStats": 490,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 10
     },
     {
         "hp": 45,
@@ -2085,7 +2343,10 @@
         "safariZoneRunRate": 0,
         "color": 130,
         "name": "Elekid",
-        "dex": 239
+        "dex": 239,
+        "totalBaseStats": 360,
+        "specialAttackBias": 2,
+        "specialDefenseBias": 18
     },
     {
         "hp": 115,
@@ -2109,7 +2370,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Entei",
-        "dex": 244
+        "dex": 244,
+        "totalBaseStats": 600,
+        "specialAttackBias": -5,
+        "specialDefenseBias": -10
     },
     {
         "hp": 65,
@@ -2133,7 +2397,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Espeon",
-        "dex": 196
+        "dex": 196,
+        "totalBaseStats": 525,
+        "specialAttackBias": 65,
+        "specialDefenseBias": 35
     },
     {
         "hp": 60,
@@ -2157,7 +2424,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Exeggcute",
-        "dex": 102
+        "dex": 102,
+        "totalBaseStats": 325,
+        "specialAttackBias": 20,
+        "specialDefenseBias": -35
     },
     {
         "hp": 95,
@@ -2181,7 +2451,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Exeggutor",
-        "dex": 103
+        "dex": 103,
+        "totalBaseStats": 540,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 104,
@@ -2205,7 +2478,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Exploud",
-        "dex": 295
+        "dex": 295,
+        "totalBaseStats": 480,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 52,
@@ -2229,7 +2505,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Farfetch'D",
-        "dex": 83
+        "dex": 83,
+        "totalBaseStats": 377,
+        "specialAttackBias": -32,
+        "specialDefenseBias": 7
     },
     {
         "hp": 65,
@@ -2253,7 +2532,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Fearow",
-        "dex": 22
+        "dex": 22,
+        "totalBaseStats": 442,
+        "specialAttackBias": -29,
+        "specialDefenseBias": -4
     },
     {
         "hp": 20,
@@ -2277,7 +2559,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Feebas",
-        "dex": 349
+        "dex": 349,
+        "totalBaseStats": 200,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 35
     },
     {
         "hp": 85,
@@ -2301,7 +2586,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Feraligatr",
-        "dex": 160
+        "dex": 160,
+        "totalBaseStats": 530,
+        "specialAttackBias": -26,
+        "specialDefenseBias": -17
     },
     {
         "hp": 70,
@@ -2325,7 +2613,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Flaaffy",
-        "dex": 180
+        "dex": 180,
+        "totalBaseStats": 365,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 5
     },
     {
         "hp": 65,
@@ -2349,7 +2640,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Flareon",
-        "dex": 136
+        "dex": 136,
+        "totalBaseStats": 525,
+        "specialAttackBias": -35,
+        "specialDefenseBias": 50
     },
     {
         "hp": 80,
@@ -2373,7 +2667,10 @@
         "safariZoneRunRate": 15,
         "color": 3,
         "name": "Flygon",
-        "dex": 330
+        "dex": 330,
+        "totalBaseStats": 520,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 75,
@@ -2397,7 +2694,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Forretress",
-        "dex": 205
+        "dex": 205,
+        "totalBaseStats": 465,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -80
     },
     {
         "hp": 85,
@@ -2421,7 +2721,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Furret",
-        "dex": 162
+        "dex": 162,
+        "totalBaseStats": 415,
+        "specialAttackBias": -31,
+        "specialDefenseBias": -9
     },
     {
         "hp": 70,
@@ -2445,7 +2748,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Gardevoir",
-        "dex": 282
+        "dex": 282,
+        "totalBaseStats": 540,
+        "specialAttackBias": 60,
+        "specialDefenseBias": 40
     },
     {
         "hp": 30,
@@ -2469,7 +2775,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Gastly",
-        "dex": 92
+        "dex": 92,
+        "totalBaseStats": 310,
+        "specialAttackBias": 65,
+        "specialDefenseBias": 5
     },
     {
         "hp": 60,
@@ -2493,7 +2802,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Gengar",
-        "dex": 94
+        "dex": 94,
+        "totalBaseStats": 510,
+        "specialAttackBias": 55,
+        "specialDefenseBias": 15
     },
     {
         "hp": 40,
@@ -2517,7 +2829,10 @@
         "safariZoneRunRate": 4,
         "color": 5,
         "name": "Geodude",
-        "dex": 74
+        "dex": 74,
+        "totalBaseStats": 300,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -70
     },
     {
         "hp": 70,
@@ -2541,7 +2856,10 @@
         "safariZoneRunRate": 4,
         "color": 2,
         "name": "Girafarig",
-        "dex": 203
+        "dex": 203,
+        "totalBaseStats": 455,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -2565,7 +2883,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Glalie",
-        "dex": 362
+        "dex": 362,
+        "totalBaseStats": 540,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -2589,7 +2910,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Gligar",
-        "dex": 207
+        "dex": 207,
+        "totalBaseStats": 430,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -40
     },
     {
         "hp": 60,
@@ -2613,7 +2937,10 @@
         "safariZoneRunRate": 6,
         "color": 1,
         "name": "Gloom",
-        "dex": 44
+        "dex": 44,
+        "totalBaseStats": 395,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 5
     },
     {
         "hp": 75,
@@ -2637,7 +2964,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Golbat",
-        "dex": 42
+        "dex": 42,
+        "totalBaseStats": 455,
+        "specialAttackBias": -15,
+        "specialDefenseBias": 5
     },
     {
         "hp": 45,
@@ -2661,7 +2991,10 @@
         "safariZoneRunRate": 4,
         "color": 0,
         "name": "Goldeen",
-        "dex": 118
+        "dex": 118,
+        "totalBaseStats": 320,
+        "specialAttackBias": -32,
+        "specialDefenseBias": -10
     },
     {
         "hp": 80,
@@ -2685,7 +3018,10 @@
         "safariZoneRunRate": 8,
         "color": 1,
         "name": "Golduck",
-        "dex": 55
+        "dex": 55,
+        "totalBaseStats": 500,
+        "specialAttackBias": 13,
+        "specialDefenseBias": 2
     },
     {
         "hp": 80,
@@ -2709,7 +3045,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Golem",
-        "dex": 76
+        "dex": 76,
+        "totalBaseStats": 495,
+        "specialAttackBias": -65,
+        "specialDefenseBias": -65
     },
     {
         "hp": 55,
@@ -2733,7 +3072,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Gorebyss",
-        "dex": 368
+        "dex": 368,
+        "totalBaseStats": 485,
+        "specialAttackBias": 30,
+        "specialDefenseBias": -30
     },
     {
         "hp": 90,
@@ -2757,7 +3099,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Granbull",
-        "dex": 210
+        "dex": 210,
+        "totalBaseStats": 450,
+        "specialAttackBias": -60,
+        "specialDefenseBias": -15
     },
     {
         "hp": 55,
@@ -2781,7 +3126,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Graveler",
-        "dex": 75
+        "dex": 75,
+        "totalBaseStats": 390,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -70
     },
     {
         "hp": 80,
@@ -2805,7 +3153,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Grimer",
-        "dex": 88
+        "dex": 88,
+        "totalBaseStats": 325,
+        "specialAttackBias": -40,
+        "specialDefenseBias": 0
     },
     {
         "hp": 100,
@@ -2829,7 +3180,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Groudon",
-        "dex": 383
+        "dex": 383,
+        "totalBaseStats": 670,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -50
     },
     {
         "hp": 50,
@@ -2853,7 +3207,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Grovyle",
-        "dex": 253
+        "dex": 253,
+        "totalBaseStats": 405,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 20
     },
     {
         "hp": 55,
@@ -2877,7 +3234,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Growlithe",
-        "dex": 58
+        "dex": 58,
+        "totalBaseStats": 350,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 5
     },
     {
         "hp": 80,
@@ -2901,7 +3261,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Grumpig",
-        "dex": 326
+        "dex": 326,
+        "totalBaseStats": 470,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 45
     },
     {
         "hp": 70,
@@ -2925,7 +3288,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Gulpin",
-        "dex": 316
+        "dex": 316,
+        "totalBaseStats": 302,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 95,
@@ -2949,7 +3315,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Gyarados",
-        "dex": 130
+        "dex": 130,
+        "totalBaseStats": 540,
+        "specialAttackBias": -65,
+        "specialDefenseBias": 21
     },
     {
         "hp": 144,
@@ -2973,7 +3342,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Hariyama",
-        "dex": 297
+        "dex": 297,
+        "totalBaseStats": 474,
+        "specialAttackBias": -80,
+        "specialDefenseBias": 0
     },
     {
         "hp": 45,
@@ -2997,7 +3369,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Haunter",
-        "dex": 93
+        "dex": 93,
+        "totalBaseStats": 405,
+        "specialAttackBias": 65,
+        "specialDefenseBias": 10
     },
     {
         "hp": 80,
@@ -3021,7 +3396,10 @@
         "safariZoneRunRate": 8,
         "color": 1,
         "name": "Heracross",
-        "dex": 214
+        "dex": 214,
+        "totalBaseStats": 500,
+        "specialAttackBias": -85,
+        "specialDefenseBias": 20
     },
     {
         "hp": 50,
@@ -3045,7 +3423,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Hitmonchan",
-        "dex": 107
+        "dex": 107,
+        "totalBaseStats": 455,
+        "specialAttackBias": -70,
+        "specialDefenseBias": 31
     },
     {
         "hp": 50,
@@ -3069,7 +3450,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Hitmonlee",
-        "dex": 106
+        "dex": 106,
+        "totalBaseStats": 455,
+        "specialAttackBias": -85,
+        "specialDefenseBias": 57
     },
     {
         "hp": 50,
@@ -3093,7 +3477,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Hitmontop",
-        "dex": 237
+        "dex": 237,
+        "totalBaseStats": 455,
+        "specialAttackBias": -60,
+        "specialDefenseBias": 15
     },
     {
         "hp": 106,
@@ -3117,7 +3504,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Ho-Oh",
-        "dex": 250
+        "dex": 250,
+        "totalBaseStats": 680,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 64
     },
     {
         "hp": 60,
@@ -3141,7 +3531,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Hoothoot",
-        "dex": 163
+        "dex": 163,
+        "totalBaseStats": 262,
+        "specialAttackBias": 6,
+        "specialDefenseBias": 26
     },
     {
         "hp": 35,
@@ -3165,7 +3558,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Hoppip",
-        "dex": 187
+        "dex": 187,
+        "totalBaseStats": 250,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 30,
@@ -3189,7 +3585,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Horsea",
-        "dex": 116
+        "dex": 116,
+        "totalBaseStats": 295,
+        "specialAttackBias": 30,
+        "specialDefenseBias": -45
     },
     {
         "hp": 75,
@@ -3213,7 +3612,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Houndoom",
-        "dex": 229
+        "dex": 229,
+        "totalBaseStats": 535,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 30
     },
     {
         "hp": 45,
@@ -3237,7 +3639,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Houndour",
-        "dex": 228
+        "dex": 228,
+        "totalBaseStats": 330,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 20
     },
     {
         "hp": 55,
@@ -3261,7 +3666,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Huntail",
-        "dex": 367
+        "dex": 367,
+        "totalBaseStats": 485,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -30
     },
     {
         "hp": 85,
@@ -3285,7 +3693,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Hypno",
-        "dex": 97
+        "dex": 97,
+        "totalBaseStats": 525,
+        "specialAttackBias": 42,
+        "specialDefenseBias": 45
     },
     {
         "hp": 90,
@@ -3309,7 +3720,10 @@
         "safariZoneRunRate": 0,
         "color": 137,
         "name": "Igglybuff",
-        "dex": 174
+        "dex": 174,
+        "totalBaseStats": 210,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 5
     },
     {
         "hp": 65,
@@ -3333,7 +3747,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Illumise",
-        "dex": 314
+        "dex": 314,
+        "totalBaseStats": 430,
+        "specialAttackBias": 26,
+        "specialDefenseBias": 10
     },
     {
         "hp": 60,
@@ -3357,7 +3774,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Ivysaur",
-        "dex": 2
+        "dex": 2,
+        "totalBaseStats": 405,
+        "specialAttackBias": 18,
+        "specialDefenseBias": 17
     },
     {
         "hp": 115,
@@ -3381,7 +3801,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Jigglypuff",
-        "dex": 39
+        "dex": 39,
+        "totalBaseStats": 270,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 5
     },
     {
         "hp": 100,
@@ -3405,7 +3828,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Jirachi",
-        "dex": 385
+        "dex": 385,
+        "totalBaseStats": 600,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -3429,7 +3855,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Jolteon",
-        "dex": 135
+        "dex": 135,
+        "totalBaseStats": 525,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 35
     },
     {
         "hp": 75,
@@ -3453,7 +3882,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Jumpluff",
-        "dex": 189
+        "dex": 189,
+        "totalBaseStats": 460,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 25
     },
     {
         "hp": 65,
@@ -3477,7 +3909,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Jynx",
-        "dex": 124
+        "dex": 124,
+        "totalBaseStats": 455,
+        "specialAttackBias": 65,
+        "specialDefenseBias": 60
     },
     {
         "hp": 30,
@@ -3501,7 +3936,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Kabuto",
-        "dex": 140
+        "dex": 140,
+        "totalBaseStats": 355,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -45
     },
     {
         "hp": 60,
@@ -3525,7 +3963,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Kabutops",
-        "dex": 141
+        "dex": 141,
+        "totalBaseStats": 495,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -35
     },
     {
         "hp": 40,
@@ -3549,7 +3990,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Kadabra",
-        "dex": 64
+        "dex": 64,
+        "totalBaseStats": 400,
+        "specialAttackBias": 85,
+        "specialDefenseBias": 40
     },
     {
         "hp": 45,
@@ -3573,7 +4017,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Kakuna",
-        "dex": 14
+        "dex": 14,
+        "totalBaseStats": 205,
+        "specialAttackBias": 0,
+        "specialDefenseBias": -25
     },
     {
         "hp": 105,
@@ -3597,7 +4044,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Kangaskhan",
-        "dex": 115
+        "dex": 115,
+        "totalBaseStats": 490,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -3621,7 +4071,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Kecleon",
-        "dex": 352
+        "dex": 352,
+        "totalBaseStats": 440,
+        "specialAttackBias": -30,
+        "specialDefenseBias": 50
     },
     {
         "hp": 75,
@@ -3645,7 +4098,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Kingdra",
-        "dex": 230
+        "dex": 230,
+        "totalBaseStats": 540,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 55,
@@ -3669,7 +4125,10 @@
         "safariZoneRunRate": 0,
         "color": 128,
         "name": "Kingler",
-        "dex": 99
+        "dex": 99,
+        "totalBaseStats": 475,
+        "specialAttackBias": -80,
+        "specialDefenseBias": -65
     },
     {
         "hp": 38,
@@ -3693,7 +4152,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Kirlia",
-        "dex": 281
+        "dex": 281,
+        "totalBaseStats": 278,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 20
     },
     {
         "hp": 40,
@@ -3717,7 +4179,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Koffing",
-        "dex": 109
+        "dex": 109,
+        "totalBaseStats": 340,
+        "specialAttackBias": -5,
+        "specialDefenseBias": -50
     },
     {
         "hp": 30,
@@ -3741,7 +4206,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Krabby",
-        "dex": 98
+        "dex": 98,
+        "totalBaseStats": 325,
+        "specialAttackBias": -80,
+        "specialDefenseBias": -65
     },
     {
         "hp": 100,
@@ -3765,7 +4233,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Kyogre",
-        "dex": 382
+        "dex": 382,
+        "totalBaseStats": 670,
+        "specialAttackBias": 50,
+        "specialDefenseBias": 50
     },
     {
         "hp": 60,
@@ -3789,7 +4260,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Lairon",
-        "dex": 305
+        "dex": 305,
+        "totalBaseStats": 430,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -90
     },
     {
         "hp": 125,
@@ -3813,7 +4287,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Lanturn",
-        "dex": 171
+        "dex": 171,
+        "totalBaseStats": 460,
+        "specialAttackBias": 26,
+        "specialDefenseBias": 10
     },
     {
         "hp": 130,
@@ -3837,7 +4314,10 @@
         "safariZoneRunRate": 150,
         "color": 1,
         "name": "Lapras",
-        "dex": 131
+        "dex": 131,
+        "totalBaseStats": 555,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 25
     },
     {
         "hp": 50,
@@ -3861,7 +4341,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Larvitar",
-        "dex": 246
+        "dex": 246,
+        "totalBaseStats": 300,
+        "specialAttackBias": -19,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -3885,7 +4368,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Latias",
-        "dex": 380
+        "dex": 380,
+        "totalBaseStats": 600,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 40
     },
     {
         "hp": 80,
@@ -3909,7 +4395,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Latios",
-        "dex": 381
+        "dex": 381,
+        "totalBaseStats": 600,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 30
     },
     {
         "hp": 55,
@@ -3933,7 +4422,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Ledian",
-        "dex": 166
+        "dex": 166,
+        "totalBaseStats": 390,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 60
     },
     {
         "hp": 40,
@@ -3957,7 +4449,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Ledyba",
-        "dex": 165
+        "dex": 165,
+        "totalBaseStats": 265,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 50
     },
     {
         "hp": 90,
@@ -3981,7 +4476,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Lickitung",
-        "dex": 108
+        "dex": 108,
+        "totalBaseStats": 385,
+        "specialAttackBias": 5,
+        "specialDefenseBias": 0
     },
     {
         "hp": 66,
@@ -4005,7 +4503,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Lileep",
-        "dex": 345
+        "dex": 345,
+        "totalBaseStats": 355,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 10
     },
     {
         "hp": 78,
@@ -4029,7 +4530,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Linoone",
-        "dex": 264
+        "dex": 264,
+        "totalBaseStats": 420,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -4053,7 +4557,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Lombre",
-        "dex": 271
+        "dex": 271,
+        "totalBaseStats": 340,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 20
     },
     {
         "hp": 40,
@@ -4077,7 +4584,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Lotad",
-        "dex": 270
+        "dex": 270,
+        "totalBaseStats": 220,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 20
     },
     {
         "hp": 84,
@@ -4101,7 +4611,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Loudred",
-        "dex": 294
+        "dex": 294,
+        "totalBaseStats": 360,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -4125,7 +4638,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Ludicolo",
-        "dex": 272
+        "dex": 272,
+        "totalBaseStats": 480,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 30
     },
     {
         "hp": 106,
@@ -4149,7 +4665,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Lugia",
-        "dex": 249
+        "dex": 249,
+        "totalBaseStats": 680,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 24
     },
     {
         "hp": 90,
@@ -4173,7 +4692,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Lunatone",
-        "dex": 337
+        "dex": 337,
+        "totalBaseStats": 460,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 20
     },
     {
         "hp": 43,
@@ -4197,7 +4719,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Luvdisc",
-        "dex": 370
+        "dex": 370,
+        "totalBaseStats": 330,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 10
     },
     {
         "hp": 90,
@@ -4221,7 +4746,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Machamp",
-        "dex": 68
+        "dex": 68,
+        "totalBaseStats": 505,
+        "specialAttackBias": -65,
+        "specialDefenseBias": 5
     },
     {
         "hp": 80,
@@ -4245,7 +4773,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Machoke",
-        "dex": 67
+        "dex": 67,
+        "totalBaseStats": 405,
+        "specialAttackBias": -50,
+        "specialDefenseBias": -10
     },
     {
         "hp": 70,
@@ -4269,7 +4800,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Machop",
-        "dex": 66
+        "dex": 66,
+        "totalBaseStats": 305,
+        "specialAttackBias": -45,
+        "specialDefenseBias": -15
     },
     {
         "hp": 45,
@@ -4293,7 +4827,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Magby",
-        "dex": 240
+        "dex": 240,
+        "totalBaseStats": 365,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 18
     },
     {
         "hp": 60,
@@ -4317,7 +4854,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Magcargo",
-        "dex": 219
+        "dex": 219,
+        "totalBaseStats": 430,
+        "specialAttackBias": 40,
+        "specialDefenseBias": -40
     },
     {
         "hp": 20,
@@ -4341,7 +4881,10 @@
         "safariZoneRunRate": 4,
         "color": 0,
         "name": "Magikarp",
-        "dex": 129
+        "dex": 129,
+        "totalBaseStats": 200,
+        "specialAttackBias": 5,
+        "specialDefenseBias": -35
     },
     {
         "hp": 65,
@@ -4365,7 +4908,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Magmar",
-        "dex": 126
+        "dex": 126,
+        "totalBaseStats": 495,
+        "specialAttackBias": 5,
+        "specialDefenseBias": 28
     },
     {
         "hp": 25,
@@ -4389,7 +4935,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Magnemite",
-        "dex": 81
+        "dex": 81,
+        "totalBaseStats": 325,
+        "specialAttackBias": 60,
+        "specialDefenseBias": -15
     },
     {
         "hp": 50,
@@ -4413,7 +4962,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Magneton",
-        "dex": 82
+        "dex": 82,
+        "totalBaseStats": 465,
+        "specialAttackBias": 60,
+        "specialDefenseBias": -25
     },
     {
         "hp": 72,
@@ -4437,7 +4989,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Makuhita",
-        "dex": 296
+        "dex": 296,
+        "totalBaseStats": 237,
+        "specialAttackBias": -40,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -4461,7 +5016,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Manectric",
-        "dex": 310
+        "dex": 310,
+        "totalBaseStats": 475,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -4485,7 +5043,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Mankey",
-        "dex": 56
+        "dex": 56,
+        "totalBaseStats": 305,
+        "specialAttackBias": -45,
+        "specialDefenseBias": 10
     },
     {
         "hp": 85,
@@ -4509,7 +5070,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Mantine",
-        "dex": 226
+        "dex": 226,
+        "totalBaseStats": 485,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 70
     },
     {
         "hp": 55,
@@ -4533,7 +5097,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Mareep",
-        "dex": 179
+        "dex": 179,
+        "totalBaseStats": 280,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 5
     },
     {
         "hp": 70,
@@ -4557,7 +5124,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Marill",
-        "dex": 183
+        "dex": 183,
+        "totalBaseStats": 250,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -4581,7 +5151,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Marowak",
-        "dex": 105
+        "dex": 105,
+        "totalBaseStats": 435,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -30
     },
     {
         "hp": 70,
@@ -4605,7 +5178,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Marshtomp",
-        "dex": 259
+        "dex": 259,
+        "totalBaseStats": 405,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -4629,7 +5205,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Masquerain",
-        "dex": 284
+        "dex": 284,
+        "totalBaseStats": 434,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 20
     },
     {
         "hp": 50,
@@ -4653,7 +5232,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Mawile",
-        "dex": 303
+        "dex": 303,
+        "totalBaseStats": 380,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -30
     },
     {
         "hp": 60,
@@ -4677,7 +5259,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Medicham",
-        "dex": 308
+        "dex": 308,
+        "totalBaseStats": 410,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 30,
@@ -4701,7 +5286,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Meditite",
-        "dex": 307
+        "dex": 307,
+        "totalBaseStats": 280,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -4725,7 +5313,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Meganium",
-        "dex": 154
+        "dex": 154,
+        "totalBaseStats": 525,
+        "specialAttackBias": 1,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -4749,7 +5340,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Meowth",
-        "dex": 52
+        "dex": 52,
+        "totalBaseStats": 290,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 5
     },
     {
         "hp": 80,
@@ -4773,7 +5367,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Metagross",
-        "dex": 376
+        "dex": 376,
+        "totalBaseStats": 600,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -40
     },
     {
         "hp": 60,
@@ -4797,7 +5394,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Metang",
-        "dex": 375
+        "dex": 375,
+        "totalBaseStats": 420,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -20
     },
     {
         "hp": 50,
@@ -4821,7 +5421,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Metapod",
-        "dex": 11
+        "dex": 11,
+        "totalBaseStats": 205,
+        "specialAttackBias": 5,
+        "specialDefenseBias": -30
     },
     {
         "hp": 100,
@@ -4845,7 +5448,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Mew",
-        "dex": 151
+        "dex": 151,
+        "totalBaseStats": 600,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 106,
@@ -4869,7 +5475,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Mewtwo",
-        "dex": 150
+        "dex": 150,
+        "totalBaseStats": 680,
+        "specialAttackBias": 44,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -4893,7 +5502,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Mightyena",
-        "dex": 262
+        "dex": 262,
+        "totalBaseStats": 420,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -10
     },
     {
         "hp": 95,
@@ -4917,7 +5529,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Milotic",
-        "dex": 350
+        "dex": 350,
+        "totalBaseStats": 540,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 46
     },
     {
         "hp": 95,
@@ -4941,7 +5556,10 @@
         "safariZoneRunRate": 8,
         "color": 9,
         "name": "Miltank",
-        "dex": 241
+        "dex": 241,
+        "totalBaseStats": 490,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -35
     },
     {
         "hp": 60,
@@ -4965,7 +5583,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Minun",
-        "dex": 312
+        "dex": 312,
+        "totalBaseStats": 405,
+        "specialAttackBias": 35,
+        "specialDefenseBias": 35
     },
     {
         "hp": 60,
@@ -4989,7 +5610,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Misdreavus",
-        "dex": 200
+        "dex": 200,
+        "totalBaseStats": 495,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 45
     },
     {
         "hp": 90,
@@ -5013,7 +5637,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Moltres",
-        "dex": 146
+        "dex": 146,
+        "totalBaseStats": 600,
+        "specialAttackBias": 5,
+        "specialDefenseBias": -5
     },
     {
         "hp": 40,
@@ -5037,7 +5664,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Mr. Mime",
-        "dex": 122
+        "dex": 122,
+        "totalBaseStats": 460,
+        "specialAttackBias": 55,
+        "specialDefenseBias": 55
     },
     {
         "hp": 50,
@@ -5061,7 +5691,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Mudkip",
-        "dex": 258
+        "dex": 258,
+        "totalBaseStats": 310,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 105,
@@ -5085,7 +5718,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Muk",
-        "dex": 89
+        "dex": 89,
+        "totalBaseStats": 500,
+        "specialAttackBias": -40,
+        "specialDefenseBias": 25
     },
     {
         "hp": 60,
@@ -5109,7 +5745,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Murkrow",
-        "dex": 198
+        "dex": 198,
+        "totalBaseStats": 405,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -5133,7 +5772,10 @@
         "safariZoneRunRate": 6,
         "color": 3,
         "name": "Natu",
-        "dex": 177
+        "dex": 177,
+        "totalBaseStats": 320,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 81,
@@ -5157,7 +5799,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Nidoking",
-        "dex": 34
+        "dex": 34,
+        "totalBaseStats": 505,
+        "specialAttackBias": -17,
+        "specialDefenseBias": -2
     },
     {
         "hp": 90,
@@ -5181,7 +5826,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Nidoqueen",
-        "dex": 31
+        "dex": 31,
+        "totalBaseStats": 505,
+        "specialAttackBias": -17,
+        "specialDefenseBias": -2
     },
     {
         "hp": 55,
@@ -5205,7 +5853,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Nidoran\u2640",
-        "dex": 29
+        "dex": 29,
+        "totalBaseStats": 275,
+        "specialAttackBias": -7,
+        "specialDefenseBias": -12
     },
     {
         "hp": 46,
@@ -5229,7 +5880,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Nidoran\u2642",
-        "dex": 32
+        "dex": 32,
+        "totalBaseStats": 273,
+        "specialAttackBias": -17,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -5253,7 +5907,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Nidorina",
-        "dex": 30
+        "dex": 30,
+        "totalBaseStats": 365,
+        "specialAttackBias": -7,
+        "specialDefenseBias": -12
     },
     {
         "hp": 61,
@@ -5277,7 +5934,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Nidorino",
-        "dex": 33
+        "dex": 33,
+        "totalBaseStats": 365,
+        "specialAttackBias": -17,
+        "specialDefenseBias": -2
     },
     {
         "hp": 31,
@@ -5301,7 +5961,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Nincada",
-        "dex": 290
+        "dex": 290,
+        "totalBaseStats": 266,
+        "specialAttackBias": -15,
+        "specialDefenseBias": -60
     },
     {
         "hp": 73,
@@ -5325,7 +5988,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Ninetales",
-        "dex": 38
+        "dex": 38,
+        "totalBaseStats": 524,
+        "specialAttackBias": 24,
+        "specialDefenseBias": 25
     },
     {
         "hp": 61,
@@ -5349,7 +6015,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Ninjask",
-        "dex": 291
+        "dex": 291,
+        "totalBaseStats": 456,
+        "specialAttackBias": -40,
+        "specialDefenseBias": 5
     },
     {
         "hp": 100,
@@ -5373,7 +6042,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Noctowl",
-        "dex": 164
+        "dex": 164,
+        "totalBaseStats": 452,
+        "specialAttackBias": 36,
+        "specialDefenseBias": 46
     },
     {
         "hp": 30,
@@ -5397,7 +6069,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Nosepass",
-        "dex": 299
+        "dex": 299,
+        "totalBaseStats": 375,
+        "specialAttackBias": 0,
+        "specialDefenseBias": -45
     },
     {
         "hp": 60,
@@ -5421,7 +6096,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Numel",
-        "dex": 322
+        "dex": 322,
+        "totalBaseStats": 305,
+        "specialAttackBias": 5,
+        "specialDefenseBias": 5
     },
     {
         "hp": 70,
@@ -5445,7 +6123,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Nuzleaf",
-        "dex": 274
+        "dex": 274,
+        "totalBaseStats": 340,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 75,
@@ -5469,7 +6150,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Octillery",
-        "dex": 224
+        "dex": 224,
+        "totalBaseStats": 480,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 45,
@@ -5493,7 +6177,10 @@
         "safariZoneRunRate": 4,
         "color": 1,
         "name": "Oddish",
-        "dex": 43
+        "dex": 43,
+        "totalBaseStats": 320,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 10
     },
     {
         "hp": 35,
@@ -5517,7 +6204,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Omanyte",
-        "dex": 138
+        "dex": 138,
+        "totalBaseStats": 355,
+        "specialAttackBias": 50,
+        "specialDefenseBias": -45
     },
     {
         "hp": 70,
@@ -5541,7 +6231,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Omastar",
-        "dex": 139
+        "dex": 139,
+        "totalBaseStats": 495,
+        "specialAttackBias": 55,
+        "specialDefenseBias": -55
     },
     {
         "hp": 35,
@@ -5565,7 +6258,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Onix",
-        "dex": 95
+        "dex": 95,
+        "totalBaseStats": 385,
+        "specialAttackBias": -15,
+        "specialDefenseBias": -115
     },
     {
         "hp": 35,
@@ -5589,7 +6285,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Paras",
-        "dex": 46
+        "dex": 46,
+        "totalBaseStats": 285,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -5613,7 +6312,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Parasect",
-        "dex": 47
+        "dex": 47,
+        "totalBaseStats": 405,
+        "specialAttackBias": -35,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -5637,7 +6339,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Pelipper",
-        "dex": 279
+        "dex": 279,
+        "totalBaseStats": 440,
+        "specialAttackBias": 45,
+        "specialDefenseBias": -30
     },
     {
         "hp": 65,
@@ -5661,7 +6366,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Persian",
-        "dex": 53
+        "dex": 53,
+        "totalBaseStats": 440,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 5
     },
     {
         "hp": 90,
@@ -5685,7 +6393,10 @@
         "safariZoneRunRate": 10,
         "color": 1,
         "name": "Phanpy",
-        "dex": 231
+        "dex": 231,
+        "totalBaseStats": 330,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -20
     },
     {
         "hp": 20,
@@ -5709,7 +6420,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Pichu",
-        "dex": 172
+        "dex": 172,
+        "totalBaseStats": 205,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 20
     },
     {
         "hp": 83,
@@ -5733,7 +6447,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Pidgeot",
-        "dex": 18
+        "dex": 18,
+        "totalBaseStats": 479,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -5
     },
     {
         "hp": 63,
@@ -5757,7 +6474,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Pidgeotto",
-        "dex": 17
+        "dex": 17,
+        "totalBaseStats": 349,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -5
     },
     {
         "hp": 40,
@@ -5781,7 +6501,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Pidgey",
-        "dex": 16
+        "dex": 16,
+        "totalBaseStats": 251,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -5
     },
     {
         "hp": 35,
@@ -5805,7 +6528,10 @@
         "safariZoneRunRate": 6,
         "color": 2,
         "name": "Pikachu",
-        "dex": 25
+        "dex": 25,
+        "totalBaseStats": 320,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 10
     },
     {
         "hp": 100,
@@ -5829,7 +6555,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Piloswine",
-        "dex": 221
+        "dex": 221,
+        "totalBaseStats": 470,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -20
     },
     {
         "hp": 50,
@@ -5853,7 +6582,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Pineco",
-        "dex": 204
+        "dex": 204,
+        "totalBaseStats": 290,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -55
     },
     {
         "hp": 65,
@@ -5877,7 +6609,10 @@
         "safariZoneRunRate": 8,
         "color": 5,
         "name": "Pinsir",
-        "dex": 127
+        "dex": 127,
+        "totalBaseStats": 500,
+        "specialAttackBias": -70,
+        "specialDefenseBias": -30
     },
     {
         "hp": 60,
@@ -5901,7 +6636,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Plusle",
-        "dex": 311
+        "dex": 311,
+        "totalBaseStats": 405,
+        "specialAttackBias": 35,
+        "specialDefenseBias": 35
     },
     {
         "hp": 90,
@@ -5925,7 +6663,10 @@
         "safariZoneRunRate": 0,
         "color": 131,
         "name": "Politoed",
-        "dex": 186
+        "dex": 186,
+        "totalBaseStats": 500,
+        "specialAttackBias": 15,
+        "specialDefenseBias": 25
     },
     {
         "hp": 40,
@@ -5949,7 +6690,10 @@
         "safariZoneRunRate": 0,
         "color": 129,
         "name": "Poliwag",
-        "dex": 60
+        "dex": 60,
+        "totalBaseStats": 300,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -5973,7 +6717,10 @@
         "safariZoneRunRate": 0,
         "color": 129,
         "name": "Poliwhirl",
-        "dex": 61
+        "dex": 61,
+        "totalBaseStats": 385,
+        "specialAttackBias": -15,
+        "specialDefenseBias": -15
     },
     {
         "hp": 90,
@@ -5997,7 +6744,10 @@
         "safariZoneRunRate": 0,
         "color": 129,
         "name": "Poliwrath",
-        "dex": 62
+        "dex": 62,
+        "totalBaseStats": 510,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -5
     },
     {
         "hp": 50,
@@ -6021,7 +6771,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Ponyta",
-        "dex": 77
+        "dex": 77,
+        "totalBaseStats": 410,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 10
     },
     {
         "hp": 35,
@@ -6045,7 +6798,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Poochyena",
-        "dex": 261
+        "dex": 261,
+        "totalBaseStats": 220,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -5
     },
     {
         "hp": 65,
@@ -6069,7 +6825,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Porygon",
-        "dex": 137
+        "dex": 137,
+        "totalBaseStats": 395,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 5
     },
     {
         "hp": 85,
@@ -6093,7 +6852,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Porygon2",
-        "dex": 233
+        "dex": 233,
+        "totalBaseStats": 515,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 5
     },
     {
         "hp": 65,
@@ -6117,7 +6879,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Primeape",
-        "dex": 57
+        "dex": 57,
+        "totalBaseStats": 455,
+        "specialAttackBias": -45,
+        "specialDefenseBias": 10
     },
     {
         "hp": 50,
@@ -6141,7 +6906,10 @@
         "safariZoneRunRate": 6,
         "color": 2,
         "name": "Psyduck",
-        "dex": 54
+        "dex": 54,
+        "totalBaseStats": 320,
+        "specialAttackBias": 13,
+        "specialDefenseBias": 2
     },
     {
         "hp": 70,
@@ -6165,7 +6933,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Pupitar",
-        "dex": 247
+        "dex": 247,
+        "totalBaseStats": 410,
+        "specialAttackBias": -19,
+        "specialDefenseBias": 0
     },
     {
         "hp": 95,
@@ -6189,7 +6960,10 @@
         "safariZoneRunRate": 5,
         "color": 1,
         "name": "Quagsire",
-        "dex": 195
+        "dex": 195,
+        "totalBaseStats": 430,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -20
     },
     {
         "hp": 58,
@@ -6213,7 +6987,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Quilava",
-        "dex": 156
+        "dex": 156,
+        "totalBaseStats": 405,
+        "specialAttackBias": 16,
+        "specialDefenseBias": 7
     },
     {
         "hp": 65,
@@ -6237,7 +7014,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Qwilfish",
-        "dex": 211
+        "dex": 211,
+        "totalBaseStats": 470,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -20
     },
     {
         "hp": 60,
@@ -6261,7 +7041,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Raichu",
-        "dex": 26
+        "dex": 26,
+        "totalBaseStats": 485,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 25
     },
     {
         "hp": 90,
@@ -6285,7 +7068,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Raikou",
-        "dex": 243
+        "dex": 243,
+        "totalBaseStats": 600,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 5
     },
     {
         "hp": 28,
@@ -6309,7 +7095,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Ralts",
-        "dex": 280
+        "dex": 280,
+        "totalBaseStats": 198,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 10
     },
     {
         "hp": 65,
@@ -6333,7 +7122,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Rapidash",
-        "dex": 78
+        "dex": 78,
+        "totalBaseStats": 500,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 10
     },
     {
         "hp": 55,
@@ -6357,7 +7149,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Raticate",
-        "dex": 20
+        "dex": 20,
+        "totalBaseStats": 413,
+        "specialAttackBias": -31,
+        "specialDefenseBias": 10
     },
     {
         "hp": 30,
@@ -6381,7 +7176,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Rattata",
-        "dex": 19
+        "dex": 19,
+        "totalBaseStats": 253,
+        "specialAttackBias": -31,
+        "specialDefenseBias": 0
     },
     {
         "hp": 105,
@@ -6405,7 +7203,10 @@
         "safariZoneRunRate": 255,
         "color": 3,
         "name": "Rayquaza",
-        "dex": 384
+        "dex": 384,
+        "totalBaseStats": 680,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -6429,7 +7230,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Regice",
-        "dex": 378
+        "dex": 378,
+        "totalBaseStats": 600,
+        "specialAttackBias": 70,
+        "specialDefenseBias": 100
     },
     {
         "hp": 80,
@@ -6453,7 +7257,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Regirock",
-        "dex": 377
+        "dex": 377,
+        "totalBaseStats": 600,
+        "specialAttackBias": -70,
+        "specialDefenseBias": -100
     },
     {
         "hp": 100,
@@ -6477,7 +7284,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Registeel",
-        "dex": 379
+        "dex": 379,
+        "totalBaseStats": 600,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 100,
@@ -6501,7 +7311,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Relicanth",
-        "dex": 369
+        "dex": 369,
+        "totalBaseStats": 485,
+        "specialAttackBias": -45,
+        "specialDefenseBias": -65
     },
     {
         "hp": 35,
@@ -6525,7 +7338,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Remoraid",
-        "dex": 223
+        "dex": 223,
+        "totalBaseStats": 300,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 105,
@@ -6549,7 +7365,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Rhydon",
-        "dex": 112
+        "dex": 112,
+        "totalBaseStats": 485,
+        "specialAttackBias": -85,
+        "specialDefenseBias": -75
     },
     {
         "hp": 80,
@@ -6573,7 +7392,10 @@
         "safariZoneRunRate": 4,
         "color": 7,
         "name": "Rhyhorn",
-        "dex": 111
+        "dex": 111,
+        "totalBaseStats": 345,
+        "specialAttackBias": -55,
+        "specialDefenseBias": -65
     },
     {
         "hp": 50,
@@ -6597,7 +7419,10 @@
         "safariZoneRunRate": 0,
         "color": 131,
         "name": "Roselia",
-        "dex": 315
+        "dex": 315,
+        "totalBaseStats": 400,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 35
     },
     {
         "hp": 95,
@@ -6621,7 +7446,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Sableye",
-        "dex": 302
+        "dex": 302,
+        "totalBaseStats": 545,
+        "specialAttackBias": -60,
+        "specialDefenseBias": -10
     },
     {
         "hp": 95,
@@ -6645,7 +7473,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Salamence",
-        "dex": 373
+        "dex": 373,
+        "totalBaseStats": 600,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 50,
@@ -6669,7 +7500,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Sandshrew",
-        "dex": 27
+        "dex": 27,
+        "totalBaseStats": 300,
+        "specialAttackBias": -55,
+        "specialDefenseBias": -55
     },
     {
         "hp": 75,
@@ -6693,7 +7527,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Sandslash",
-        "dex": 28
+        "dex": 28,
+        "totalBaseStats": 450,
+        "specialAttackBias": -55,
+        "specialDefenseBias": -55
     },
     {
         "hp": 70,
@@ -6717,7 +7554,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Sceptile",
-        "dex": 254
+        "dex": 254,
+        "totalBaseStats": 530,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 20
     },
     {
         "hp": 70,
@@ -6741,7 +7581,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Scizor",
-        "dex": 212
+        "dex": 212,
+        "totalBaseStats": 500,
+        "specialAttackBias": -75,
+        "specialDefenseBias": -20
     },
     {
         "hp": 70,
@@ -6765,7 +7608,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Scyther",
-        "dex": 123
+        "dex": 123,
+        "totalBaseStats": 500,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 55,
@@ -6789,7 +7635,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Seadra",
-        "dex": 117
+        "dex": 117,
+        "totalBaseStats": 440,
+        "specialAttackBias": 30,
+        "specialDefenseBias": -50
     },
     {
         "hp": 80,
@@ -6813,7 +7662,10 @@
         "safariZoneRunRate": 6,
         "color": 0,
         "name": "Seaking",
-        "dex": 119
+        "dex": 119,
+        "totalBaseStats": 450,
+        "specialAttackBias": -27,
+        "specialDefenseBias": 15
     },
     {
         "hp": 90,
@@ -6837,7 +7689,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Sealeo",
-        "dex": 364
+        "dex": 364,
+        "totalBaseStats": 410,
+        "specialAttackBias": 15,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -6861,7 +7716,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Seedot",
-        "dex": 273
+        "dex": 273,
+        "totalBaseStats": 220,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -20
     },
     {
         "hp": 65,
@@ -6885,7 +7743,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Seel",
-        "dex": 86
+        "dex": 86,
+        "totalBaseStats": 325,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 35,
@@ -6909,7 +7770,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Sentret",
-        "dex": 161
+        "dex": 161,
+        "totalBaseStats": 215,
+        "specialAttackBias": -11,
+        "specialDefenseBias": 11
     },
     {
         "hp": 73,
@@ -6933,7 +7797,10 @@
         "safariZoneRunRate": 0,
         "color": 132,
         "name": "Seviper",
-        "dex": 336
+        "dex": 336,
+        "totalBaseStats": 458,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 70,
@@ -6957,7 +7824,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Sharpedo",
-        "dex": 319
+        "dex": 319,
+        "totalBaseStats": 460,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 1,
@@ -6981,7 +7851,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Shedinja",
-        "dex": 292
+        "dex": 292,
+        "totalBaseStats": 236,
+        "specialAttackBias": -80,
+        "specialDefenseBias": -15
     },
     {
         "hp": 65,
@@ -7005,7 +7878,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Shelgon",
-        "dex": 372
+        "dex": 372,
+        "totalBaseStats": 420,
+        "specialAttackBias": -35,
+        "specialDefenseBias": -50
     },
     {
         "hp": 30,
@@ -7029,7 +7905,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Shellder",
-        "dex": 90
+        "dex": 90,
+        "totalBaseStats": 305,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -75
     },
     {
         "hp": 90,
@@ -7053,7 +7932,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Shiftry",
-        "dex": 275
+        "dex": 275,
+        "totalBaseStats": 480,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -7077,7 +7959,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Shroomish",
-        "dex": 285
+        "dex": 285,
+        "totalBaseStats": 295,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 50,
@@ -7101,7 +7986,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Shuckle",
-        "dex": 213
+        "dex": 213,
+        "totalBaseStats": 535,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 44,
@@ -7125,7 +8013,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Shuppet",
-        "dex": 353
+        "dex": 353,
+        "totalBaseStats": 295,
+        "specialAttackBias": -12,
+        "specialDefenseBias": -2
     },
     {
         "hp": 50,
@@ -7149,7 +8040,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Silcoon",
-        "dex": 266
+        "dex": 266,
+        "totalBaseStats": 205,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -30
     },
     {
         "hp": 65,
@@ -7173,7 +8067,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Skarmory",
-        "dex": 227
+        "dex": 227,
+        "totalBaseStats": 465,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -70
     },
     {
         "hp": 55,
@@ -7197,7 +8094,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Skiploom",
-        "dex": 188
+        "dex": 188,
+        "totalBaseStats": 340,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 50,
@@ -7221,7 +8121,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Skitty",
-        "dex": 300
+        "dex": 300,
+        "totalBaseStats": 260,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -10
     },
     {
         "hp": 150,
@@ -7245,7 +8148,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Slaking",
-        "dex": 289
+        "dex": 289,
+        "totalBaseStats": 670,
+        "specialAttackBias": -65,
+        "specialDefenseBias": -35
     },
     {
         "hp": 60,
@@ -7269,7 +8175,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Slakoth",
-        "dex": 287
+        "dex": 287,
+        "totalBaseStats": 280,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -25
     },
     {
         "hp": 95,
@@ -7293,7 +8202,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Slowbro",
-        "dex": 80
+        "dex": 80,
+        "totalBaseStats": 490,
+        "specialAttackBias": 25,
+        "specialDefenseBias": -30
     },
     {
         "hp": 95,
@@ -7317,7 +8229,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Slowking",
-        "dex": 199
+        "dex": 199,
+        "totalBaseStats": 490,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 30
     },
     {
         "hp": 90,
@@ -7341,7 +8256,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Slowpoke",
-        "dex": 79
+        "dex": 79,
+        "totalBaseStats": 315,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -25
     },
     {
         "hp": 40,
@@ -7365,7 +8283,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Slugma",
-        "dex": 218
+        "dex": 218,
+        "totalBaseStats": 250,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -7389,7 +8310,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Smeargle",
-        "dex": 235
+        "dex": 235,
+        "totalBaseStats": 395,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 45,
@@ -7413,7 +8337,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Smoochum",
-        "dex": 238
+        "dex": 238,
+        "totalBaseStats": 305,
+        "specialAttackBias": 55,
+        "specialDefenseBias": 50
     },
     {
         "hp": 55,
@@ -7437,7 +8364,10 @@
         "safariZoneRunRate": 0,
         "color": 132,
         "name": "Sneasel",
-        "dex": 215
+        "dex": 215,
+        "totalBaseStats": 430,
+        "specialAttackBias": -60,
+        "specialDefenseBias": 20
     },
     {
         "hp": 160,
@@ -7461,7 +8391,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Snorlax",
-        "dex": 143
+        "dex": 143,
+        "totalBaseStats": 540,
+        "specialAttackBias": -45,
+        "specialDefenseBias": 45
     },
     {
         "hp": 50,
@@ -7485,7 +8418,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Snorunt",
-        "dex": 361
+        "dex": 361,
+        "totalBaseStats": 300,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -7509,7 +8445,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Snubbull",
-        "dex": 209
+        "dex": 209,
+        "totalBaseStats": 300,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -10
     },
     {
         "hp": 90,
@@ -7533,7 +8472,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Solrock",
-        "dex": 338
+        "dex": 338,
+        "totalBaseStats": 460,
+        "specialAttackBias": -40,
+        "specialDefenseBias": -20
     },
     {
         "hp": 40,
@@ -7557,7 +8499,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Spearow",
-        "dex": 21
+        "dex": 21,
+        "totalBaseStats": 262,
+        "specialAttackBias": -29,
+        "specialDefenseBias": 1
     },
     {
         "hp": 70,
@@ -7581,7 +8526,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Spheal",
-        "dex": 363
+        "dex": 363,
+        "totalBaseStats": 290,
+        "specialAttackBias": 15,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -7605,7 +8553,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Spinarak",
-        "dex": 167
+        "dex": 167,
+        "totalBaseStats": 250,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -7629,7 +8580,10 @@
         "safariZoneRunRate": 0,
         "color": 133,
         "name": "Spinda",
-        "dex": 327
+        "dex": 327,
+        "totalBaseStats": 480,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -7653,7 +8607,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Spoink",
-        "dex": 325
+        "dex": 325,
+        "totalBaseStats": 330,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 45
     },
     {
         "hp": 44,
@@ -7677,7 +8634,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Squirtle",
-        "dex": 7
+        "dex": 7,
+        "totalBaseStats": 314,
+        "specialAttackBias": 2,
+        "specialDefenseBias": -1
     },
     {
         "hp": 73,
@@ -7701,7 +8661,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Stantler",
-        "dex": 234
+        "dex": 234,
+        "totalBaseStats": 465,
+        "specialAttackBias": -10,
+        "specialDefenseBias": 3
     },
     {
         "hp": 60,
@@ -7725,7 +8688,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Starmie",
-        "dex": 121
+        "dex": 121,
+        "totalBaseStats": 535,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 15
     },
     {
         "hp": 30,
@@ -7749,7 +8715,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Staryu",
-        "dex": 120
+        "dex": 120,
+        "totalBaseStats": 340,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 75,
@@ -7773,7 +8742,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Steelix",
-        "dex": 208
+        "dex": 208,
+        "totalBaseStats": 510,
+        "specialAttackBias": -30,
+        "specialDefenseBias": -135
     },
     {
         "hp": 70,
@@ -7797,7 +8769,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Sudowoodo",
-        "dex": 185
+        "dex": 185,
+        "totalBaseStats": 410,
+        "specialAttackBias": -70,
+        "specialDefenseBias": -50
     },
     {
         "hp": 120,
@@ -7821,7 +8796,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Suicune",
-        "dex": 245
+        "dex": 245,
+        "totalBaseStats": 600,
+        "specialAttackBias": 15,
+        "specialDefenseBias": 0
     },
     {
         "hp": 75,
@@ -7845,7 +8823,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Sunflora",
-        "dex": 192
+        "dex": 192,
+        "totalBaseStats": 425,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 30
     },
     {
         "hp": 30,
@@ -7869,7 +8850,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Sunkern",
-        "dex": 191
+        "dex": 191,
+        "totalBaseStats": 180,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -7893,7 +8877,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Surskit",
-        "dex": 283
+        "dex": 283,
+        "totalBaseStats": 269,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 20
     },
     {
         "hp": 45,
@@ -7917,7 +8904,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Swablu",
-        "dex": 333
+        "dex": 333,
+        "totalBaseStats": 310,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 15
     },
     {
         "hp": 100,
@@ -7941,7 +8931,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Swalot",
-        "dex": 317
+        "dex": 317,
+        "totalBaseStats": 467,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 100,
@@ -7965,7 +8958,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Swampert",
-        "dex": 260
+        "dex": 260,
+        "totalBaseStats": 535,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 60,
@@ -7989,7 +8985,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Swellow",
-        "dex": 277
+        "dex": 277,
+        "totalBaseStats": 455,
+        "specialAttackBias": -10,
+        "specialDefenseBias": -10
     },
     {
         "hp": 50,
@@ -8013,7 +9012,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Swinub",
-        "dex": 220
+        "dex": 220,
+        "totalBaseStats": 250,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -10
     },
     {
         "hp": 40,
@@ -8037,7 +9039,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Taillow",
-        "dex": 276
+        "dex": 276,
+        "totalBaseStats": 270,
+        "specialAttackBias": -25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -8061,7 +9066,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Tangela",
-        "dex": 114
+        "dex": 114,
+        "totalBaseStats": 495,
+        "specialAttackBias": 45,
+        "specialDefenseBias": -15
     },
     {
         "hp": 75,
@@ -8085,7 +9093,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Tauros",
-        "dex": 128
+        "dex": 128,
+        "totalBaseStats": 490,
+        "specialAttackBias": -60,
+        "specialDefenseBias": -25
     },
     {
         "hp": 60,
@@ -8109,7 +9120,10 @@
         "safariZoneRunRate": 0,
         "color": 133,
         "name": "Teddiursa",
-        "dex": 216
+        "dex": 216,
+        "totalBaseStats": 330,
+        "specialAttackBias": -30,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -8133,7 +9147,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Tentacool",
-        "dex": 72
+        "dex": 72,
+        "totalBaseStats": 335,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 65
     },
     {
         "hp": 80,
@@ -8157,7 +9174,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Tentacruel",
-        "dex": 73
+        "dex": 73,
+        "totalBaseStats": 535,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 55
     },
     {
         "hp": 35,
@@ -8181,7 +9201,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Togepi",
-        "dex": 175
+        "dex": 175,
+        "totalBaseStats": 245,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 55,
@@ -8205,7 +9228,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Togetic",
-        "dex": 176
+        "dex": 176,
+        "totalBaseStats": 405,
+        "specialAttackBias": 40,
+        "specialDefenseBias": 20
     },
     {
         "hp": 45,
@@ -8229,7 +9255,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Torchic",
-        "dex": 255
+        "dex": 255,
+        "totalBaseStats": 310,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 10
     },
     {
         "hp": 70,
@@ -8253,7 +9282,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Torkoal",
-        "dex": 324
+        "dex": 324,
+        "totalBaseStats": 470,
+        "specialAttackBias": 0,
+        "specialDefenseBias": -70
     },
     {
         "hp": 50,
@@ -8277,7 +9309,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Totodile",
-        "dex": 158
+        "dex": 158,
+        "totalBaseStats": 314,
+        "specialAttackBias": -21,
+        "specialDefenseBias": -16
     },
     {
         "hp": 45,
@@ -8301,7 +9336,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Trapinch",
-        "dex": 328
+        "dex": 328,
+        "totalBaseStats": 290,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -8325,7 +9363,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Treecko",
-        "dex": 252
+        "dex": 252,
+        "totalBaseStats": 310,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 20
     },
     {
         "hp": 99,
@@ -8349,7 +9390,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Tropius",
-        "dex": 357
+        "dex": 357,
+        "totalBaseStats": 460,
+        "specialAttackBias": 4,
+        "specialDefenseBias": 4
     },
     {
         "hp": 78,
@@ -8373,7 +9417,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Typhlosion",
-        "dex": 157
+        "dex": 157,
+        "totalBaseStats": 534,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 7
     },
     {
         "hp": 100,
@@ -8397,7 +9444,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Tyranitar",
-        "dex": 248
+        "dex": 248,
+        "totalBaseStats": 600,
+        "specialAttackBias": -39,
+        "specialDefenseBias": -10
     },
     {
         "hp": 35,
@@ -8421,7 +9471,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Tyrogue",
-        "dex": 236
+        "dex": 236,
+        "totalBaseStats": 210,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 95,
@@ -8445,7 +9498,10 @@
         "safariZoneRunRate": 0,
         "color": 4,
         "name": "Umbreon",
-        "dex": 197
+        "dex": 197,
+        "totalBaseStats": 525,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 20
     },
     {
         "hp": 48,
@@ -8469,7 +9525,10 @@
         "safariZoneRunRate": 0,
         "color": 132,
         "name": "Unown",
-        "dex": 201
+        "dex": 201,
+        "totalBaseStats": 336,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 90,
@@ -8493,7 +9552,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Ursaring",
-        "dex": 217
+        "dex": 217,
+        "totalBaseStats": 500,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 130,
@@ -8517,7 +9579,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Vaporeon",
-        "dex": 134
+        "dex": 134,
+        "totalBaseStats": 525,
+        "specialAttackBias": 45,
+        "specialDefenseBias": 35
     },
     {
         "hp": 70,
@@ -8541,7 +9606,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Venomoth",
-        "dex": 49
+        "dex": 49,
+        "totalBaseStats": 450,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 15
     },
     {
         "hp": 60,
@@ -8565,7 +9633,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Venonat",
-        "dex": 48
+        "dex": 48,
+        "totalBaseStats": 305,
+        "specialAttackBias": -15,
+        "specialDefenseBias": 5
     },
     {
         "hp": 80,
@@ -8589,7 +9660,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Venusaur",
-        "dex": 3
+        "dex": 3,
+        "totalBaseStats": 525,
+        "specialAttackBias": 18,
+        "specialDefenseBias": 17
     },
     {
         "hp": 50,
@@ -8613,7 +9687,10 @@
         "safariZoneRunRate": 20,
         "color": 3,
         "name": "Vibrava",
-        "dex": 329
+        "dex": 329,
+        "totalBaseStats": 340,
+        "specialAttackBias": -20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 80,
@@ -8637,7 +9714,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Victreebel",
-        "dex": 71
+        "dex": 71,
+        "totalBaseStats": 490,
+        "specialAttackBias": -5,
+        "specialDefenseBias": 5
     },
     {
         "hp": 80,
@@ -8661,7 +9741,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Vigoroth",
-        "dex": 288
+        "dex": 288,
+        "totalBaseStats": 440,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -25
     },
     {
         "hp": 75,
@@ -8685,7 +9768,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Vileplume",
-        "dex": 45
+        "dex": 45,
+        "totalBaseStats": 490,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 5
     },
     {
         "hp": 65,
@@ -8709,7 +9795,10 @@
         "safariZoneRunRate": 0,
         "color": 7,
         "name": "Volbeat",
-        "dex": 313
+        "dex": 313,
+        "totalBaseStats": 430,
+        "specialAttackBias": -26,
+        "specialDefenseBias": 10
     },
     {
         "hp": 40,
@@ -8733,7 +9822,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Voltorb",
-        "dex": 100
+        "dex": 100,
+        "totalBaseStats": 330,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 5
     },
     {
         "hp": 38,
@@ -8757,7 +9849,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Vulpix",
-        "dex": 37
+        "dex": 37,
+        "totalBaseStats": 314,
+        "specialAttackBias": 24,
+        "specialDefenseBias": 25
     },
     {
         "hp": 130,
@@ -8781,7 +9876,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Wailmer",
-        "dex": 320
+        "dex": 320,
+        "totalBaseStats": 400,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 160,
@@ -8805,7 +9903,10 @@
         "safariZoneRunRate": 100,
         "color": 1,
         "name": "Wailord",
-        "dex": 321
+        "dex": 321,
+        "totalBaseStats": 555,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 46
     },
     {
         "hp": 110,
@@ -8829,7 +9930,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Walrein",
-        "dex": 365
+        "dex": 365,
+        "totalBaseStats": 530,
+        "specialAttackBias": 15,
+        "specialDefenseBias": 0
     },
     {
         "hp": 59,
@@ -8853,7 +9957,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Wartortle",
-        "dex": 8
+        "dex": 8,
+        "totalBaseStats": 405,
+        "specialAttackBias": 2,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -8877,7 +9984,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Weedle",
-        "dex": 13
+        "dex": 13,
+        "totalBaseStats": 195,
+        "specialAttackBias": -15,
+        "specialDefenseBias": -10
     },
     {
         "hp": 65,
@@ -8901,7 +10011,10 @@
         "safariZoneRunRate": 0,
         "color": 3,
         "name": "Weepinbell",
-        "dex": 70
+        "dex": 70,
+        "totalBaseStats": 390,
+        "specialAttackBias": -5,
+        "specialDefenseBias": -5
     },
     {
         "hp": 65,
@@ -8925,7 +10038,10 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Weezing",
-        "dex": 110
+        "dex": 110,
+        "totalBaseStats": 505,
+        "specialAttackBias": -5,
+        "specialDefenseBias": -35
     },
     {
         "hp": 110,
@@ -8949,7 +10065,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Whiscash",
-        "dex": 340
+        "dex": 340,
+        "totalBaseStats": 468,
+        "specialAttackBias": -2,
+        "specialDefenseBias": -2
     },
     {
         "hp": 64,
@@ -8973,7 +10092,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Whismur",
-        "dex": 293
+        "dex": 293,
+        "totalBaseStats": 240,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 140,
@@ -8997,7 +10119,10 @@
         "safariZoneRunRate": 0,
         "color": 9,
         "name": "Wigglytuff",
-        "dex": 40
+        "dex": 40,
+        "totalBaseStats": 445,
+        "specialAttackBias": 5,
+        "specialDefenseBias": 5
     },
     {
         "hp": 40,
@@ -9021,7 +10146,10 @@
         "safariZoneRunRate": 0,
         "color": 8,
         "name": "Wingull",
-        "dex": 278
+        "dex": 278,
+        "totalBaseStats": 270,
+        "specialAttackBias": 25,
+        "specialDefenseBias": 0
     },
     {
         "hp": 190,
@@ -9045,7 +10173,10 @@
         "safariZoneRunRate": 8,
         "color": 1,
         "name": "Wobbuffet",
-        "dex": 202
+        "dex": 202,
+        "totalBaseStats": 405,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 55,
@@ -9069,7 +10200,10 @@
         "safariZoneRunRate": 7,
         "color": 1,
         "name": "Wooper",
-        "dex": 194
+        "dex": 194,
+        "totalBaseStats": 210,
+        "specialAttackBias": -20,
+        "specialDefenseBias": -20
     },
     {
         "hp": 45,
@@ -9093,7 +10227,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Wurmple",
-        "dex": 265
+        "dex": 265,
+        "totalBaseStats": 195,
+        "specialAttackBias": -25,
+        "specialDefenseBias": -5
     },
     {
         "hp": 95,
@@ -9117,7 +10254,10 @@
         "safariZoneRunRate": 0,
         "color": 1,
         "name": "Wynaut",
-        "dex": 360
+        "dex": 360,
+        "totalBaseStats": 260,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -9141,7 +10281,10 @@
         "safariZoneRunRate": 8,
         "color": 3,
         "name": "Xatu",
-        "dex": 178
+        "dex": 178,
+        "totalBaseStats": 470,
+        "specialAttackBias": 20,
+        "specialDefenseBias": 0
     },
     {
         "hp": 65,
@@ -9165,7 +10308,10 @@
         "safariZoneRunRate": 0,
         "color": 0,
         "name": "Yanma",
-        "dex": 193
+        "dex": 193,
+        "totalBaseStats": 390,
+        "specialAttackBias": 10,
+        "specialDefenseBias": 0
     },
     {
         "hp": 73,
@@ -9189,7 +10335,10 @@
         "safariZoneRunRate": 0,
         "color": 136,
         "name": "Zangoose",
-        "dex": 335
+        "dex": 335,
+        "totalBaseStats": 458,
+        "specialAttackBias": -55,
+        "specialDefenseBias": 0
     },
     {
         "hp": 90,
@@ -9213,7 +10362,10 @@
         "safariZoneRunRate": 0,
         "color": 2,
         "name": "Zapdos",
-        "dex": 145
+        "dex": 145,
+        "totalBaseStats": 600,
+        "specialAttackBias": 30,
+        "specialDefenseBias": 5
     },
     {
         "hp": 38,
@@ -9237,7 +10389,10 @@
         "safariZoneRunRate": 0,
         "color": 5,
         "name": "Zigzagoon",
-        "dex": 263
+        "dex": 263,
+        "totalBaseStats": 240,
+        "specialAttackBias": 0,
+        "specialDefenseBias": 0
     },
     {
         "hp": 40,
@@ -9261,6 +10416,9 @@
         "safariZoneRunRate": 0,
         "color": 6,
         "name": "Zubat",
-        "dex": 41
+        "dex": 41,
+        "totalBaseStats": 245,
+        "specialAttackBias": -15,
+        "specialDefenseBias": 5
     }
 ]

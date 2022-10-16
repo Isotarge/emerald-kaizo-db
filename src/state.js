@@ -8,9 +8,6 @@ import moves from "./moves.json";
 export const pokemonNames = POKEMON.map(p => p.name);
 export const moveNames = moves.map(p => p.name);
 
-// TODO: Precompute this in python to speed up startup time slightly and include it in type checker
-POKEMON.forEach(p => p.totalBaseStats = p.hp + p.attack + p.defense + p.specialAttack + p.specialDefense + p.speed);
-
 // Quick lookup for pokemon by name based on JSON data
 function computePokemonByName() {
     const byName = {};
@@ -94,22 +91,9 @@ export function computeMoveEffectiveness(moveData, user, opponent) {
 
 export { POKEMON as pokemon };
 
-// Compute the base stat total of a given pokemon
-// TODO: Rely on pre-computed python value
-export function getBaseStatTotal(pokemonData) {
-    return (
-        pokemonData.hp +
-        pokemonData.attack +
-        pokemonData.defense +
-        pokemonData.specialAttack +
-        pokemonData.specialDefense +
-        pokemonData.speed
-    );
-}
-
 // Compute the highest base stat total in the database
 export const MAX_TOTAL_BASE_STATS = Object.values(POKEMON)
-    .map(getBaseStatTotal)
+    .map(p => p.totalBaseStats)
     .reduce((a, b) => Math.max(a, b), -Infinity);
 
 // 0.0 - 2.0

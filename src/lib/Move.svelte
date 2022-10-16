@@ -8,11 +8,10 @@
         moveDoesDamage,
     } from "../state.js";
     export let moveName = "Pound";
+    // TODO: Don't pass in userData
     export let user = pokemonByName["Scizor"];
     export let readOnly = false;
     export let score = 0;
-    $: specialAttackBias = user.specialAttack - user.attack;
-    // $: specialDefenseBias = user.specialDefense - user.defense;
     $: moveData = movesByName[moveName];
     $: STAB =
         (user.type1 === moveData.type || user.type2 === moveData.type) &&
@@ -23,7 +22,7 @@
     <td>
         <Type
             whichType={moveData.type}
-            specialDefenseBias={-specialAttackBias}
+            specialDefenseBias={-user.specialAttackBias}
         />
     </td>
     <td>

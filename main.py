@@ -42,6 +42,20 @@ for root, dirs, files in os.walk(directory):
             del pkmnData["unkF"]
             pkmnData["dex"] = pokedexLookup[pkmnData["name"]]
             pkmnData["dex"] = pokedexLookup[pkmnData["name"]]
+            pkmnData["totalBaseStats"] = (
+                pkmnData["hp"]
+                + pkmnData["attack"]
+                + pkmnData["defense"]
+                + pkmnData["specialAttack"]
+                + pkmnData["specialDefense"]
+                + pkmnData["speed"]
+            )
+            pkmnData["specialAttackBias"] = (
+                pkmnData["specialAttack"] - pkmnData["attack"]
+            )
+            pkmnData["specialDefenseBias"] = (
+                pkmnData["specialDefense"] - pkmnData["defense"]
+            )
             pokemon.append(pkmnData)
 
 with open(os.path.join(".", "src", "pkmn.json"), "w") as fjson:
