@@ -102,7 +102,7 @@
     ];
 
     let showAllMoves = false;
-    let justTheArrows = false;
+    let justTheArrows = true;
 </script>
 
 <main>

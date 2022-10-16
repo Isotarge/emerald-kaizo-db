@@ -7,11 +7,13 @@
         pokemonByName,
         moveDoesDamage,
     } from "../state.js";
+
     export let moveName = "Pound";
     // TODO: Don't pass in userData
     export let user = pokemonByName["Scizor"];
     export let readOnly = false;
     export let score = 0;
+
     $: moveData = movesByName[moveName];
     $: STAB =
         (user.type1 === moveData.type || user.type2 === moveData.type) &&

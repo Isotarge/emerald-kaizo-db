@@ -6,22 +6,20 @@
         computeMoveEffectiveness,
     } from "../state";
     import Move from "./Move.svelte";
-    export let yourPokemon = {
-        name: "Scizor",
-    };
-    export let opponent = {
-        name: "Scizor",
-    };
+
+    export let yourPokemon;
+    export let opponent;
     export let showAllMoves;
     export let justTheArrows;
+    export let yourBestEffectiveness = 0;
+    export let opponentBestEffectiveness = 0;
+
     $: yourPokemonData = pokemonByName[yourPokemon.name];
     $: opponentData = pokemonByName[opponent.name];
     $: yourPokemon, opponent, updateEffectiveness();
 
     let yourEffectiveness = [];
-    export let yourBestEffectiveness = 0;
     let opponentEffectiveness = [];
-    export let opponentBestEffectiveness = 0;
     function updateEffectiveness() {
         yourEffectiveness = [];
         opponentEffectiveness = [];

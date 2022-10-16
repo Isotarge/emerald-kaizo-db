@@ -2063,3 +2063,47 @@ def decodeMoveFile(encoded_filename):
                     attackDataRaw = bytes.fromhex(fieldValue)
                     moveInfo["attackData"] = readStruct(attackDataRaw, 0, move_struct)
         return moveInfo
+
+
+def decodeLearnset(encoded_filename):
+    with open(encoded_filename, "r") as fh:
+        byte_read = fh.readlines()
+        learnsetInfo = {
+            "speciesIndex": int(
+                encoded_filename.replace(".ini", "").replace(".\\learnsets\\", "")
+            ),
+        }
+        for line in byte_read:
+            # Fix up their weird formatting
+            splitString = (
+                line.replace("\n", "").replace("\\n", " ").replace("\\x", "").split("=")
+            )
+            if len(splitString) == 2:
+                fieldName = splitString[0]
+                fieldValue = splitString[1]
+                if fieldName == "PokemonName":
+                    learnsetInfo["name"] = fieldValue.title()
+                    if learnsetInfo["speciesIndex"] == 29:
+                        learnsetInfo["name"] = "Nidoran♀"
+                    elif learnsetInfo["speciesIndex"] == 32:
+                        learnsetInfo["name"] = "Nidoran♂"
+                if fieldName == "LevelUpAttacksOriginal":
+                    learnsetRaw = bytes.fromhex(fieldValue)
+                    learnsetInfo["learnsetRaw"] = fieldValue
+                    learnsetInfo["moves"] = []
+                    for i in range(int(len(learnsetRaw) / 2)):
+                        index = i * 2
+                        rawEntry = int.from_bytes(
+                            learnsetRaw[index : index + 2],
+                            byteorder="little",
+                        )
+                        if rawEntry == 0 or rawEntry == 0xFFFF:
+                            break
+
+                        learnsetInfo["moves"].append(
+                            {
+                                "level": rawEntry >> 9,
+                                "move": move_names[rawEntry & 0x01FF],
+                            }
+                        )
+        return learnsetInfo

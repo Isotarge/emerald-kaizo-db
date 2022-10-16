@@ -1,6 +1,6 @@
 import os
 import json
-from encoders import decodePKMNFile, pokedexLookup
+from encoders import decodeLearnset, decodePKMNFile, pokedexLookup
 
 pokemon = []
 
@@ -14,6 +14,16 @@ def formatGenderRatio(genderRatio: int):
         return "Genderless"
     return f"{round(genderRatio / 254 * 100)}% Female"
 
+
+# Learnsets
+learnsets = {}
+
+directory = os.path.join(".", "learnsets")
+for root, dirs, files in os.walk(directory):
+    for file in files:
+        if file.endswith(".ini"):
+            learnsetData = decodeLearnset(os.path.join(".", "learnsets", file))
+            learnsets[learnsetData["name"]] = learnsetData["moves"]
 
 directory = os.path.join(".", "pkmn")
 for root, dirs, files in os.walk(directory):
@@ -56,6 +66,10 @@ for root, dirs, files in os.walk(directory):
             pkmnData["specialDefenseBias"] = (
                 pkmnData["specialDefense"] - pkmnData["defense"]
             )
+            if pkmnData["name"] in learnsets:
+                pkmnData["learnset"] = learnsets[pkmnData["name"]]
+            else:
+                print(f'Warning: No learnset found for pokemon {pkmnData["name"]}')
             pokemon.append(pkmnData)
 
 with open(os.path.join(".", "src", "pkmn.json"), "w") as fjson:
