@@ -1,13 +1,16 @@
 <script>
     import PokemonPanel from "./lib/PokemonPanel.svelte";
     import AutoComplete from "simple-svelte-autocomplete";
-    import { encounterPresets, pokemonByName } from "./state";
+    import {
+        encounterPresets,
+        givePokemonDefaultMoves,
+        pokemonByName,
+    } from "./state";
     import trainerPresets from "./trainers.json";
     import Matchup from "./lib/Matchup.svelte";
 
     // TODO: Party presets
     // TODO: Import pokemon from .sav?
-    // TODO: Add ability to input moveset for pokemon in a panel
     // TODO: Add ability to export and import party
     // Isotarge Mid/Late Game Team
     const partyPokemon = [
@@ -100,6 +103,10 @@
             (preset) => preset.name === selectedOpponentPreset
         ).team,
     ];
+    $: opponentPokemon, recomputeMovesets();
+    function recomputeMovesets() {
+        opponentPokemon.forEach(givePokemonDefaultMoves);
+    }
 
     let showAllMoves = false;
     let justTheArrows = true;

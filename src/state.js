@@ -25,7 +25,31 @@ function computeMovesByName() {
 export const movesByName = computeMovesByName();
 
 export function givePokemonDefaultMoves(pokemon) {
-    // TODO: See GiveBoxMonInitialMoveset for implementation
+    const pokemonData = pokemonByName[pokemon.name];
+    const pokemonLevel = pokemon?.level || pokemon?.maxLevel || 100;
+    if (pokemonData.learnset && !pokemon.moves) {
+        pokemon.moves = [];
+        for (const move of pokemonData.learnset) {
+            if (move.level > pokemonLevel) {
+                break;
+            }
+            if (!pokemon.moves.includes(move.move)) {
+                if (pokemon.moves.length < 4) {
+                    // Happy path, the pokemon doesn't know the move and has an empty slot
+                    pokemon.moves.push(move.move);
+                } else {
+                    // The pokemon doesn't know the move, but doesn't have any free slots
+                    // The game deletes the move in the first slot and teaches the new move in the fourth slot in this case
+                    pokemon.moves = [
+                        pokemon.moves[1],
+                        pokemon.moves[2],
+                        pokemon.moves[3],
+                        move.move,
+                    ];
+                }
+            }
+        }
+    }
 }
 
 export function moveDoesDamage(move) {
