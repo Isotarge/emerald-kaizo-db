@@ -2087,7 +2087,7 @@ def decodeLearnset(encoded_filename):
                         learnsetInfo["name"] = "Nidoran♀"
                     elif learnsetInfo["speciesIndex"] == 32:
                         learnsetInfo["name"] = "Nidoran♂"
-                if fieldName == "LevelUpAttacksOriginal":
+                elif fieldName == "LevelUpAttacksOriginal":
                     learnsetRaw = bytes.fromhex(fieldValue)
                     learnsetInfo["learnsetRaw"] = fieldValue
                     learnsetInfo["moves"] = []
@@ -2106,4 +2106,6 @@ def decodeLearnset(encoded_filename):
                                 "move": move_names[rawEntry & 0x01FF],
                             }
                         )
+                elif fieldName == "TMHMCompatibility":
+                    learnsetInfo["TMHM"] = fieldValue
         return learnsetInfo

@@ -9,27 +9,29 @@
     } from "../state.js";
 
     export let moveName = "Pound";
-    // TODO: Don't pass in userData
-    export let user = pokemonByName["Scizor"];
+    export let user;
     export let readOnly = false;
     export let learnset = false;
-    export let level = 1;
+    export let TMHM = false;
+    export let level = 0;
     export let score = 0;
 
+    $: userData = pokemonByName[user.name];
     $: moveData = movesByName[moveName];
     $: STAB =
-        (user.type1 === moveData.type || user.type2 === moveData.type) &&
+        (userData.type1 === moveData.type ||
+            userData.type2 === moveData.type) &&
         moveDoesDamage(moveData);
 </script>
 
 <tr>
-    {#if learnset}
+    {#if level > 0}
         <td>{level}</td>
     {/if}
     <td>
         <Type
             whichType={moveData.type}
-            specialDefenseBias={-user.specialAttackBias}
+            specialDefenseBias={-userData.specialAttackBias}
         />
     </td>
     <td>
@@ -47,7 +49,7 @@
             />
         {/if}
     </td>
-    {#if !readOnly || learnset}
+    {#if !readOnly || learnset || TMHM}
         <td>
             {#if moveData.power > 1}
                 {moveData.power}

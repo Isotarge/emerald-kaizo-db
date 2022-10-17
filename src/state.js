@@ -8,6 +8,96 @@ import moves from "./moves.json";
 export const pokemonNames = POKEMON.map(p => p.name);
 export const moveNames = moves.map(p => p.name);
 
+const TMHMBitfieldLookup = [
+    "Focus Punch", // TM01
+    "Dragon Claw", // TM02
+    "Water Pulse", // TM03
+    "Calm Mind", // TM04
+    "Roar", // TM05
+    "Toxic", // TM06
+    "Hail", // TM07
+    "Seismic Toss", // TM08
+    "Bullet Seed", // TM09
+    "Hidden Power", // TM10
+    "Sunny Day", // TM11
+    "Taunt", // TM12
+    "Ice Beam", // TM13
+    "Blizzard", // TM14
+    "Hyper Beam", // TM15
+    "Light Screen", // TM16
+    "Protect", // TM17
+    "Rain Dance", // TM18
+    "Giga Drain", // TM19
+    "Safeguard", // TM20
+    "Frustration", // TM21
+    "Solarbeam", // TM22
+    "Iron Tail", // TM23
+    "Thunderbolt", // TM24
+    "Thunder", // TM25
+    "Earthquake", // TM26
+    "Return", // TM27
+    "Dig", // TM28
+    "Psychic", // TM29
+    "Shadow Ball", // TM30
+    "Brick Break", // TM31
+    "Draco Meteor", // TM32
+    "Reflect", // TM33
+    "Shock Wave", // TM34
+    "Flamethrower", // TM35
+    "Sludge Bomb", // TM36
+    "Sandstorm", // TM37
+    "Fire Blast", // TM38
+    "Rock Tomb", // TM39
+    "Aerial Ace", // TM40
+    "Torment", // TM41
+    "Facade", // TM42
+    "Secret Power", // TM43
+    "Rest", // TM44
+    "Attract", // TM45
+    "Thief", // TM46
+    "Steel Wing", // TM47
+    "Skill Swap", // TM48
+    "Snatch", // TM49
+    "Overheat", // TM50
+    "Cut", // HM01
+    "Fly", // HM02
+    "Surf", // HM03
+    "Strength", // HM04
+    "Flash", // HM05
+    "Rock Smash", // HM06
+    "Waterfall", // HM07
+    "Dive", // HM08
+];
+
+function hexToUnsignedInt(hex) {
+    let intArray = [];
+    for (let n = 0; n < hex.length; n += 2) {
+        intArray.push(parseInt(hex.substr(n, 2), 16));
+    }
+    return intArray;
+}
+
+// This could be done in Python, but I decided to do it when the user loads the page
+// otherwise pkmn.json would be bloated by many copies of the move name strings
+function getTMHMLearnset(pokemon) {
+    if (!pokemon.TMHM || pokemon.TMHM === "0000000000000000") {
+        pokemon.TMHM = [];
+        return;
+    }
+
+    const rawBytes = hexToUnsignedInt(pokemon.TMHM);
+
+    pokemon.TMHM = [];
+    for (let byte = 0; byte < 8; byte++) {
+        for (let bit = 0; bit < 8; bit++) {
+            if (rawBytes[byte] & (1 << bit)) {
+                pokemon.TMHM.push(TMHMBitfieldLookup[byte * 8 + bit]);
+            }
+        }
+    }
+}
+POKEMON.forEach(getTMHMLearnset);
+
 // Quick lookup for pokemon by name based on JSON data
 function computePokemonByName() {
     const byName = {};

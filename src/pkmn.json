@@ -25,6 +25,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": 85,
         "specialDefenseBias": 40,
+        "TMHM": "A98E5B3403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -58,6 +59,7 @@
         "totalBaseStats": 465,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "6C7ED325B63FE500",
         "learnset": [
             {
                 "level": 1,
@@ -131,6 +133,7 @@
         "totalBaseStats": 515,
         "specialAttackBias": -45,
         "specialDefenseBias": 10,
+        "TMHM": "324E5306F47FA800",
         "learnset": [
             {
                 "level": 1,
@@ -192,6 +195,7 @@
         "totalBaseStats": 530,
         "specialAttackBias": -50,
         "specialDefenseBias": -120,
+        "TMHM": "B77EF34FF61EB400",
         "learnset": [
             {
                 "level": 1,
@@ -281,6 +285,7 @@
         "totalBaseStats": 360,
         "specialAttackBias": -30,
         "specialDefenseBias": 0,
+        "TMHM": "A50EF36D823EA500",
         "learnset": [
             {
                 "level": 1,
@@ -350,6 +355,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": 85,
         "specialDefenseBias": 50,
+        "TMHM": "A1CE5B3403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -427,6 +433,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "32567B86A47E8800",
         "learnset": [
             {
                 "level": 1,
@@ -516,6 +523,7 @@
         "totalBaseStats": 510,
         "specialAttackBias": 40,
         "specialDefenseBias": 5,
+        "TMHM": "A1C2D345021EE000",
         "learnset": [
             {
                 "level": 1,
@@ -585,6 +593,7 @@
         "totalBaseStats": 355,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "2406114CD01E8400",
         "learnset": [
             {
                 "level": 1,
@@ -654,6 +663,7 @@
         "totalBaseStats": 448,
         "specialAttackBias": -30,
         "specialDefenseBias": 10,
+        "TMHM": "2042550E083F2100",
         "learnset": [
             {
                 "level": 1,
@@ -735,6 +745,7 @@
         "totalBaseStats": 555,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "3046510CA43EA200",
         "learnset": [
             {
                 "level": 1,
@@ -784,6 +795,7 @@
         "totalBaseStats": 400,
         "specialAttackBias": -30,
         "specialDefenseBias": 0,
+        "TMHM": "2046351C083E4000",
         "learnset": [
             {
                 "level": 1,
@@ -861,6 +873,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": -55,
         "specialDefenseBias": -20,
+        "TMHM": "A446514ED01EA400",
         "learnset": [
             {
                 "level": 1,
@@ -942,6 +955,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": -30,
         "specialDefenseBias": -60,
+        "TMHM": "3406530ED21EA400",
         "learnset": [
             {
                 "level": 1,
@@ -1019,6 +1033,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 30,
         "specialDefenseBias": 25,
+        "TMHM": "74761304914E8800",
         "learnset": [
             {
                 "level": 1,
@@ -1084,6 +1099,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "E572534C001EB003",
         "learnset": [
             {
                 "level": 1,
@@ -1161,6 +1177,7 @@
         "totalBaseStats": 190,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "64325304001E1001",
         "learnset": [
             {
                 "level": 1,
@@ -1214,6 +1231,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -35,
         "specialDefenseBias": -30,
+        "TMHM": "320613C4E41EA400",
         "learnset": [
             {
                 "level": 1,
@@ -1287,6 +1305,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "2096333E518E4000",
         "learnset": [
             {
                 "level": 1,
@@ -1360,6 +1379,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -32,
         "specialDefenseBias": -2,
+        "TMHM": "284E933502BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -1441,6 +1461,7 @@
         "totalBaseStats": 288,
         "specialAttackBias": -2,
         "specialDefenseBias": -2,
+        "TMHM": "64321306501E1003",
         "learnset": [
             {
                 "level": 1,
@@ -1514,6 +1535,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 1,
         "specialDefenseBias": 0,
+        "TMHM": "20877D04011EE400",
         "learnset": [
             {
                 "level": 1,
@@ -1591,6 +1613,7 @@
         "totalBaseStats": 395,
         "specialAttackBias": 30,
         "specialDefenseBias": 0,
+        "TMHM": "20463D34803E4000",
         "learnset": [
             {
                 "level": 1,
@@ -1660,6 +1683,7 @@
         "totalBaseStats": 395,
         "specialAttackBias": -45,
         "specialDefenseBias": 40,
+        "TMHM": "20423544883E8400",
         "learnset": [
             {
                 "level": 1,
@@ -1725,6 +1749,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -20,
         "specialDefenseBias": -20,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -1758,6 +1783,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 10,
         "specialDefenseBias": 5,
+        "TMHM": "20473D04081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -1811,6 +1837,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -5,
         "specialDefenseBias": -5,
+        "TMHM": "20073504083E4400",
         "learnset": [
             {
                 "level": 1,
@@ -1880,6 +1907,7 @@
         "totalBaseStats": 530,
         "specialAttackBias": 2,
         "specialDefenseBias": 5,
+        "TMHM": "B572514E001EB003",
         "learnset": [
             {
                 "level": 1,
@@ -1965,6 +1993,7 @@
         "totalBaseStats": 530,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "B146114EE41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -2058,6 +2087,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": 70,
         "specialDefenseBias": 80,
+        "TMHM": "E5F2F9777696E100",
         "learnset": [
             {
                 "level": 1,
@@ -2135,6 +2165,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": -70,
         "specialDefenseBias": -20,
+        "TMHM": "A1477D44081EE500",
         "learnset": [
             {
                 "level": 1,
@@ -2220,6 +2251,7 @@
         "totalBaseStats": 318,
         "specialAttackBias": 16,
         "specialDefenseBias": 16,
+        "TMHM": "20033504081EE400",
         "learnset": [
             {
                 "level": 1,
@@ -2293,6 +2325,7 @@
         "totalBaseStats": 395,
         "specialAttackBias": 45,
         "specialDefenseBias": 30,
+        "TMHM": "20423D3480BE4000",
         "learnset": [
             {
                 "level": 1,
@@ -2366,6 +2399,7 @@
         "totalBaseStats": 335,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A1073544101E4400",
         "learnset": [
             {
                 "level": 1,
@@ -2447,6 +2481,7 @@
         "totalBaseStats": 475,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A1473544101E6400",
         "learnset": [
             {
                 "level": 1,
@@ -2536,6 +2571,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": 5,
         "specialDefenseBias": 5,
+        "TMHM": "3046110E741EA200",
         "learnset": [
             {
                 "level": 1,
@@ -2617,6 +2653,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "643A1304003F1003",
         "learnset": [
             {
                 "level": 1,
@@ -2686,6 +2723,7 @@
         "totalBaseStats": 205,
         "specialAttackBias": -10,
         "specialDefenseBias": -30,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -2723,6 +2761,7 @@
         "totalBaseStats": 545,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "6436B325363E4000",
         "learnset": [
             {
                 "level": 1,
@@ -2784,6 +2823,7 @@
         "totalBaseStats": 195,
         "specialAttackBias": -10,
         "specialDefenseBias": -15,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -2821,6 +2861,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "2CC63F3493864400",
         "learnset": [
             {
                 "level": 1,
@@ -2886,6 +2927,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": 30,
         "specialDefenseBias": 80,
+        "TMHM": "EDF6FB777696E100",
         "learnset": [
             {
                 "level": 1,
@@ -2963,6 +3005,7 @@
         "totalBaseStats": 534,
         "specialAttackBias": 25,
         "specialDefenseBias": 7,
+        "TMHM": "B342514EA45EAE00",
         "learnset": [
             {
                 "level": 1,
@@ -3044,6 +3087,7 @@
         "totalBaseStats": 309,
         "specialAttackBias": 8,
         "specialDefenseBias": 7,
+        "TMHM": "A302514CA41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -3113,6 +3157,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 16,
         "specialDefenseBias": 7,
+        "TMHM": "A302514CA41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -3186,6 +3231,7 @@
         "totalBaseStats": 318,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "20877D04011E4400",
         "learnset": [
             {
                 "level": 1,
@@ -3255,6 +3301,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": 45,
         "specialDefenseBias": 10,
+        "TMHM": "288E1B34039F4100",
         "learnset": [
             {
                 "level": 1,
@@ -3332,6 +3379,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": 18,
         "specialDefenseBias": 18,
+        "TMHM": "64329305021E5003",
         "learnset": [
             {
                 "level": 1,
@@ -3401,6 +3449,7 @@
         "totalBaseStats": 345,
         "specialAttackBias": 10,
         "specialDefenseBias": -30,
+        "TMHM": "64321304001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -3446,6 +3495,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "20D6333E518EE000",
         "learnset": [
             {
                 "level": 1,
@@ -3535,6 +3585,7 @@
         "totalBaseStats": 483,
         "specialAttackBias": 25,
         "specialDefenseBias": 17,
+        "TMHM": "A5F2F97D271E6100",
         "learnset": [
             {
                 "level": 1,
@@ -3580,6 +3631,7 @@
         "totalBaseStats": 323,
         "specialAttackBias": 15,
         "specialDefenseBias": 17,
+        "TMHM": "A5B2F97D271E6100",
         "learnset": [
             {
                 "level": 1,
@@ -3661,6 +3713,7 @@
         "totalBaseStats": 218,
         "specialAttackBias": 20,
         "specialDefenseBias": 27,
+        "TMHM": "A4867B3C271E4000",
         "learnset": [
             {
                 "level": 1,
@@ -3710,6 +3763,7 @@
         "totalBaseStats": 550,
         "specialAttackBias": -10,
         "specialDefenseBias": -110,
+        "TMHM": "64721304001F1002",
         "learnset": [
             {
                 "level": 1,
@@ -3763,6 +3817,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A106114CE41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -3848,6 +3903,7 @@
         "totalBaseStats": 308,
         "specialAttackBias": -30,
         "specialDefenseBias": -30,
+        "TMHM": "643A134CC81EB401",
         "learnset": [
             {
                 "level": 1,
@@ -3921,6 +3977,7 @@
         "totalBaseStats": 410,
         "specialAttackBias": 10,
         "specialDefenseBias": 0,
+        "TMHM": "6CB61B3E511EB000",
         "learnset": [
             {
                 "level": 1,
@@ -3990,6 +4047,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": 0,
         "specialDefenseBias": 10,
+        "TMHM": "20473506581EA000",
         "learnset": [
             {
                 "level": 1,
@@ -4071,6 +4129,7 @@
         "totalBaseStats": 468,
         "specialAttackBias": -30,
         "specialDefenseBias": -30,
+        "TMHM": "647A134CC81EB403",
         "learnset": [
             {
                 "level": 1,
@@ -4156,6 +4215,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": -20,
         "specialDefenseBias": 0,
+        "TMHM": "204E1724887F0900",
         "learnset": [
             {
                 "level": 1,
@@ -4237,6 +4297,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": -21,
         "specialDefenseBias": -17,
+        "TMHM": "F532534C801EB403",
         "learnset": [
             {
                 "level": 1,
@@ -4306,6 +4367,7 @@
         "totalBaseStats": 320,
         "specialAttackBias": -10,
         "specialDefenseBias": -45,
+        "TMHM": "A136514EF43EA000",
         "learnset": [
             {
                 "level": 1,
@@ -4383,6 +4445,7 @@
         "totalBaseStats": 309,
         "specialAttackBias": 8,
         "specialDefenseBias": 7,
+        "TMHM": "2006110CA41E0600",
         "learnset": [
             {
                 "level": 1,
@@ -4444,6 +4507,7 @@
         "totalBaseStats": 400,
         "specialAttackBias": -10,
         "specialDefenseBias": -10,
+        "TMHM": "2C76FB2D021EE000",
         "learnset": [
             {
                 "level": 1,
@@ -4489,6 +4553,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": 10,
         "specialDefenseBias": 0,
+        "TMHM": "E5321304803E0800",
         "learnset": [
             {
                 "level": 1,
@@ -4522,6 +4587,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "ADDEBB75C38FE500",
         "learnset": [
             {
                 "level": 1,
@@ -4599,6 +4665,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": 25,
         "specialDefenseBias": 15,
+        "TMHM": "64721B04003E1003",
         "learnset": [
             {
                 "level": 1,
@@ -4676,6 +4743,7 @@
         "totalBaseStats": 265,
         "specialAttackBias": -20,
         "specialDefenseBias": 20,
+        "TMHM": "2006110EC83E8400",
         "learnset": [
             {
                 "level": 1,
@@ -4741,6 +4809,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -4774,6 +4843,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": -50,
         "specialDefenseBias": -10,
+        "TMHM": "204E1104807F0800",
         "learnset": [
             {
                 "level": 1,
@@ -4847,6 +4917,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": -50,
         "specialDefenseBias": -10,
+        "TMHM": "20061104807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -4912,6 +4983,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -60,
         "specialDefenseBias": -60,
+        "TMHM": "30465106501EA000",
         "learnset": [
             {
                 "level": 1,
@@ -4977,6 +5049,7 @@
         "totalBaseStats": 420,
         "specialAttackBias": -14,
         "specialDefenseBias": 5,
+        "TMHM": "6476DB85261E1001",
         "learnset": [
             {
                 "level": 1,
@@ -5054,6 +5127,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": -34,
         "specialDefenseBias": 5,
+        "TMHM": "7776DBC7F65EBC03",
         "learnset": [
             {
                 "level": 1,
@@ -5135,6 +5209,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -14,
         "specialDefenseBias": 5,
+        "TMHM": "6476DB85261E1001",
         "learnset": [
             {
                 "level": 1,
@@ -5204,6 +5279,7 @@
         "totalBaseStats": 328,
         "specialAttackBias": -5,
         "specialDefenseBias": 45,
+        "TMHM": "A98E1B7401BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -5273,6 +5349,7 @@
         "totalBaseStats": 425,
         "specialAttackBias": -50,
         "specialDefenseBias": 20,
+        "TMHM": "2046110EC83E8400",
         "learnset": [
             {
                 "level": 1,
@@ -5350,6 +5427,7 @@
         "totalBaseStats": 415,
         "specialAttackBias": -5,
         "specialDefenseBias": -5,
+        "TMHM": "2C36F32F663EA000",
         "learnset": [
             {
                 "level": 1,
@@ -5415,6 +5493,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": -40,
         "specialDefenseBias": 0,
+        "TMHM": "A97E133640BFE100",
         "learnset": [
             {
                 "level": 1,
@@ -5500,6 +5579,7 @@
         "totalBaseStats": 295,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "283E133400BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -5573,6 +5653,7 @@
         "totalBaseStats": 385,
         "specialAttackBias": 0,
         "specialDefenseBias": 20,
+        "TMHM": "20C63534883E4000",
         "learnset": [
             {
                 "level": 1,
@@ -5642,6 +5723,7 @@
         "totalBaseStats": 325,
         "specialAttackBias": -10,
         "specialDefenseBias": 15,
+        "TMHM": "2006532C001E0000",
         "learnset": [
             {
                 "level": 1,
@@ -5707,6 +5789,7 @@
         "totalBaseStats": 288,
         "specialAttackBias": -20,
         "specialDefenseBias": 10,
+        "TMHM": "2002550E083F2100",
         "learnset": [
             {
                 "level": 1,
@@ -5780,6 +5863,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 12,
         "specialDefenseBias": 28,
+        "TMHM": "A1C2D355023EE000",
         "learnset": [
             {
                 "level": 1,
@@ -5845,6 +5929,7 @@
         "totalBaseStats": 295,
         "specialAttackBias": 20,
         "specialDefenseBias": 0,
+        "TMHM": "3002D105063E6200",
         "learnset": [
             {
                 "level": 1,
@@ -5918,6 +6003,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 30,
         "specialDefenseBias": 10,
+        "TMHM": "20CA9305022F4000",
         "learnset": [
             {
                 "level": 1,
@@ -5999,6 +6085,7 @@
         "totalBaseStats": 360,
         "specialAttackBias": 2,
         "specialDefenseBias": 18,
+        "TMHM": "A1829355023EC000",
         "learnset": [
             {
                 "level": 1,
@@ -6060,6 +6147,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": -5,
         "specialDefenseBias": -10,
+        "TMHM": "3846730C350EE400",
         "learnset": [
             {
                 "level": 1,
@@ -6129,6 +6217,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": 65,
         "specialDefenseBias": 35,
+        "TMHM": "28C6533C019E4400",
         "learnset": [
             {
                 "level": 1,
@@ -6202,6 +6291,7 @@
         "totalBaseStats": 325,
         "specialAttackBias": 20,
         "specialDefenseBias": -35,
+        "TMHM": "2087351409BE6000",
         "learnset": [
             {
                 "level": 1,
@@ -6271,6 +6361,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": 30,
         "specialDefenseBias": 0,
+        "TMHM": "20C7351409BE6000",
         "learnset": [
             {
                 "level": 1,
@@ -6320,6 +6411,7 @@
         "totalBaseStats": 480,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "B47E3366261FA200",
         "learnset": [
             {
                 "level": 1,
@@ -6409,6 +6501,7 @@
         "totalBaseStats": 377,
         "specialAttackBias": -32,
         "specialDefenseBias": 7,
+        "TMHM": "20065104807E0C00",
         "learnset": [
             {
                 "level": 1,
@@ -6478,6 +6571,7 @@
         "totalBaseStats": 442,
         "specialAttackBias": -29,
         "specialDefenseBias": -4,
+        "TMHM": "20421104807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -6547,6 +6641,7 @@
         "totalBaseStats": 200,
         "specialAttackBias": -5,
         "specialDefenseBias": 35,
+        "TMHM": "64321304001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -6588,6 +6683,7 @@
         "totalBaseStats": 530,
         "specialAttackBias": -26,
         "specialDefenseBias": -17,
+        "TMHM": "F772534E801EB403",
         "learnset": [
             {
                 "level": 1,
@@ -6661,6 +6757,7 @@
         "totalBaseStats": 365,
         "specialAttackBias": 25,
         "specialDefenseBias": 5,
+        "TMHM": "A182D345021EE000",
         "learnset": [
             {
                 "level": 1,
@@ -6722,6 +6819,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": -35,
         "specialDefenseBias": 50,
+        "TMHM": "3046532C241E0200",
         "learnset": [
             {
                 "level": 1,
@@ -6795,6 +6893,7 @@
         "totalBaseStats": 520,
         "specialAttackBias": -20,
         "specialDefenseBias": 0,
+        "TMHM": "2246758E745EA800",
         "learnset": [
             {
                 "level": 1,
@@ -6872,6 +6971,7 @@
         "totalBaseStats": 465,
         "specialAttackBias": -30,
         "specialDefenseBias": -80,
+        "TMHM": "20C6350E111EA000",
         "learnset": [
             {
                 "level": 1,
@@ -6941,6 +7041,7 @@
         "totalBaseStats": 415,
         "specialAttackBias": -31,
         "specialDefenseBias": -9,
+        "TMHM": "2576F36D063EB400",
         "learnset": [
             {
                 "level": 1,
@@ -7014,6 +7115,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": 60,
         "specialDefenseBias": 40,
+        "TMHM": "28CE9B3403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -7095,6 +7197,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": 65,
         "specialDefenseBias": 5,
+        "TMHM": "200E973408BF0100",
         "learnset": [
             {
                 "level": 1,
@@ -7160,6 +7263,7 @@
         "totalBaseStats": 510,
         "specialAttackBias": 55,
         "specialDefenseBias": 15,
+        "TMHM": "A14E977508BFA100",
         "learnset": [
             {
                 "level": 1,
@@ -7233,6 +7337,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -50,
         "specialDefenseBias": -70,
+        "TMHM": "A106114E741EA000",
         "learnset": [
             {
                 "level": 1,
@@ -7306,6 +7411,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": 10,
         "specialDefenseBias": 0,
+        "TMHM": "2886D33703BEE000",
         "learnset": [
             {
                 "level": 1,
@@ -7375,6 +7481,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "64FA1B26001F4000",
         "learnset": [
             {
                 "level": 1,
@@ -7460,6 +7567,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": -40,
         "specialDefenseBias": -40,
+        "TMHM": "2006530ED87EA400",
         "learnset": [
             {
                 "level": 1,
@@ -7521,6 +7629,7 @@
         "totalBaseStats": 395,
         "specialAttackBias": 20,
         "specialDefenseBias": 5,
+        "TMHM": "20033504081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -7590,6 +7699,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -15,
         "specialDefenseBias": 5,
+        "TMHM": "204A1524887F0100",
         "learnset": [
             {
                 "level": 1,
@@ -7671,6 +7781,7 @@
         "totalBaseStats": 320,
         "specialAttackBias": -32,
         "specialDefenseBias": -10,
+        "TMHM": "64321304001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -7740,6 +7851,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": 13,
         "specialDefenseBias": 2,
+        "TMHM": "E572534C801EF003",
         "learnset": [
             {
                 "level": 1,
@@ -7813,6 +7925,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": -65,
         "specialDefenseBias": -65,
+        "TMHM": "B146114E741EA000",
         "learnset": [
             {
                 "level": 1,
@@ -7894,6 +8007,7 @@
         "totalBaseStats": 485,
         "specialAttackBias": 30,
         "specialDefenseBias": -30,
+        "TMHM": "64721B34001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -7955,6 +8069,7 @@
         "totalBaseStats": 450,
         "specialAttackBias": -60,
         "specialDefenseBias": -15,
+        "TMHM": "354EF36F6E3FA200",
         "learnset": [
             {
                 "level": 1,
@@ -8024,6 +8139,7 @@
         "totalBaseStats": 390,
         "specialAttackBias": -50,
         "specialDefenseBias": -70,
+        "TMHM": "A106114E741EA000",
         "learnset": [
             {
                 "level": 1,
@@ -8105,6 +8221,7 @@
         "totalBaseStats": 325,
         "specialAttackBias": -40,
         "specialDefenseBias": 0,
+        "TMHM": "200E970D6E3F0000",
         "learnset": [
             {
                 "level": 1,
@@ -8174,6 +8291,7 @@
         "totalBaseStats": 670,
         "specialAttackBias": -50,
         "specialDefenseBias": -50,
+        "TMHM": "B246F94FF60EA600",
         "learnset": [
             {
                 "level": 1,
@@ -8247,6 +8365,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 20,
         "specialDefenseBias": 20,
+        "TMHM": "A1077D4CC01EE400",
         "learnset": [
             {
                 "level": 1,
@@ -8332,6 +8451,7 @@
         "totalBaseStats": 350,
         "specialAttackBias": 0,
         "specialDefenseBias": 5,
+        "TMHM": "3006510CA43EA200",
         "learnset": [
             {
                 "level": 1,
@@ -8401,6 +8521,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": 45,
         "specialDefenseBias": 45,
+        "TMHM": "A9CE533403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -8486,6 +8607,7 @@
         "totalBaseStats": 302,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "241737240A1EA100",
         "learnset": [
             {
                 "level": 1,
@@ -8559,6 +8681,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": -65,
         "specialDefenseBias": 21,
+        "TMHM": "747A9307341FB003",
         "learnset": [
             {
                 "level": 1,
@@ -8624,6 +8747,7 @@
         "totalBaseStats": 474,
         "specialAttackBias": -80,
         "specialDefenseBias": 0,
+        "TMHM": "A146134E401EB000",
         "learnset": [
             {
                 "level": 1,
@@ -8713,6 +8837,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 65,
         "specialDefenseBias": 10,
+        "TMHM": "200E973408BF0100",
         "learnset": [
             {
                 "level": 1,
@@ -8786,6 +8911,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -85,
         "specialDefenseBias": 20,
+        "TMHM": "2146134E403EA400",
         "learnset": [
             {
                 "level": 1,
@@ -8855,6 +8981,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -70,
         "specialDefenseBias": 31,
+        "TMHM": "A1061346403EA000",
         "learnset": [
             {
                 "level": 1,
@@ -8932,6 +9059,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -85,
         "specialDefenseBias": 57,
+        "TMHM": "A1061346403EA000",
         "learnset": [
             {
                 "level": 1,
@@ -9013,6 +9141,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -60,
         "specialDefenseBias": 15,
+        "TMHM": "A006134E103EA000",
         "learnset": [
             {
                 "level": 1,
@@ -9086,6 +9215,7 @@
         "totalBaseStats": 680,
         "specialAttackBias": -20,
         "specialDefenseBias": 64,
+        "TMHM": "30C2BF37B746EA00",
         "learnset": [
             {
                 "level": 1,
@@ -9155,6 +9285,7 @@
         "totalBaseStats": 262,
         "specialAttackBias": 6,
         "specialDefenseBias": 26,
+        "TMHM": "20061334817E4800",
         "learnset": [
             {
                 "level": 1,
@@ -9220,6 +9351,7 @@
         "totalBaseStats": 250,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "20073504801E4000",
         "learnset": [
             {
                 "level": 1,
@@ -9289,6 +9421,7 @@
         "totalBaseStats": 295,
         "specialAttackBias": 30,
         "specialDefenseBias": -45,
+        "TMHM": "64321304001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -9350,6 +9483,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": 40,
         "specialDefenseBias": 30,
+        "TMHM": "304E71242C3FA300",
         "learnset": [
             {
                 "level": 1,
@@ -9423,6 +9557,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": 20,
         "specialDefenseBias": 20,
+        "TMHM": "300E71242C3F8300",
         "learnset": [
             {
                 "level": 1,
@@ -9492,6 +9627,7 @@
         "totalBaseStats": 485,
         "specialAttackBias": -10,
         "specialDefenseBias": -30,
+        "TMHM": "64721304401E1103",
         "learnset": [
             {
                 "level": 1,
@@ -9553,6 +9689,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": 42,
         "specialDefenseBias": 45,
+        "TMHM": "A9CE1B7401BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -9630,6 +9767,7 @@
         "totalBaseStats": 210,
         "specialAttackBias": 10,
         "specialDefenseBias": 5,
+        "TMHM": "A4863B3C271E4000",
         "learnset": [
             {
                 "level": 1,
@@ -9679,6 +9817,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": 26,
         "specialDefenseBias": 10,
+        "TMHM": "A586B765823E4000",
         "learnset": [
             {
                 "level": 1,
@@ -9748,6 +9887,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 18,
         "specialDefenseBias": 17,
+        "TMHM": "20033504081EE400",
         "learnset": [
             {
                 "level": 1,
@@ -9829,6 +9969,7 @@
         "totalBaseStats": 270,
         "specialAttackBias": 0,
         "specialDefenseBias": 5,
+        "TMHM": "A5B2B97D271E6100",
         "learnset": [
             {
                 "level": 1,
@@ -9902,6 +10043,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "2CC69B35938E4000",
         "learnset": [
             {
                 "level": 1,
@@ -9979,6 +10121,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": 45,
         "specialDefenseBias": 35,
+        "TMHM": "3046D32D021E4000",
         "learnset": [
             {
                 "level": 1,
@@ -10052,6 +10195,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": 0,
         "specialDefenseBias": 25,
+        "TMHM": "20473504801E4000",
         "learnset": [
             {
                 "level": 1,
@@ -10133,6 +10277,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": 65,
         "specialDefenseBias": 60,
+        "TMHM": "EDFA137401BF4000",
         "learnset": [
             {
                 "level": 1,
@@ -10214,6 +10359,7 @@
         "totalBaseStats": 355,
         "specialAttackBias": -25,
         "specialDefenseBias": -45,
+        "TMHM": "6432170CD03E9001",
         "learnset": [
             {
                 "level": 1,
@@ -10283,6 +10429,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": -50,
         "specialDefenseBias": -35,
+        "TMHM": "6472174CD03E9403",
         "learnset": [
             {
                 "level": 1,
@@ -10360,6 +10507,7 @@
         "totalBaseStats": 400,
         "specialAttackBias": 85,
         "specialDefenseBias": 40,
+        "TMHM": "A18E5B3403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -10437,6 +10585,7 @@
         "totalBaseStats": 205,
         "specialAttackBias": 0,
         "specialDefenseBias": -25,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -10474,6 +10623,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "F576F36FF63EB400",
         "learnset": [
             {
                 "level": 1,
@@ -10543,6 +10693,7 @@
         "totalBaseStats": 440,
         "specialAttackBias": -30,
         "specialDefenseBias": 50,
+        "TMHM": "A536F36DE6BEE500",
         "learnset": [
             {
                 "level": 1,
@@ -10624,6 +10775,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "64721384001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -10697,6 +10849,7 @@
         "totalBaseStats": 475,
         "specialAttackBias": -80,
         "specialDefenseBias": -65,
+        "TMHM": "6472130C403EB402",
         "learnset": [
             {
                 "level": 1,
@@ -10770,6 +10923,7 @@
         "totalBaseStats": 278,
         "specialAttackBias": 30,
         "specialDefenseBias": 20,
+        "TMHM": "288E9B3403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -10851,6 +11005,7 @@
         "totalBaseStats": 340,
         "specialAttackBias": -5,
         "specialDefenseBias": -50,
+        "TMHM": "200E93252E3F4000",
         "learnset": [
             {
                 "level": 1,
@@ -10920,6 +11075,7 @@
         "totalBaseStats": 325,
         "specialAttackBias": -80,
         "specialDefenseBias": -65,
+        "TMHM": "6432130C403EB402",
         "learnset": [
             {
                 "level": 1,
@@ -10985,6 +11141,7 @@
         "totalBaseStats": 670,
         "specialAttackBias": 50,
         "specialDefenseBias": 50,
+        "TMHM": "7C729B47420EB003",
         "learnset": [
             {
                 "level": 1,
@@ -11058,6 +11215,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": -40,
         "specialDefenseBias": -90,
+        "TMHM": "3406530ED21EA400",
         "learnset": [
             {
                 "level": 1,
@@ -11147,6 +11305,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": 26,
         "specialDefenseBias": 10,
+        "TMHM": "64729305021E5003",
         "learnset": [
             {
                 "level": 1,
@@ -11220,6 +11379,7 @@
         "totalBaseStats": 555,
         "specialAttackBias": 10,
         "specialDefenseBias": 25,
+        "TMHM": "7472DB15021EB003",
         "learnset": [
             {
                 "level": 1,
@@ -11297,6 +11457,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -19,
         "specialDefenseBias": 0,
+        "TMHM": "204E134E101F8000",
         "learnset": [
             {
                 "level": 1,
@@ -11366,6 +11527,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 30,
         "specialDefenseBias": 40,
+        "TMHM": "3ED6BBB7935E5C03",
         "learnset": [
             {
                 "level": 1,
@@ -11439,6 +11601,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 40,
         "specialDefenseBias": 30,
+        "TMHM": "3ED6BBB7935E5C03",
         "learnset": [
             {
                 "level": 1,
@@ -11512,6 +11675,7 @@
         "totalBaseStats": 390,
         "specialAttackBias": 20,
         "specialDefenseBias": 60,
+        "TMHM": "21C63D4C813E4000",
         "learnset": [
             {
                 "level": 1,
@@ -11585,6 +11749,7 @@
         "totalBaseStats": 265,
         "specialAttackBias": 20,
         "specialDefenseBias": 50,
+        "TMHM": "21863D4C813E4000",
         "learnset": [
             {
                 "level": 1,
@@ -11654,6 +11819,7 @@
         "totalBaseStats": 385,
         "specialAttackBias": 5,
         "specialDefenseBias": 0,
+        "TMHM": "A576F36F763EB400",
         "learnset": [
             {
                 "level": 1,
@@ -11723,6 +11889,7 @@
         "totalBaseStats": 355,
         "specialAttackBias": 20,
         "specialDefenseBias": 10,
+        "TMHM": "20073504181E0000",
         "learnset": [
             {
                 "level": 1,
@@ -11792,6 +11959,7 @@
         "totalBaseStats": 420,
         "specialAttackBias": -20,
         "specialDefenseBias": 0,
+        "TMHM": "3476D32D023EB400",
         "learnset": [
             {
                 "level": 1,
@@ -11877,6 +12045,7 @@
         "totalBaseStats": 340,
         "specialAttackBias": 10,
         "specialDefenseBias": 20,
+        "TMHM": "64373744003EF003",
         "learnset": [
             {
                 "level": 1,
@@ -11946,6 +12115,7 @@
         "totalBaseStats": 220,
         "specialAttackBias": 10,
         "specialDefenseBias": 20,
+        "TMHM": "64373704003E5000",
         "learnset": [
             {
                 "level": 1,
@@ -12003,6 +12173,7 @@
         "totalBaseStats": 360,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "B43E3366261FA200",
         "learnset": [
             {
                 "level": 1,
@@ -12088,6 +12259,7 @@
         "totalBaseStats": 480,
         "specialAttackBias": 20,
         "specialDefenseBias": 30,
+        "TMHM": "A5733544003EF003",
         "learnset": [
             {
                 "level": 1,
@@ -12133,6 +12305,7 @@
         "totalBaseStats": 680,
         "specialAttackBias": 0,
         "specialDefenseBias": 24,
+        "TMHM": "74F6DF3793C6B803",
         "learnset": [
             {
                 "level": 1,
@@ -12202,6 +12375,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": 40,
         "specialDefenseBias": 20,
+        "TMHM": "28D21B36518E4000",
         "learnset": [
             {
                 "level": 1,
@@ -12271,6 +12445,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": 10,
         "specialDefenseBias": 10,
+        "TMHM": "64321B04001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -12336,6 +12511,7 @@
         "totalBaseStats": 505,
         "specialAttackBias": -65,
         "specialDefenseBias": 5,
+        "TMHM": "A146134E643EA000",
         "learnset": [
             {
                 "level": 1,
@@ -12417,6 +12593,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": -50,
         "specialDefenseBias": -10,
+        "TMHM": "A106134E643EA000",
         "learnset": [
             {
                 "level": 1,
@@ -12498,6 +12675,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": -45,
         "specialDefenseBias": -15,
+        "TMHM": "A106134E643EA000",
         "learnset": [
             {
                 "level": 1,
@@ -12575,6 +12753,7 @@
         "totalBaseStats": 365,
         "specialAttackBias": -5,
         "specialDefenseBias": 18,
+        "TMHM": "A1065154243E8000",
         "learnset": [
             {
                 "level": 1,
@@ -12640,6 +12819,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": 40,
         "specialDefenseBias": -40,
+        "TMHM": "20C61106751EA200",
         "learnset": [
             {
                 "level": 1,
@@ -12713,6 +12893,7 @@
         "totalBaseStats": 200,
         "specialAttackBias": 5,
         "specialDefenseBias": -35,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -12754,6 +12935,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": 5,
         "specialDefenseBias": 28,
+        "TMHM": "A1465154243EA000",
         "learnset": [
             {
                 "level": 1,
@@ -12831,6 +13013,7 @@
         "totalBaseStats": 325,
         "specialAttackBias": 60,
         "specialDefenseBias": -15,
+        "TMHM": "20069305030E4000",
         "learnset": [
             {
                 "level": 1,
@@ -12904,6 +13087,7 @@
         "totalBaseStats": 465,
         "specialAttackBias": 60,
         "specialDefenseBias": -25,
+        "TMHM": "20469305030E4000",
         "learnset": [
             {
                 "level": 1,
@@ -12985,6 +13169,7 @@
         "totalBaseStats": 237,
         "specialAttackBias": -40,
         "specialDefenseBias": 0,
+        "TMHM": "A106134E401EB000",
         "learnset": [
             {
                 "level": 1,
@@ -13066,6 +13251,7 @@
         "totalBaseStats": 475,
         "specialAttackBias": 30,
         "specialDefenseBias": 0,
+        "TMHM": "3042D105063E6200",
         "learnset": [
             {
                 "level": 1,
@@ -13151,6 +13337,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": -45,
         "specialDefenseBias": 10,
+        "TMHM": "A10ED34FC03EA200",
         "learnset": [
             {
                 "level": 1,
@@ -13220,6 +13407,7 @@
         "totalBaseStats": 485,
         "specialAttackBias": 40,
         "specialDefenseBias": 70,
+        "TMHM": "64321306801E1003",
         "learnset": [
             {
                 "level": 1,
@@ -13285,6 +13473,7 @@
         "totalBaseStats": 280,
         "specialAttackBias": 25,
         "specialDefenseBias": 5,
+        "TMHM": "2082D305021E4000",
         "learnset": [
             {
                 "level": 1,
@@ -13342,6 +13531,7 @@
         "totalBaseStats": 250,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "E532534C001EB003",
         "learnset": [
             {
                 "level": 1,
@@ -13407,6 +13597,7 @@
         "totalBaseStats": 435,
         "specialAttackBias": -40,
         "specialDefenseBias": -30,
+        "TMHM": "A176514EF43EA000",
         "learnset": [
             {
                 "level": 1,
@@ -13496,6 +13687,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "E432530E401EB003",
         "learnset": [
             {
                 "level": 1,
@@ -13585,6 +13777,7 @@
         "totalBaseStats": 434,
         "specialAttackBias": 40,
         "specialDefenseBias": 20,
+        "TMHM": "24763724803E4000",
         "learnset": [
             {
                 "level": 1,
@@ -13662,6 +13855,7 @@
         "totalBaseStats": 380,
         "specialAttackBias": -30,
         "specialDefenseBias": -30,
+        "TMHM": "A15E33447C1FA000",
         "learnset": [
             {
                 "level": 1,
@@ -13739,6 +13933,7 @@
         "totalBaseStats": 410,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A9C61374411EE000",
         "learnset": [
             {
                 "level": 1,
@@ -13836,6 +14031,7 @@
         "totalBaseStats": 280,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A9861374411EE000",
         "learnset": [
             {
                 "level": 1,
@@ -13909,6 +14105,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": 1,
         "specialDefenseBias": 0,
+        "TMHM": "20C77D06011EE400",
         "learnset": [
             {
                 "level": 1,
@@ -13986,6 +14183,7 @@
         "totalBaseStats": 290,
         "specialAttackBias": -5,
         "specialDefenseBias": 5,
+        "TMHM": "240ED32D823F4500",
         "learnset": [
             {
                 "level": 1,
@@ -14051,6 +14249,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": -40,
         "specialDefenseBias": -40,
+        "TMHM": "20C61376D90EE400",
         "learnset": [
             {
                 "level": 1,
@@ -14132,6 +14331,7 @@
         "totalBaseStats": 420,
         "specialAttackBias": -20,
         "specialDefenseBias": -20,
+        "TMHM": "20C61376D90EE400",
         "learnset": [
             {
                 "level": 1,
@@ -14201,6 +14401,7 @@
         "totalBaseStats": 205,
         "specialAttackBias": 5,
         "specialDefenseBias": -30,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -14238,6 +14439,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "FFFFFF7FFFFFFF03",
         "learnset": [
             {
                 "level": 1,
@@ -14291,6 +14493,7 @@
         "totalBaseStats": 680,
         "specialAttackBias": 44,
         "specialDefenseBias": 0,
+        "TMHM": "EDFEFB77F78FE100",
         "learnset": [
             {
                 "level": 1,
@@ -14364,6 +14567,7 @@
         "totalBaseStats": 420,
         "specialAttackBias": -30,
         "specialDefenseBias": -10,
+        "TMHM": "304E532C003FA100",
         "learnset": [
             {
                 "level": 1,
@@ -14453,6 +14657,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": 40,
         "specialDefenseBias": 46,
+        "TMHM": "64725B04001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -14526,6 +14731,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": -40,
         "specialDefenseBias": -35,
+        "TMHM": "A576F367521EB000",
         "learnset": [
             {
                 "level": 1,
@@ -14591,6 +14797,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 35,
         "specialDefenseBias": 35,
+        "TMHM": "A082D305021E4000",
         "learnset": [
             {
                 "level": 1,
@@ -14664,6 +14871,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": 45,
         "specialDefenseBias": 45,
+        "TMHM": "280E933582BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -14733,6 +14941,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 5,
         "specialDefenseBias": -5,
+        "TMHM": "30461B04B44E8A00",
         "learnset": [
             {
                 "level": 1,
@@ -14798,6 +15007,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": 55,
         "specialDefenseBias": 55,
+        "TMHM": "A9CEBB7503BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -14887,6 +15097,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": -20,
         "specialDefenseBias": 0,
+        "TMHM": "E432530C401EB003",
         "learnset": [
             {
                 "level": 1,
@@ -14964,6 +15175,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -40,
         "specialDefenseBias": 25,
+        "TMHM": "214E974D6E3FA000",
         "learnset": [
             {
                 "level": 1,
@@ -15037,6 +15249,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "280E1324807F0900",
         "learnset": [
             {
                 "level": 1,
@@ -15098,6 +15311,7 @@
         "totalBaseStats": 320,
         "specialAttackBias": 20,
         "specialDefenseBias": 0,
+        "TMHM": "2886373481FE4000",
         "learnset": [
             {
                 "level": 1,
@@ -15159,6 +15373,7 @@
         "totalBaseStats": 505,
         "specialAttackBias": -17,
         "specialDefenseBias": -2,
+        "TMHM": "B57AD16F6E3FB400",
         "learnset": [
             {
                 "level": 1,
@@ -15208,6 +15423,7 @@
         "totalBaseStats": 505,
         "specialAttackBias": -17,
         "specialDefenseBias": -2,
+        "TMHM": "B57AD16FEE3FB400",
         "learnset": [
             {
                 "level": 1,
@@ -15257,6 +15473,7 @@
         "totalBaseStats": 275,
         "specialAttackBias": -7,
         "specialDefenseBias": -12,
+        "TMHM": "2432D10D8A3EA400",
         "learnset": [
             {
                 "level": 1,
@@ -15326,6 +15543,7 @@
         "totalBaseStats": 273,
         "specialAttackBias": -17,
         "specialDefenseBias": 0,
+        "TMHM": "2432D10D0A3EA400",
         "learnset": [
             {
                 "level": 1,
@@ -15395,6 +15613,7 @@
         "totalBaseStats": 365,
         "specialAttackBias": -7,
         "specialDefenseBias": -12,
+        "TMHM": "2432D10D8A3EA400",
         "learnset": [
             {
                 "level": 1,
@@ -15464,6 +15683,7 @@
         "totalBaseStats": 365,
         "specialAttackBias": -17,
         "specialDefenseBias": -2,
+        "TMHM": "2432D10D0A3EA400",
         "learnset": [
             {
                 "level": 1,
@@ -15533,6 +15753,7 @@
         "totalBaseStats": 266,
         "specialAttackBias": -15,
         "specialDefenseBias": -60,
+        "TMHM": "2006352C900E4400",
         "learnset": [
             {
                 "level": 1,
@@ -15602,6 +15823,7 @@
         "totalBaseStats": 524,
         "specialAttackBias": 24,
         "specialDefenseBias": 25,
+        "TMHM": "3042790C241E0200",
         "learnset": [
             {
                 "level": 1,
@@ -15651,6 +15873,7 @@
         "totalBaseStats": 456,
         "specialAttackBias": -40,
         "specialDefenseBias": 5,
+        "TMHM": "2046352C903E4400",
         "learnset": [
             {
                 "level": 1,
@@ -15740,6 +15963,7 @@
         "totalBaseStats": 452,
         "specialAttackBias": 36,
         "specialDefenseBias": 46,
+        "TMHM": "20461334817E4800",
         "learnset": [
             {
                 "level": 1,
@@ -15813,6 +16037,7 @@
         "totalBaseStats": 375,
         "specialAttackBias": 0,
         "specialDefenseBias": -45,
+        "TMHM": "200E9107521FA000",
         "learnset": [
             {
                 "level": 1,
@@ -15882,6 +16107,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": 5,
         "specialDefenseBias": 5,
+        "TMHM": "2006110E741EA200",
         "learnset": [
             {
                 "level": 1,
@@ -15951,6 +16177,7 @@
         "totalBaseStats": 340,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "2047356C403FE400",
         "learnset": [
             {
                 "level": 1,
@@ -16020,6 +16247,7 @@
         "totalBaseStats": 480,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A47713142C3E1003",
         "learnset": [
             {
                 "level": 1,
@@ -16085,6 +16313,7 @@
         "totalBaseStats": 320,
         "specialAttackBias": 25,
         "specialDefenseBias": 10,
+        "TMHM": "20033504081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -16146,6 +16375,7 @@
         "totalBaseStats": 355,
         "specialAttackBias": 50,
         "specialDefenseBias": -45,
+        "TMHM": "64321304503E9003",
         "learnset": [
             {
                 "level": 1,
@@ -16215,6 +16445,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": 55,
         "specialDefenseBias": -55,
+        "TMHM": "E4721304503E9003",
         "learnset": [
             {
                 "level": 1,
@@ -16292,6 +16523,7 @@
         "totalBaseStats": 385,
         "specialAttackBias": -15,
         "specialDefenseBias": -115,
+        "TMHM": "300E510E501FA000",
         "learnset": [
             {
                 "level": 1,
@@ -16365,6 +16597,7 @@
         "totalBaseStats": 285,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "2007350C883EC400",
         "learnset": [
             {
                 "level": 1,
@@ -16430,6 +16663,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": -35,
         "specialDefenseBias": 0,
+        "TMHM": "2047350C883EC400",
         "learnset": [
             {
                 "level": 1,
@@ -16503,6 +16737,7 @@
         "totalBaseStats": 440,
         "specialAttackBias": 45,
         "specialDefenseBias": -30,
+        "TMHM": "64721304827E1800",
         "learnset": [
             {
                 "level": 1,
@@ -16584,6 +16819,7 @@
         "totalBaseStats": 440,
         "specialAttackBias": -5,
         "specialDefenseBias": 5,
+        "TMHM": "344ED32D823F4500",
         "learnset": [
             {
                 "level": 1,
@@ -16653,6 +16889,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": -20,
         "specialDefenseBias": -20,
+        "TMHM": "30065106501EA000",
         "learnset": [
             {
                 "level": 1,
@@ -16718,6 +16955,7 @@
         "totalBaseStats": 205,
         "specialAttackBias": -5,
         "specialDefenseBias": 20,
+        "TMHM": "A082D305021E4000",
         "learnset": [
             {
                 "level": 1,
@@ -16767,6 +17005,7 @@
         "totalBaseStats": 479,
         "specialAttackBias": -10,
         "specialDefenseBias": -5,
+        "TMHM": "20421304807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -16844,6 +17083,7 @@
         "totalBaseStats": 349,
         "specialAttackBias": -10,
         "specialDefenseBias": -5,
+        "TMHM": "20021104807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -16917,6 +17157,7 @@
         "totalBaseStats": 251,
         "specialAttackBias": -10,
         "specialDefenseBias": -5,
+        "TMHM": "20021104807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -16982,6 +17223,7 @@
         "totalBaseStats": 320,
         "specialAttackBias": -5,
         "specialDefenseBias": 10,
+        "TMHM": "A182D14D021EF000",
         "learnset": [
             {
                 "level": 1,
@@ -17055,6 +17297,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": -30,
         "specialDefenseBias": -20,
+        "TMHM": "70F2130E511EA000",
         "learnset": [
             {
                 "level": 1,
@@ -17128,6 +17371,7 @@
         "totalBaseStats": 290,
         "specialAttackBias": -30,
         "specialDefenseBias": -55,
+        "TMHM": "2086350E111EA000",
         "learnset": [
             {
                 "level": 1,
@@ -17193,6 +17437,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -70,
         "specialDefenseBias": -30,
+        "TMHM": "A146134E403EA400",
         "learnset": [
             {
                 "level": 1,
@@ -17262,6 +17507,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 35,
         "specialDefenseBias": 35,
+        "TMHM": "A082D305021E4000",
         "learnset": [
             {
                 "level": 2,
@@ -17335,6 +17581,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": 15,
         "specialDefenseBias": 25,
+        "TMHM": "E572135E003EB003",
         "learnset": [
             {
                 "level": 1,
@@ -17388,6 +17635,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "6432131C003E1003",
         "learnset": [
             {
                 "level": 1,
@@ -17449,6 +17697,7 @@
         "totalBaseStats": 385,
         "specialAttackBias": -15,
         "specialDefenseBias": -15,
+        "TMHM": "E532135E003EB003",
         "learnset": [
             {
                 "level": 1,
@@ -17518,6 +17767,7 @@
         "totalBaseStats": 510,
         "specialAttackBias": -25,
         "specialDefenseBias": -5,
+        "TMHM": "A572135E403EB003",
         "learnset": [
             {
                 "level": 1,
@@ -17571,6 +17821,7 @@
         "totalBaseStats": 410,
         "specialAttackBias": -20,
         "specialDefenseBias": 10,
+        "TMHM": "20067104241E2200",
         "learnset": [
             {
                 "level": 1,
@@ -17640,6 +17891,7 @@
         "totalBaseStats": 220,
         "specialAttackBias": -25,
         "specialDefenseBias": -5,
+        "TMHM": "300E532C003F8100",
         "learnset": [
             {
                 "level": 1,
@@ -17717,6 +17969,7 @@
         "totalBaseStats": 395,
         "specialAttackBias": 25,
         "specialDefenseBias": 5,
+        "TMHM": "2076F335822E4000",
         "learnset": [
             {
                 "level": 1,
@@ -17790,6 +18043,7 @@
         "totalBaseStats": 515,
         "specialAttackBias": 25,
         "specialDefenseBias": 5,
+        "TMHM": "2076F335822E4000",
         "learnset": [
             {
                 "level": 1,
@@ -17863,6 +18117,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -45,
         "specialDefenseBias": 10,
+        "TMHM": "A14ED34FC03EA200",
         "learnset": [
             {
                 "level": 1,
@@ -17944,6 +18199,7 @@
         "totalBaseStats": 320,
         "specialAttackBias": 13,
         "specialDefenseBias": 2,
+        "TMHM": "E532514C801EF003",
         "learnset": [
             {
                 "level": 1,
@@ -18009,6 +18265,7 @@
         "totalBaseStats": 410,
         "specialAttackBias": -19,
         "specialDefenseBias": 0,
+        "TMHM": "204E134E101F8000",
         "learnset": [
             {
                 "level": 1,
@@ -18086,6 +18343,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": -20,
         "specialDefenseBias": -20,
+        "TMHM": "E572534E581EF003",
         "learnset": [
             {
                 "level": 1,
@@ -18155,6 +18413,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 16,
         "specialDefenseBias": 7,
+        "TMHM": "3106114CA41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -18220,6 +18479,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": -20,
         "specialDefenseBias": -20,
+        "TMHM": "643213240A1E1003",
         "learnset": [
             {
                 "level": 1,
@@ -18285,6 +18545,7 @@
         "totalBaseStats": 485,
         "specialAttackBias": 0,
         "specialDefenseBias": 25,
+        "TMHM": "A1C2D14D023EF000",
         "learnset": [
             {
                 "level": 1,
@@ -18330,6 +18591,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 30,
         "specialDefenseBias": 5,
+        "TMHM": "3846D30D130EE400",
         "learnset": [
             {
                 "level": 1,
@@ -18399,6 +18661,7 @@
         "totalBaseStats": 198,
         "specialAttackBias": 20,
         "specialDefenseBias": 10,
+        "TMHM": "288E9B3403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -18468,6 +18731,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -20,
         "specialDefenseBias": 10,
+        "TMHM": "20467104241E2200",
         "learnset": [
             {
                 "level": 1,
@@ -18553,6 +18817,7 @@
         "totalBaseStats": 413,
         "specialAttackBias": -31,
         "specialDefenseBias": 10,
+        "TMHM": "307AD12D023EA400",
         "learnset": [
             {
                 "level": 1,
@@ -18618,6 +18883,7 @@
         "totalBaseStats": 253,
         "specialAttackBias": -31,
         "specialDefenseBias": 0,
+        "TMHM": "203AD12D023E8400",
         "learnset": [
             {
                 "level": 1,
@@ -18679,6 +18945,7 @@
         "totalBaseStats": 680,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "B676F3C7B60EBA03",
         "learnset": [
             {
                 "level": 1,
@@ -18752,6 +19019,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 70,
         "specialDefenseBias": 100,
+        "TMHM": "E1729B47020EA000",
         "learnset": [
             {
                 "level": 1,
@@ -18817,6 +19085,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": -70,
         "specialDefenseBias": -100,
+        "TMHM": "A146994F520EA000",
         "learnset": [
             {
                 "level": 1,
@@ -18882,6 +19151,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A1469B47D20EA000",
         "learnset": [
             {
                 "level": 1,
@@ -18951,6 +19221,7 @@
         "totalBaseStats": 485,
         "specialAttackBias": -45,
         "specialDefenseBias": -65,
+        "TMHM": "6C721B06501E9003",
         "learnset": [
             {
                 "level": 1,
@@ -19024,6 +19295,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "24761314243E1003",
         "learnset": [
             {
                 "level": 1,
@@ -19085,6 +19357,7 @@
         "totalBaseStats": 485,
         "specialAttackBias": -85,
         "specialDefenseBias": -75,
+        "TMHM": "B176D34F763EB400",
         "learnset": [
             {
                 "level": 1,
@@ -19162,6 +19435,7 @@
         "totalBaseStats": 345,
         "specialAttackBias": -55,
         "specialDefenseBias": -65,
+        "TMHM": "3036D30F763EA000",
         "learnset": [
             {
                 "level": 1,
@@ -19231,6 +19505,7 @@
         "totalBaseStats": 400,
         "specialAttackBias": 40,
         "specialDefenseBias": 35,
+        "TMHM": "20073524081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -19320,6 +19595,7 @@
         "totalBaseStats": 545,
         "specialAttackBias": -60,
         "specialDefenseBias": -10,
+        "TMHM": "AD0E137CC23FC500",
         "learnset": [
             {
                 "level": 1,
@@ -19401,6 +19677,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "324653C6E45EAC00",
         "learnset": [
             {
                 "level": 1,
@@ -19494,6 +19771,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -55,
         "specialDefenseBias": -55,
+        "TMHM": "A102514EC03EA400",
         "learnset": [
             {
                 "level": 1,
@@ -19559,6 +19837,7 @@
         "totalBaseStats": 450,
         "specialAttackBias": -55,
         "specialDefenseBias": -55,
+        "TMHM": "A142514EC03EA400",
         "learnset": [
             {
                 "level": 1,
@@ -19632,6 +19911,7 @@
         "totalBaseStats": 530,
         "specialAttackBias": 20,
         "specialDefenseBias": 20,
+        "TMHM": "B3477D4EC01EE400",
         "learnset": [
             {
                 "level": 1,
@@ -19717,6 +19997,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -75,
         "specialDefenseBias": -20,
+        "TMHM": "20461304907EA400",
         "learnset": [
             {
                 "level": 1,
@@ -19790,6 +20071,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "20461304807E8400",
         "learnset": [
             {
                 "level": 1,
@@ -19863,6 +20145,7 @@
         "totalBaseStats": 440,
         "specialAttackBias": 30,
         "specialDefenseBias": -50,
+        "TMHM": "64721304001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -19936,6 +20219,7 @@
         "totalBaseStats": 450,
         "specialAttackBias": -27,
         "specialDefenseBias": 15,
+        "TMHM": "64721304001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -20009,6 +20293,7 @@
         "totalBaseStats": 410,
         "specialAttackBias": 15,
         "specialDefenseBias": 0,
+        "TMHM": "74325306401EB003",
         "learnset": [
             {
                 "level": 2,
@@ -20090,6 +20375,7 @@
         "totalBaseStats": 220,
         "specialAttackBias": -10,
         "specialDefenseBias": -20,
+        "TMHM": "2007352C001EC000",
         "learnset": [
             {
                 "level": 1,
@@ -20147,6 +20433,7 @@
         "totalBaseStats": 325,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "64321B04003E1003",
         "learnset": [
             {
                 "level": 1,
@@ -20208,6 +20495,7 @@
         "totalBaseStats": 215,
         "specialAttackBias": -11,
         "specialDefenseBias": 11,
+        "TMHM": "2516F36C063E1400",
         "learnset": [
             {
                 "level": 1,
@@ -20273,6 +20561,7 @@
         "totalBaseStats": 458,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "200E570E0C3EA100",
         "learnset": [
             {
                 "level": 1,
@@ -20342,6 +20631,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "747A1306403FB003",
         "learnset": [
             {
                 "level": 1,
@@ -20427,6 +20717,7 @@
         "totalBaseStats": 236,
         "specialAttackBias": -80,
         "specialDefenseBias": -15,
+        "TMHM": "2046352C902E4400",
         "learnset": [
             {
                 "level": 1,
@@ -20496,6 +20787,7 @@
         "totalBaseStats": 420,
         "specialAttackBias": -35,
         "specialDefenseBias": -50,
+        "TMHM": "320613C4E41EA400",
         "learnset": [
             {
                 "level": 1,
@@ -20585,6 +20877,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": -20,
         "specialDefenseBias": -75,
+        "TMHM": "64321304001E1002",
         "learnset": [
             {
                 "level": 1,
@@ -20646,6 +20939,7 @@
         "totalBaseStats": 480,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "2047356CC03FE400",
         "learnset": [
             {
                 "level": 1,
@@ -20691,6 +20985,7 @@
         "totalBaseStats": 295,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "20073D04081E4100",
         "learnset": [
             {
                 "level": 1,
@@ -20760,6 +21055,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": -10,
         "specialDefenseBias": 0,
+        "TMHM": "2002190E4816E000",
         "learnset": [
             {
                 "level": 1,
@@ -20817,6 +21113,7 @@
         "totalBaseStats": 295,
         "specialAttackBias": -12,
         "specialDefenseBias": -2,
+        "TMHM": "280E933502BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -20886,6 +21183,7 @@
         "totalBaseStats": 205,
         "specialAttackBias": -10,
         "specialDefenseBias": -30,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -20923,6 +21221,7 @@
         "totalBaseStats": 465,
         "specialAttackBias": -40,
         "specialDefenseBias": -70,
+        "TMHM": "300E1104907F8C00",
         "learnset": [
             {
                 "level": 1,
@@ -20992,6 +21291,7 @@
         "totalBaseStats": 340,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "20073504801E4000",
         "learnset": [
             {
                 "level": 1,
@@ -21073,6 +21373,7 @@
         "totalBaseStats": 260,
         "specialAttackBias": -10,
         "specialDefenseBias": -10,
+        "TMHM": "2C36FB2D021E4000",
         "learnset": [
             {
                 "level": 1,
@@ -21150,6 +21451,7 @@
         "totalBaseStats": 670,
         "specialAttackBias": -65,
         "specialDefenseBias": -35,
+        "TMHM": "B57EB367A61EA400",
         "learnset": [
             {
                 "level": 1,
@@ -21227,6 +21529,7 @@
         "totalBaseStats": 280,
         "specialAttackBias": -25,
         "specialDefenseBias": -25,
+        "TMHM": "A536B365A61EA400",
         "learnset": [
             {
                 "level": 1,
@@ -21292,6 +21595,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 25,
         "specialDefenseBias": -30,
+        "TMHM": "ED765B7E249EF002",
         "learnset": [
             {
                 "level": 1,
@@ -21369,6 +21673,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 25,
         "specialDefenseBias": 30,
+        "TMHM": "ED765B7E249EF002",
         "learnset": [
             {
                 "level": 1,
@@ -21438,6 +21743,7 @@
         "totalBaseStats": 315,
         "specialAttackBias": -25,
         "specialDefenseBias": -25,
+        "TMHM": "64365B3E249E7002",
         "learnset": [
             {
                 "level": 1,
@@ -21507,6 +21813,7 @@
         "totalBaseStats": 250,
         "specialAttackBias": 30,
         "specialDefenseBias": 0,
+        "TMHM": "20861104251E8200",
         "learnset": [
             {
                 "level": 1,
@@ -21572,6 +21879,7 @@
         "totalBaseStats": 395,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -21641,6 +21949,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": 55,
         "specialDefenseBias": 50,
+        "TMHM": "E4B2133401BE4000",
         "learnset": [
             {
                 "level": 1,
@@ -21714,6 +22023,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": -60,
         "specialDefenseBias": 20,
+        "TMHM": "693E536C803FB500",
         "learnset": [
             {
                 "level": 1,
@@ -21791,6 +22101,7 @@
         "totalBaseStats": 540,
         "specialAttackBias": -45,
         "specialDefenseBias": 45,
+        "TMHM": "A576B377761E3000",
         "learnset": [
             {
                 "level": 1,
@@ -21872,6 +22183,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "64B21B24001E4000",
         "learnset": [
             {
                 "level": 1,
@@ -21945,6 +22257,7 @@
         "totalBaseStats": 300,
         "specialAttackBias": -40,
         "specialDefenseBias": -10,
+        "TMHM": "350EB36F2E3FA200",
         "learnset": [
             {
                 "level": 1,
@@ -22014,6 +22327,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": -40,
         "specialDefenseBias": -20,
+        "TMHM": "28C63936758E4200",
         "learnset": [
             {
                 "level": 1,
@@ -22083,6 +22397,7 @@
         "totalBaseStats": 262,
         "specialAttackBias": -29,
         "specialDefenseBias": 1,
+        "TMHM": "20021104807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -22148,6 +22463,7 @@
         "totalBaseStats": 290,
         "specialAttackBias": 15,
         "specialDefenseBias": 0,
+        "TMHM": "64325306401EB003",
         "learnset": [
             {
                 "level": 1,
@@ -22225,6 +22541,7 @@
         "totalBaseStats": 250,
         "specialAttackBias": -20,
         "specialDefenseBias": 0,
+        "TMHM": "2006351C083E4000",
         "learnset": [
             {
                 "level": 1,
@@ -22294,6 +22611,7 @@
         "totalBaseStats": 480,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "AD061B7C42BEE100",
         "learnset": [
             {
                 "level": 1,
@@ -22367,6 +22685,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": 45,
         "specialDefenseBias": 45,
+        "TMHM": "288E533403BF4100",
         "learnset": [
             {
                 "level": 1,
@@ -22440,6 +22759,7 @@
         "totalBaseStats": 314,
         "specialAttackBias": 2,
         "specialDefenseBias": -1,
+        "TMHM": "A532514C001EB003",
         "learnset": [
             {
                 "level": 1,
@@ -22513,6 +22833,7 @@
         "totalBaseStats": 465,
         "specialAttackBias": -10,
         "specialDefenseBias": 3,
+        "TMHM": "3886F33703BE4000",
         "learnset": [
             {
                 "level": 1,
@@ -22578,6 +22899,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": 25,
         "specialDefenseBias": 15,
+        "TMHM": "64F29315018E5003",
         "learnset": [
             {
                 "level": 1,
@@ -22627,6 +22949,7 @@
         "totalBaseStats": 340,
         "specialAttackBias": 25,
         "specialDefenseBias": 0,
+        "TMHM": "64B29315010E5003",
         "learnset": [
             {
                 "level": 1,
@@ -22704,6 +23027,7 @@
         "totalBaseStats": 510,
         "specialAttackBias": -30,
         "specialDefenseBias": -135,
+        "TMHM": "304E510E501FA400",
         "learnset": [
             {
                 "level": 1,
@@ -22777,6 +23101,7 @@
         "totalBaseStats": 410,
         "specialAttackBias": -70,
         "specialDefenseBias": -50,
+        "TMHM": "A90E114E503EA000",
         "learnset": [
             {
                 "level": 1,
@@ -22842,6 +23167,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 15,
         "specialDefenseBias": 0,
+        "TMHM": "7C76530C110E9403",
         "learnset": [
             {
                 "level": 1,
@@ -22911,6 +23237,7 @@
         "totalBaseStats": 425,
         "specialAttackBias": 30,
         "specialDefenseBias": 30,
+        "TMHM": "20C73D04081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -22976,6 +23303,7 @@
         "totalBaseStats": 180,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "20873D04081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -23037,6 +23365,7 @@
         "totalBaseStats": 269,
         "specialAttackBias": 20,
         "specialDefenseBias": 20,
+        "TMHM": "24363724003E4000",
         "learnset": [
             {
                 "level": 1,
@@ -23098,6 +23427,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": 0,
         "specialDefenseBias": 15,
+        "TMHM": "20163B04807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -23171,6 +23501,7 @@
         "totalBaseStats": 467,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "245737240A1EA100",
         "learnset": [
             {
                 "level": 1,
@@ -23260,6 +23591,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "F572534E401EB003",
         "learnset": [
             {
                 "level": 1,
@@ -23349,6 +23681,7 @@
         "totalBaseStats": 455,
         "specialAttackBias": -10,
         "specialDefenseBias": -10,
+        "TMHM": "20461304807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -23422,6 +23755,7 @@
         "totalBaseStats": 250,
         "specialAttackBias": -20,
         "specialDefenseBias": -10,
+        "TMHM": "70B2130E511EA000",
         "learnset": [
             {
                 "level": 1,
@@ -23483,6 +23817,7 @@
         "totalBaseStats": 270,
         "specialAttackBias": -25,
         "specialDefenseBias": 0,
+        "TMHM": "20061304807E0800",
         "learnset": [
             {
                 "level": 1,
@@ -23548,6 +23883,7 @@
         "totalBaseStats": 495,
         "specialAttackBias": 45,
         "specialDefenseBias": -15,
+        "TMHM": "20473504083EC400",
         "learnset": [
             {
                 "level": 1,
@@ -23625,6 +23961,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": -60,
         "specialDefenseBias": -25,
+        "TMHM": "2476F307761EB000",
         "learnset": [
             {
                 "level": 1,
@@ -23690,6 +24027,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": -30,
         "specialDefenseBias": 0,
+        "TMHM": "310E134E803FA400",
         "learnset": [
             {
                 "level": 1,
@@ -23759,6 +24097,7 @@
         "totalBaseStats": 335,
         "specialAttackBias": 10,
         "specialDefenseBias": 65,
+        "TMHM": "64321704083E1403",
         "learnset": [
             {
                 "level": 1,
@@ -23824,6 +24163,7 @@
         "totalBaseStats": 535,
         "specialAttackBias": 30,
         "specialDefenseBias": 55,
+        "TMHM": "64721704083E1403",
         "learnset": [
             {
                 "level": 1,
@@ -23897,6 +24237,7 @@
         "totalBaseStats": 245,
         "specialAttackBias": 20,
         "specialDefenseBias": 0,
+        "TMHM": "A4863B34271EC000",
         "learnset": [
             {
                 "level": 1,
@@ -23966,6 +24307,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 40,
         "specialDefenseBias": 20,
+        "TMHM": "A5C63B74A75EC800",
         "learnset": [
             {
                 "level": 1,
@@ -24035,6 +24377,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": 10,
         "specialDefenseBias": 10,
+        "TMHM": "A006110CE41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -24108,6 +24451,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": 0,
         "specialDefenseBias": -70,
+        "TMHM": "200651042C1EA200",
         "learnset": [
             {
                 "level": 1,
@@ -24185,6 +24529,7 @@
         "totalBaseStats": 314,
         "specialAttackBias": -21,
         "specialDefenseBias": -16,
+        "TMHM": "E532534C801E1403",
         "learnset": [
             {
                 "level": 1,
@@ -24250,6 +24595,7 @@
         "totalBaseStats": 290,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "2046350E501EA000",
         "learnset": [
             {
                 "level": 1,
@@ -24311,6 +24657,7 @@
         "totalBaseStats": 310,
         "specialAttackBias": 20,
         "specialDefenseBias": 20,
+        "TMHM": "A1077D4CC01EE400",
         "learnset": [
             {
                 "level": 1,
@@ -24384,6 +24731,7 @@
         "totalBaseStats": 460,
         "specialAttackBias": 4,
         "specialDefenseBias": 4,
+        "TMHM": "30473D06805EEC00",
         "learnset": [
             {
                 "level": 1,
@@ -24457,6 +24805,7 @@
         "totalBaseStats": 534,
         "specialAttackBias": 25,
         "specialDefenseBias": 7,
+        "TMHM": "B146114EA41EA600",
         "learnset": [
             {
                 "level": 1,
@@ -24526,6 +24875,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": -39,
         "specialDefenseBias": -10,
+        "TMHM": "B77ED34FF61FB400",
         "learnset": [
             {
                 "level": 1,
@@ -24603,6 +24953,7 @@
         "totalBaseStats": 210,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "A0061346003EA000",
         "learnset": [
             {
                 "level": 1,
@@ -24636,6 +24987,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": -5,
         "specialDefenseBias": 20,
+        "TMHM": "204E533C001F4500",
         "learnset": [
             {
                 "level": 1,
@@ -24709,6 +25061,7 @@
         "totalBaseStats": 336,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -24742,6 +25095,7 @@
         "totalBaseStats": 500,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "B14E134EC03FA400",
         "learnset": [
             {
                 "level": 1,
@@ -24819,6 +25173,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": 45,
         "specialDefenseBias": 35,
+        "TMHM": "7476532C001E1003",
         "learnset": [
             {
                 "level": 1,
@@ -24892,6 +25247,7 @@
         "totalBaseStats": 450,
         "specialAttackBias": 25,
         "specialDefenseBias": 15,
+        "TMHM": "2046351488BE4000",
         "learnset": [
             {
                 "level": 1,
@@ -24977,6 +25333,7 @@
         "totalBaseStats": 305,
         "specialAttackBias": -15,
         "specialDefenseBias": 5,
+        "TMHM": "2006351408BE4000",
         "learnset": [
             {
                 "level": 1,
@@ -25050,6 +25407,7 @@
         "totalBaseStats": 525,
         "specialAttackBias": 18,
         "specialDefenseBias": 17,
+        "TMHM": "30433506081EE400",
         "learnset": [
             {
                 "level": 1,
@@ -25135,6 +25493,7 @@
         "totalBaseStats": 340,
         "specialAttackBias": -20,
         "specialDefenseBias": 0,
+        "TMHM": "2046358E505EA800",
         "learnset": [
             {
                 "level": 1,
@@ -25212,6 +25571,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": -5,
         "specialDefenseBias": 5,
+        "TMHM": "20473504083E4400",
         "learnset": [
             {
                 "level": 1,
@@ -25257,6 +25617,7 @@
         "totalBaseStats": 440,
         "specialAttackBias": -25,
         "specialDefenseBias": -25,
+        "TMHM": "B53EB367A61EA400",
         "learnset": [
             {
                 "level": 1,
@@ -25334,6 +25695,7 @@
         "totalBaseStats": 490,
         "specialAttackBias": 30,
         "specialDefenseBias": 5,
+        "TMHM": "20433504081E4400",
         "learnset": [
             {
                 "level": 1,
@@ -25383,6 +25745,7 @@
         "totalBaseStats": 430,
         "specialAttackBias": -26,
         "specialDefenseBias": 10,
+        "TMHM": "A586B765823E4000",
         "learnset": [
             {
                 "level": 1,
@@ -25452,6 +25815,7 @@
         "totalBaseStats": 330,
         "specialAttackBias": 25,
         "specialDefenseBias": 5,
+        "TMHM": "208A9305022F4000",
         "learnset": [
             {
                 "level": 1,
@@ -25525,6 +25889,7 @@
         "totalBaseStats": 314,
         "specialAttackBias": 24,
         "specialDefenseBias": 25,
+        "TMHM": "3002790C241E0200",
         "learnset": [
             {
                 "level": 1,
@@ -25598,6 +25963,7 @@
         "totalBaseStats": 400,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "743213064016B003",
         "learnset": [
             {
                 "level": 1,
@@ -25675,6 +26041,7 @@
         "totalBaseStats": 555,
         "specialAttackBias": 0,
         "specialDefenseBias": 46,
+        "TMHM": "747211064016B003",
         "learnset": [
             {
                 "level": 1,
@@ -25764,6 +26131,7 @@
         "totalBaseStats": 530,
         "specialAttackBias": 15,
         "specialDefenseBias": 0,
+        "TMHM": "74725306401EB003",
         "learnset": [
             {
                 "level": 1,
@@ -25845,6 +26213,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 2,
         "specialDefenseBias": 0,
+        "TMHM": "A532514C001EB003",
         "learnset": [
             {
                 "level": 1,
@@ -25926,6 +26295,7 @@
         "totalBaseStats": 195,
         "specialAttackBias": -15,
         "specialDefenseBias": -10,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -25963,6 +26333,7 @@
         "totalBaseStats": 390,
         "specialAttackBias": -5,
         "specialDefenseBias": -5,
+        "TMHM": "20073504083E4400",
         "learnset": [
             {
                 "level": 1,
@@ -26040,6 +26411,7 @@
         "totalBaseStats": 505,
         "specialAttackBias": -5,
         "specialDefenseBias": -35,
+        "TMHM": "204E93252E3F4000",
         "learnset": [
             {
                 "level": 1,
@@ -26117,6 +26489,7 @@
         "totalBaseStats": 468,
         "specialAttackBias": -2,
         "specialDefenseBias": -2,
+        "TMHM": "64721306501EB003",
         "learnset": [
             {
                 "level": 1,
@@ -26202,6 +26575,7 @@
         "totalBaseStats": 240,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "B4363324261E0000",
         "learnset": [
             {
                 "level": 1,
@@ -26275,6 +26649,7 @@
         "totalBaseStats": 445,
         "specialAttackBias": 5,
         "specialDefenseBias": 5,
+        "TMHM": "A5F2B97D271E6100",
         "learnset": [
             {
                 "level": 1,
@@ -26320,6 +26695,7 @@
         "totalBaseStats": 270,
         "specialAttackBias": 25,
         "specialDefenseBias": 0,
+        "TMHM": "64321304827E0800",
         "learnset": [
             {
                 "level": 1,
@@ -26381,6 +26757,7 @@
         "totalBaseStats": 405,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -26426,6 +26803,7 @@
         "totalBaseStats": 210,
         "specialAttackBias": -20,
         "specialDefenseBias": -20,
+        "TMHM": "6432530E181ED003",
         "learnset": [
             {
                 "level": 1,
@@ -26495,6 +26873,7 @@
         "totalBaseStats": 195,
         "specialAttackBias": -25,
         "specialDefenseBias": -5,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -26536,6 +26915,7 @@
         "totalBaseStats": 260,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "0000000000000000",
         "learnset": [
             {
                 "level": 1,
@@ -26593,6 +26973,7 @@
         "totalBaseStats": 470,
         "specialAttackBias": 20,
         "specialDefenseBias": 0,
+        "TMHM": "28C6373481FE4800",
         "learnset": [
             {
                 "level": 1,
@@ -26654,6 +27035,7 @@
         "totalBaseStats": 390,
         "specialAttackBias": 10,
         "specialDefenseBias": 0,
+        "TMHM": "20063534807E4000",
         "learnset": [
             {
                 "level": 1,
@@ -26723,6 +27105,7 @@
         "totalBaseStats": 458,
         "specialAttackBias": -55,
         "specialDefenseBias": 0,
+        "TMHM": "B53EF76DA63EA000",
         "learnset": [
             {
                 "level": 1,
@@ -26796,6 +27179,7 @@
         "totalBaseStats": 600,
         "specialAttackBias": 30,
         "specialDefenseBias": 5,
+        "TMHM": "30C69385924EC800",
         "learnset": [
             {
                 "level": 1,
@@ -26861,6 +27245,7 @@
         "totalBaseStats": 240,
         "specialAttackBias": 0,
         "specialDefenseBias": 0,
+        "TMHM": "2436D32D023E9400",
         "learnset": [
             {
                 "level": 1,
@@ -26938,6 +27323,7 @@
         "totalBaseStats": 245,
         "specialAttackBias": -15,
         "specialDefenseBias": 5,
+        "TMHM": "200A1524887F0100",
         "learnset": [
             {
                 "level": 1,

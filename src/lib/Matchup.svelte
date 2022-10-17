@@ -89,7 +89,7 @@
                 {#each yourEffectiveness as _}
                     <Move
                         moveName={_.moveName}
-                        user={pokemonByName[yourPokemon.name]}
+                        user={yourPokemon}
                         readOnly={true}
                         score={_.score}
                     />
@@ -104,7 +104,7 @@
                 {#each opponentEffectiveness as _}
                     <Move
                         moveName={_.moveName}
-                        user={pokemonByName[opponent.name]}
+                        user={opponent}
                         readOnly={true}
                         score={_.score}
                     />
@@ -119,7 +119,7 @@
                 >
                 <Move
                     moveName={yourEffectiveness[0].moveName}
-                    user={pokemonByName[yourPokemon.name]}
+                    user={yourPokemon.name}
                     readOnly={true}
                     score={yourEffectiveness[0].score}
                 />
@@ -132,7 +132,7 @@
                 >
                 <Move
                     moveName={opponentEffectiveness[0].moveName}
-                    user={pokemonByName[opponent.name]}
+                    user={opponent.name}
                     readOnly={true}
                     score={opponentEffectiveness[0].score}
                 />

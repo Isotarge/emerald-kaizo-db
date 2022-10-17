@@ -159,6 +159,7 @@
     <button on:click={() => (selectedPanel = "Weaknesses")}>Weaknesses</button>
     <button on:click={() => (selectedPanel = "Moves")}>Moves</button>
     <button on:click={() => (selectedPanel = "Learnset")}>Learnset</button>
+    <button on:click={() => (selectedPanel = "TM/HM")}>TM/HM</button>
     {#if selectedPanel === "Stats"}
         <table style="margin: auto">
             <tr>
@@ -326,10 +327,7 @@
                     </tr>
                 </thead>
                 {#each selectedPokemon.moves as move}
-                    <Move
-                        bind:moveName={move}
-                        bind:user={selectedPokemonData}
-                    />
+                    <Move bind:moveName={move} bind:user={selectedPokemon} />
                 {/each}
             </table>
         {/if}
@@ -349,10 +347,32 @@
                 {#each selectedPokemonData.learnset as move}
                     <Move
                         bind:moveName={move.move}
-                        bind:user={selectedPokemonData}
+                        bind:user={selectedPokemon}
                         readOnly={true}
                         learnset={true}
                         level={move.level}
+                    />
+                {/each}
+            </table>
+        {/if}
+    {:else if selectedPanel === "TM/HM"}
+        {#if selectedPokemonData.TMHM}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Move</th>
+                        <th>Power</th>
+                        <th>Accuracy</th>
+                        <th>PP</th>
+                    </tr>
+                </thead>
+                {#each selectedPokemonData.TMHM as move}
+                    <Move
+                        bind:moveName={move}
+                        bind:user={selectedPokemon}
+                        readOnly={true}
+                        TMHM={true}
                     />
                 {/each}
             </table>

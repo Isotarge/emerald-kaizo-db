@@ -23,7 +23,7 @@ for root, dirs, files in os.walk(directory):
     for file in files:
         if file.endswith(".ini"):
             learnsetData = decodeLearnset(os.path.join(".", "learnsets", file))
-            learnsets[learnsetData["name"]] = learnsetData["moves"]
+            learnsets[learnsetData["name"]] = learnsetData
 
 directory = os.path.join(".", "pkmn")
 for root, dirs, files in os.walk(directory):
@@ -67,7 +67,8 @@ for root, dirs, files in os.walk(directory):
                 pkmnData["specialDefense"] - pkmnData["defense"]
             )
             if pkmnData["name"] in learnsets:
-                pkmnData["learnset"] = learnsets[pkmnData["name"]]
+                pkmnData["TMHM"] = learnsets[pkmnData["name"]]["TMHM"]
+                pkmnData["learnset"] = learnsets[pkmnData["name"]]["moves"]
             else:
                 print(f'Warning: No learnset found for pokemon {pkmnData["name"]}')
             pokemon.append(pkmnData)
