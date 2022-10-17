@@ -11,9 +11,7 @@
     } from "../state";
     import Move from "./Move.svelte";
 
-    export let selectedPokemon = {
-        name: "Scizor",
-    };
+    export let selectedPokemon;
     $: selectedPokemonData = pokemonByName[selectedPokemon.name];
 
     $: typeMatchup = computeTypeMatchup(selectedPokemonData);
@@ -160,6 +158,7 @@
     <button on:click={() => (selectedPanel = "Stats")}>Stats</button>
     <button on:click={() => (selectedPanel = "Weaknesses")}>Weaknesses</button>
     <button on:click={() => (selectedPanel = "Moves")}>Moves</button>
+    <button on:click={() => (selectedPanel = "Learnset")}>Learnset</button>
     {#if selectedPanel === "Stats"}
         <table style="margin: auto">
             <tr>
@@ -330,6 +329,30 @@
                     <Move
                         bind:moveName={move}
                         bind:user={selectedPokemonData}
+                    />
+                {/each}
+            </table>
+        {/if}
+    {:else if selectedPanel === "Learnset"}
+        {#if selectedPokemonData.learnset}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Type</th>
+                        <th>Move</th>
+                        <th>Power</th>
+                        <th>Accuracy</th>
+                        <th>PP</th>
+                    </tr>
+                </thead>
+                {#each selectedPokemonData.learnset as move}
+                    <Move
+                        bind:moveName={move.move}
+                        bind:user={selectedPokemonData}
+                        readOnly={true}
+                        learnset={true}
+                        level={move.level}
                     />
                 {/each}
             </table>

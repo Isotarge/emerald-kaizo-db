@@ -12,6 +12,8 @@
     // TODO: Don't pass in userData
     export let user = pokemonByName["Scizor"];
     export let readOnly = false;
+    export let learnset = false;
+    export let level = 1;
     export let score = 0;
 
     $: moveData = movesByName[moveName];
@@ -21,6 +23,9 @@
 </script>
 
 <tr>
+    {#if learnset}
+        <td>{level}</td>
+    {/if}
     <td>
         <Type
             whichType={moveData.type}
@@ -42,7 +47,7 @@
             />
         {/if}
     </td>
-    {#if !readOnly}
+    {#if !readOnly || learnset}
         <td>
             {#if moveData.power > 1}
                 {moveData.power}

@@ -24,6 +24,10 @@ function computeMovesByName() {
 }
 export const movesByName = computeMovesByName();
 
+export function givePokemonDefaultMoves(pokemon) {
+    // TODO: See GiveBoxMonInitialMoveset for implementation
+}
+
 export function moveDoesDamage(move) {
     return move.power > 0;
 }
