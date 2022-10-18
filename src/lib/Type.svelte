@@ -1,8 +1,10 @@
 <script>
     import { typeData } from "../state";
-    export let whichType = "Normal";
-    export let specialDefenseBias = 0;
-    $: specialDefenseBias, updateClasses();
+
+    export let whichType;
+    export let specialDefenseBias;
+
+    $: whichType, specialDefenseBias, updateClasses();
     let classes = "sentiment-neutral";
 
     function getSentiment() {

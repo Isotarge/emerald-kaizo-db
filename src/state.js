@@ -156,6 +156,9 @@ export function computeMoveEffectiveness(moveData, user, opponent) {
     let effectiveness = moveData.power;
 
     // Base stat synergy
+    // TODO: Multiply the base stats by level
+    // const userLevel = user?.level || user?.maxLevel || 100;
+    // const opponentLevel = opponent?.level || opponent?.maxLevel || 100;
     const userData = pokemonByName[user.name];
     const opponentData = pokemonByName[opponent.name];
     const type = typeData[moveData.type];

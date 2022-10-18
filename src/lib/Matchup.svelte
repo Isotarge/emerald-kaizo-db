@@ -1,5 +1,4 @@
 <script>
-    // TODO: Type synergy border is wrong when changing moves via autocomplete, probably a biinding issue
     import {
         pokemonByName,
         movesByName,
