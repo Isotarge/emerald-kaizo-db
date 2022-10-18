@@ -110,6 +110,77 @@
 
     let showAllMoves = false;
     let justTheArrows = true;
+
+    // TODO: This is horrible code
+    // I know there's a much better way to do this but I can't think of it right now
+    // Refactor it all away...
+    let bestEffectivenessLookup = [];
+    $: opponentPokemon.length, partyPokemon.length, initMatchupArray();
+    let debug = false;
+    function initMatchupArray() {
+        if (debug) {
+            console.log("Initting matchup array");
+        }
+        bestEffectivenessLookup = [];
+        for (
+            let opponentPokemonIndex = 0;
+            opponentPokemonIndex < opponentPokemon.length;
+            opponentPokemonIndex++
+        ) {
+            bestEffectivenessLookup[opponentPokemonIndex] = [];
+            for (
+                let partyPokemonIndex = 0;
+                partyPokemonIndex < partyPokemon.length;
+                partyPokemonIndex++
+            ) {
+                bestEffectivenessLookup[opponentPokemonIndex][
+                    partyPokemonIndex
+                ] = {
+                    yourBestEffectiveness: 0,
+                    opponentBestEffectiveness: 0,
+                };
+            }
+        }
+    }
+
+    let totalOpponentScores = [];
+    let totalPartyPokemonScores = [];
+    function recomputeTotalPokemonScores() {
+        if (debug) {
+            console.log("Recomputing everything...");
+        }
+        totalPartyPokemonScores = [];
+        totalOpponentScores = [];
+        for (
+            let partyPokemonIndex = 0;
+            partyPokemonIndex < partyPokemon.length;
+            partyPokemonIndex++
+        ) {
+            let sum = 0;
+            bestEffectivenessLookup.forEach(
+                (arr) =>
+                    (sum +=
+                        arr[partyPokemonIndex].yourBestEffectiveness -
+                        arr[partyPokemonIndex].opponentBestEffectiveness)
+            );
+            totalPartyPokemonScores.push(sum);
+        }
+        for (
+            let opponentPokemonIndex = 0;
+            opponentPokemonIndex < opponentPokemon.length;
+            opponentPokemonIndex++
+        ) {
+            let sum = 0;
+            bestEffectivenessLookup[opponentPokemonIndex].forEach(
+                (obj) =>
+                    (sum +=
+                        obj.opponentBestEffectiveness -
+                        obj.yourBestEffectiveness)
+            );
+            totalOpponentScores.push(sum);
+        }
+    }
+    $: bestEffectivenessLookup, recomputeTotalPokemonScores();
 </script>
 
 <main>
@@ -134,37 +205,45 @@
     <h2>Matchup</h2>
     <input type="checkbox" bind:checked={showAllMoves} /> Show All Moves
     <input type="checkbox" bind:checked={justTheArrows} /> Just The Arrows
+    <input type="checkbox" bind:checked={debug} /> Debug
     <div id="matchup">
         <table>
             <tr>
                 <td />
-                {#each partyPokemon as yourPokemon}
+                {#each partyPokemon as yourPokemon, partyPokemonIndex}
                     <td
                         ><img
                             src="pokemon_sprites/{pokemonByName[
                                 yourPokemon.name
                             ].dex}.png"
                             alt={yourPokemon.name}
-                        /></td
+                        /><br />{totalPartyPokemonScores[partyPokemonIndex]}</td
                     >
                 {/each}
             </tr>
-            {#each opponentPokemon as opponent}
+            {#each opponentPokemon as opponent, opponentIndex (opponent)}
                 <tr>
                     <td
                         ><img
                             src="pokemon_sprites/{pokemonByName[opponent.name]
                                 .dex}.png"
                             alt={opponent.name}
-                        /></td
+                        /><br />{totalOpponentScores[opponentIndex]}</td
                     >
-                    {#each partyPokemon as yourPokemon}
+                    {#each partyPokemon as yourPokemon, yourPokemonIndex (yourPokemon)}
                         <td>
                             <Matchup
+                                bind:debug
                                 bind:opponent
                                 bind:yourPokemon
                                 bind:showAllMoves
                                 bind:justTheArrows
+                                bind:yourBestEffectiveness={bestEffectivenessLookup[
+                                    opponentIndex
+                                ][yourPokemonIndex].yourBestEffectiveness}
+                                bind:opponentBestEffectiveness={bestEffectivenessLookup[
+                                    opponentIndex
+                                ][yourPokemonIndex].opponentBestEffectiveness}
                             />
                         </td>
                     {/each}
