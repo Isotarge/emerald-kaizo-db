@@ -97,6 +97,7 @@
         },
     ];
 
+    let collapseOpponent = false;
     let selectedOpponentPreset = opponentPresets[0].name;
     $: opponentPokemon = [
         ...opponentPresets.find(
@@ -196,12 +197,14 @@
         items={opponentPresets.map((preset) => preset.name)}
         hideArrow="true"
         bind:selectedItem={selectedOpponentPreset}
-    />
-    <div id="opponent">
-        {#each opponentPokemon as _}
-            <PokemonPanel bind:selectedPokemon={_} />
-        {/each}
-    </div>
+    /> <input type="checkbox" bind:checked={collapseOpponent} /> Hide
+    {#if !collapseOpponent}
+        <div id="opponent">
+            {#each opponentPokemon as _}
+                <PokemonPanel bind:selectedPokemon={_} />
+            {/each}
+        </div>
+    {/if}
     <h2>Matchup</h2>
     <input type="checkbox" bind:checked={showAllMoves} /> Show All Moves
     <input type="checkbox" bind:checked={justTheArrows} /> Just The Arrows
