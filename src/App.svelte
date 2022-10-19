@@ -67,14 +67,12 @@
     //     },
     // ];
 
-    // const nationalDexPreset = pokemonNames.map((pkmn) => {
-    //     return { name: pkmn };
-    // });
-
     const opponentPresets = [
         ...encounterPresets,
         ...trainerPresets,
-        // { name: "National Dex", team: nationalDexPreset },
+        // { name: "National Dex", team: pokemonNames.map((pkmn) => {
+        //     return { name: pkmn };
+        // } },
         {
             name: "Elite Four",
             team: [
@@ -148,7 +146,7 @@
     let totalPartyPokemonScores = [];
     function recomputeTotalPokemonScores() {
         if (debug) {
-            console.log("Recomputing everything...");
+            console.log("Recomputing scores");
         }
         totalPartyPokemonScores = [];
         totalOpponentScores = [];
