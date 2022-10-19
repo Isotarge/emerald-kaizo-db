@@ -22,7 +22,7 @@
     let opponentEffectiveness = [];
     function updateEffectiveness() {
         if (debug) {
-            console.log("Updating effectiveness...");
+            console.log("Updating effectiveness");
         }
         yourEffectiveness = [];
         opponentEffectiveness = [];
