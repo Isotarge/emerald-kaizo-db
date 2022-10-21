@@ -95,10 +95,24 @@
                     ],
                 },
                 {
-                    name: "Magikarp",
+                    name: "Scizor",
+                    item: "Silver Powder",
+                    moves: [
+                        "X-Scissors",
+                        "Steel Wing",
+                        "Air Slash",
+                        "Double-Edge",
+                    ],
                 },
                 {
-                    name: "Magikarp",
+                    name: "Heracross",
+                    item: "Silver Powder",
+                    moves: [
+                        "Megahorn",
+                        "Brick Break",
+                        "Rock Slide",
+                        "Double-Edge",
+                    ],
                 },
                 {
                     name: "Magikarp",
@@ -275,6 +289,7 @@
         });
     }
 
+    let totalCoverage = 0;
     function initMatchupArray() {
         if (debug) {
             console.log("Initting matchup array");
@@ -301,12 +316,22 @@
                 0
             );
         });
+        totalCoverage = 0;
         opponentPokemon.forEach((pokemon) => {
             pokemon.totalEffectiveness = pokemon.effectiveness.reduce(
                 (a, v) =>
                     a + (v.yourBestEffectiveness - v.opponentBestEffectiveness),
                 0
             );
+            pokemon.minEffectiveness = pokemon.effectiveness.reduce(
+                (a, v) =>
+                    Math.min(
+                        a,
+                        v.yourBestEffectiveness - v.opponentBestEffectiveness
+                    ),
+                Infinity
+            );
+            totalCoverage += pokemon.minEffectiveness;
         });
     }
 </script>
@@ -344,7 +369,7 @@
     <div id="matchup">
         <table>
             <tr>
-                <td />
+                <td>Coverage: {-totalCoverage}</td>
                 {#each partyPokemon as yourPokemon}
                     <td
                         ><img
@@ -363,7 +388,18 @@
                             src="pokemon_sprites/{pokemonByName[opponent.name]
                                 .dex}.png"
                             alt={opponent.name}
-                        /><br />{opponent?.totalEffectiveness || 0}</td
+                        /><br />Total: {opponent?.totalEffectiveness || 0}<br
+                        />Min: {#if (opponent?.minEffectiveness || 0) < 0}
+                            <span style="color: #393"
+                                >{opponent?.minEffectiveness || 0}</span
+                            >
+                        {:else if (opponent?.minEffectiveness || 0) > 0}
+                            <span style="color: #933"
+                                >{opponent?.minEffectiveness || 0}</span
+                            >
+                        {:else}
+                            0
+                        {/if}</td
                     >
                     {#each partyPokemon as yourPokemon, yourPokemonIndex (yourPokemon)}
                         <td>
