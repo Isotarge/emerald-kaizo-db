@@ -8,6 +8,7 @@
         abilityData,
         typeData,
         checkTypeEffectiveness,
+        pokemon,
     } from "../state";
     import Move from "./Move.svelte";
 
@@ -96,6 +97,11 @@
         }
         return `${attackType} (${pokemonData.specialAttackBias}), ${defenseType} (${pokemonData.specialDefenseBias})`;
     }
+
+    function deleteHoldItem() {
+        delete selectedPokemon.item;
+        selectedPokemon = selectedPokemon;
+    }
 </script>
 
 <div>
@@ -138,6 +144,7 @@
     <p>
         {#if selectedPokemon.item}
             Holding: {selectedPokemon.item}
+            <button on:click={deleteHoldItem}>X</button>
         {/if}
     </p>
     <table style="margin: auto; min-height: 4rem;">

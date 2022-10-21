@@ -274,11 +274,11 @@
                     {#each partyPokemon as yourPokemon, yourPokemonIndex (yourPokemon)}
                         <td>
                             <Matchup
-                                bind:debug
+                                {debug}
                                 bind:opponent
                                 bind:yourPokemon
-                                bind:showAllMoves
-                                bind:justTheArrows
+                                {showAllMoves}
+                                {justTheArrows}
                                 yourEffectiveness={yourPokemon.effectiveness[
                                     opponentIndex
                                 ].yourEffectiveness}
