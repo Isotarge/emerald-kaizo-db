@@ -156,42 +156,75 @@ export function computeMoveEffectiveness(moveData, user, opponent) {
     let effectiveness = moveData.power;
 
     // Base stat synergy
-    // TODO: Multiply the base stats by level
-    // const userLevel = user?.level || user?.maxLevel || 100;
-    // const opponentLevel = opponent?.level || opponent?.maxLevel || 100;
     const userData = pokemonByName[user.name];
     const opponentData = pokemonByName[opponent.name];
     const type = typeData[moveData.type];
-    if (type.contact === "Physical") {
-        effectiveness += userData.attack;
-        effectiveness -= (opponentData.hp + opponentData.defense) / 2;
-    } else if (type.contact === "Special") {
-        effectiveness += userData.specialAttack;
-        effectiveness -=
-            (opponentData.hp + opponentData.specialDefense) / 2;
+    // TODO: Multiply the base stats by level/100
+    // const userLevel = user?.level || user?.maxLevel || 100;
+    // const opponentLevel = opponent?.level || opponent?.maxLevel || 100;
+    let attackStat = type.contact === "Physical" ? userData.attack : userData.specialAttack;
+    let defenseStat = type.contact === "Physical" ? opponentData.defense : opponentData.specialDefense;
+
+    // Held items
+    if (user.item) {
+        const simpleItemLookup = [
+            ["Fighting", "Black Belt", 1.1],
+            ["Dark", "Black Glasses", 1.1],
+            ["Fire", "Charcoal", 1.1],
+            ["Dragon", "Dragon Fang", 1.1],
+            ["Electric", "Magnet", 1.1],
+            ["Grass", "Miracle Seed", 1.1],
+            ["Water", "Mystic Water", 1.1],
+            ["Ice", "Never-Melt Ice", 1.1],
+            ["Water", "Sea Incense", 1.05],
+            ["Flying", "Sharp Beak", 1.1],
+            ["Normal", "Silk Scarf", 1.1],
+            ["Bug", "Silver Powder", 1.1],
+            ["Ground", "Soft Sand", 1.1],
+            ["Ghost", "Spell Tag", 1.1],
+            ["Psychic", "Twisted Spoon", 1.1],
+        ];
+        for (let itemData of simpleItemLookup) {
+            if (moveData.type !== itemData[0]) {
+                continue;
+            }
+            if (user.item !== itemData[1]) {
+                continue;
+            }
+            attackStat *= itemData[2];
+            break;
+        }
+
+        // TODO: This also raises special defense by 1.5x, check it for the opponent
+        // Soul Dew
+        if (user.item === "Soul Dew" && (userData.name === "Latias" || userData.name === "Latios")) {
+            if (type.contact === "Special") {
+                attackStat *= 1.5;
+            }
+        }
+
+        // Thick Club
+        if (user.item === "Thick Club" && (userData.name === "Cubone" || userData.name === "Marowak")) {
+            if (type.contact === "Physical") {
+                attackStat *= 2;
+            }
+        }
+
+        // Light Ball
+        if (user.item === "Light Ball" && userData.name === "Pikachu") {
+            if (type.contact === "Special") {
+                attackStat *= 2;
+            }
+        }
     }
 
-    // TODO: Held items
-    // Black Belt
-    // Black Glasses
-    // Charcoal
-    // Dragon Fang
-    // Magnet
-    // Miracle Seed
-    // Mystic Water
-    // Never-Melt Ice
-    // Sea Incense
-    // Sharp Beak
-    // Silk Scarf
-    // Silver Powder
-    // Soft Sand
-    // Spell Tag
-    // Twisted Spoon
+    // Self-destruct / Explosion cut defense in half
+    if (moveData.name === "Selfdestruct" || moveData.name === "Explosion") {
+        defenseStat *= 0.5;
+    }
 
-    // Soul Dew
-    // Stick
-    // Thick Club
-    // Light Ball
+    effectiveness += attackStat;
+    effectiveness -= (opponentData.hp + defenseStat) / 2;
 
     // STAB & Opponent type matchup
     effectiveness *= checkTypeEffectivenessSTAB(

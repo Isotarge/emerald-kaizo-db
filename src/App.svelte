@@ -18,18 +18,22 @@
     const partyPokemon = [
         {
             name: "Scizor",
+            item: "Silver Powder",
             moves: ["X-Scissors", "Steel Wing", "Air Slash", "Double-Edge"],
         },
         {
             name: "Vileplume",
+            item: "Miracle Seed",
             moves: ["Sludge Bomb", "Cut", "Petal Dance", "Toxic"],
         },
         {
             name: "Gyarados",
+            item: "Silk Scarf",
             moves: ["Strength", "Surf", "Rock Smash", "Waterfall"],
         },
         {
             name: "Flygon",
+            item: "Soft Sand",
             moves: ["Fly", "Earthquake", "Dragon Claw", "Strength"],
         },
         {
@@ -106,6 +110,9 @@
     ];
     $: opponentPokemon, recomputeMovesets();
     function recomputeMovesets() {
+        if (debug) {
+            console.log("Recomputing default movesets...");
+        }
         opponentPokemon.forEach(givePokemonDefaultMoves);
     }
 
@@ -117,6 +124,7 @@
     // - Pokemon count
     // - Pokemon species
     // - Pokemon moves
+    // - Pokemon held item
     // But currently it's also recomputing when changing tab from learnset to moves
     $: opponentPokemon.length, partyPokemon.length, initMatchupArray();
     let debug = false;
