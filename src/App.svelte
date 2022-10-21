@@ -5,6 +5,8 @@
         encounterPresets,
         givePokemonDefaultMoves,
         pokemonByName,
+        movesByName,
+        computeMoveEffectiveness,
     } from "./state";
     import trainerPresets from "./trainers.json";
     import Matchup from "./lib/Matchup.svelte";
@@ -110,76 +112,92 @@
     let showAllMoves = false;
     let justTheArrows = true;
 
-    // TODO: This is horrible code
-    // I know there's a much better way to do this but I can't think of it right now
-    // Refactor it all away...
-    let bestEffectivenessLookup = [];
+    // TODO: Better condition here?
     $: opponentPokemon.length, partyPokemon.length, initMatchupArray();
     let debug = false;
+
+    function updateEffectiveness(yourPokemon, opponent) {
+        if (debug) {
+            console.log("Updating effectiveness");
+        }
+        const state = {
+            yourBestEffectiveness: 0,
+            opponentBestEffectiveness: 0,
+            yourEffectiveness: [],
+            opponentEffectiveness: [],
+        };
+        if (yourPokemon.moves) {
+            yourPokemon.moves.forEach((moveName) =>
+                state.yourEffectiveness.push({
+                    moveName,
+                    score: computeMoveEffectiveness(
+                        movesByName[moveName],
+                        yourPokemon,
+                        opponent
+                    ),
+                })
+            );
+            state.yourEffectiveness = state.yourEffectiveness.sort(
+                (a, b) => b.score - a.score
+            );
+        }
+        if (opponent.moves) {
+            opponent.moves.forEach((moveName) =>
+                state.opponentEffectiveness.push({
+                    moveName,
+                    score: computeMoveEffectiveness(
+                        movesByName[moveName],
+                        opponent,
+                        yourPokemon
+                    ),
+                })
+            );
+            state.opponentEffectiveness = state.opponentEffectiveness.sort(
+                (a, b) => b.score - a.score
+            );
+        }
+        state.yourBestEffectiveness = state.yourEffectiveness[0]?.score || 0;
+        state.opponentBestEffectiveness =
+            state.opponentEffectiveness[0]?.score || 0;
+        return state;
+    }
+
     function initMatchupArray() {
         if (debug) {
             console.log("Initting matchup array");
         }
-        bestEffectivenessLookup = [];
-        for (
-            let opponentPokemonIndex = 0;
-            opponentPokemonIndex < opponentPokemon.length;
-            opponentPokemonIndex++
-        ) {
-            bestEffectivenessLookup[opponentPokemonIndex] = [];
-            for (
-                let partyPokemonIndex = 0;
-                partyPokemonIndex < partyPokemon.length;
-                partyPokemonIndex++
-            ) {
-                bestEffectivenessLookup[opponentPokemonIndex][
-                    partyPokemonIndex
-                ] = {
-                    yourBestEffectiveness: 0,
-                    opponentBestEffectiveness: 0,
-                };
-            }
-        }
-    }
-
-    let totalOpponentScores = [];
-    let totalPartyPokemonScores = [];
-    function recomputeTotalPokemonScores() {
-        if (debug) {
-            console.log("Recomputing scores");
-        }
-        totalPartyPokemonScores = [];
-        totalOpponentScores = [];
-        for (
-            let partyPokemonIndex = 0;
-            partyPokemonIndex < partyPokemon.length;
-            partyPokemonIndex++
-        ) {
-            let sum = 0;
-            bestEffectivenessLookup.forEach(
-                (arr) =>
-                    (sum +=
-                        arr[partyPokemonIndex].yourBestEffectiveness -
-                        arr[partyPokemonIndex].opponentBestEffectiveness)
+        // TODO: We're doing the same work twice here
+        // updateEffectiveness could be refactored to populate both pokemon.effectiveness and opponent.effectiveness in one call
+        // From your perspective
+        partyPokemon.forEach((pokemon) => {
+            pokemon.totalEffectiveness = 0;
+            pokemon.effectiveness = opponentPokemon.map((opponent) =>
+                updateEffectiveness(pokemon, opponent)
             );
-            totalPartyPokemonScores.push(sum);
-        }
-        for (
-            let opponentPokemonIndex = 0;
-            opponentPokemonIndex < opponentPokemon.length;
-            opponentPokemonIndex++
-        ) {
-            let sum = 0;
-            bestEffectivenessLookup[opponentPokemonIndex].forEach(
-                (obj) =>
-                    (sum +=
-                        obj.opponentBestEffectiveness -
-                        obj.yourBestEffectiveness)
+        });
+        // From the opponent's perspective
+        opponentPokemon.forEach((pokemon) => {
+            pokemon.totalEffectiveness = 0;
+            pokemon.effectiveness = partyPokemon.map((opponent) =>
+                updateEffectiveness(pokemon, opponent)
             );
-            totalOpponentScores.push(sum);
-        }
+        });
+        // Compute totals
+        partyPokemon.forEach((pokemon) => {
+            pokemon.totalEffectiveness = pokemon.effectiveness.reduce(
+                (a, v) =>
+                    a + (v.yourBestEffectiveness - v.opponentBestEffectiveness),
+                0
+            );
+        });
+        opponentPokemon.forEach((pokemon) => {
+            pokemon.totalEffectiveness = pokemon.effectiveness.reduce(
+                (a, v) =>
+                    a + (v.yourBestEffectiveness - v.opponentBestEffectiveness),
+                0
+            );
+        });
     }
-    $: bestEffectivenessLookup, recomputeTotalPokemonScores();
 </script>
 
 <main>
@@ -211,14 +229,14 @@
         <table>
             <tr>
                 <td />
-                {#each partyPokemon as yourPokemon, partyPokemonIndex}
+                {#each partyPokemon as yourPokemon}
                     <td
                         ><img
                             src="pokemon_sprites/{pokemonByName[
                                 yourPokemon.name
                             ].dex}.png"
                             alt={yourPokemon.name}
-                        /><br />{totalPartyPokemonScores[partyPokemonIndex]}</td
+                        /><br />{yourPokemon?.totalEffectiveness || 0}</td
                     >
                 {/each}
             </tr>
@@ -229,7 +247,7 @@
                             src="pokemon_sprites/{pokemonByName[opponent.name]
                                 .dex}.png"
                             alt={opponent.name}
-                        /><br />{totalOpponentScores[opponentIndex]}</td
+                        /><br />{opponent?.totalEffectiveness || 0}</td
                     >
                     {#each partyPokemon as yourPokemon, yourPokemonIndex (yourPokemon)}
                         <td>
@@ -239,12 +257,18 @@
                                 bind:yourPokemon
                                 bind:showAllMoves
                                 bind:justTheArrows
-                                bind:yourBestEffectiveness={bestEffectivenessLookup[
+                                yourEffectiveness={yourPokemon.effectiveness[
                                     opponentIndex
-                                ][yourPokemonIndex].yourBestEffectiveness}
-                                bind:opponentBestEffectiveness={bestEffectivenessLookup[
-                                    opponentIndex
-                                ][yourPokemonIndex].opponentBestEffectiveness}
+                                ].yourEffectiveness}
+                                opponentEffectiveness={opponent.effectiveness[
+                                    yourPokemonIndex
+                                ].yourEffectiveness}
+                                yourBestEffectiveness={yourPokemon
+                                    .effectiveness[opponentIndex]
+                                    .yourBestEffectiveness}
+                                opponentBestEffectiveness={opponent
+                                    .effectiveness[yourPokemonIndex]
+                                    .yourBestEffectiveness}
                             />
                         </td>
                     {/each}

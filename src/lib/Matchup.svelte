@@ -1,64 +1,19 @@
 <script>
-    import {
-        pokemonByName,
-        movesByName,
-        computeMoveEffectiveness,
-    } from "../state";
+    import { pokemonByName } from "../state";
     import Move from "./Move.svelte";
 
     export let yourPokemon;
     export let opponent;
+    export let yourEffectiveness;
+    export let opponentEffectiveness;
     export let showAllMoves;
     export let justTheArrows;
     export let debug;
-    export let yourBestEffectiveness = 0;
-    export let opponentBestEffectiveness = 0;
+    export let yourBestEffectiveness;
+    export let opponentBestEffectiveness;
 
     $: yourPokemonData = pokemonByName[yourPokemon.name];
     $: opponentData = pokemonByName[opponent.name];
-    $: yourPokemon, opponent, updateEffectiveness();
-
-    let yourEffectiveness = [];
-    let opponentEffectiveness = [];
-    function updateEffectiveness() {
-        if (debug) {
-            console.log("Updating effectiveness");
-        }
-        yourEffectiveness = [];
-        opponentEffectiveness = [];
-        if (yourPokemon.moves) {
-            yourPokemon.moves.forEach((moveName) =>
-                yourEffectiveness.push({
-                    moveName,
-                    score: computeMoveEffectiveness(
-                        movesByName[moveName],
-                        yourPokemon,
-                        opponent
-                    ),
-                })
-            );
-            yourEffectiveness = yourEffectiveness.sort(
-                (a, b) => b.score - a.score
-            );
-        }
-        if (opponent.moves) {
-            opponent.moves.forEach((moveName) =>
-                opponentEffectiveness.push({
-                    moveName,
-                    score: computeMoveEffectiveness(
-                        movesByName[moveName],
-                        opponent,
-                        yourPokemon
-                    ),
-                })
-            );
-            opponentEffectiveness = opponentEffectiveness.sort(
-                (a, b) => b.score - a.score
-            );
-        }
-        yourBestEffectiveness = yourEffectiveness[0]?.score || 0;
-        opponentBestEffectiveness = opponentEffectiveness[0]?.score || 0;
-    }
 </script>
 
 {#if debug}
