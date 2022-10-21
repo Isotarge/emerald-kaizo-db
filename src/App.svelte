@@ -11,67 +11,136 @@
     import trainerPresets from "./trainers.json";
     import Matchup from "./lib/Matchup.svelte";
 
-    // TODO: Party presets
     // TODO: Import pokemon from .sav?
     // TODO: Add ability to export and import party
-    // Isotarge Mid/Late Game Team
-    const partyPokemon = [
+    const partyPresets = [
         {
-            name: "Scizor",
-            item: "Silver Powder",
-            moves: ["X-Scissors", "Steel Wing", "Air Slash", "Double-Edge"],
+            name: "Isotarge Mid/Late game team",
+            team: [
+                {
+                    name: "Scizor",
+                    item: "Silver Powder",
+                    moves: [
+                        "X-Scissors",
+                        "Steel Wing",
+                        "Air Slash",
+                        "Double-Edge",
+                    ],
+                },
+                {
+                    name: "Vileplume",
+                    item: "Miracle Seed",
+                    moves: ["Sludge Bomb", "Cut", "Petal Dance", "Toxic"],
+                },
+                {
+                    name: "Gyarados",
+                    item: "Silk Scarf",
+                    moves: ["Strength", "Surf", "Rock Smash", "Waterfall"],
+                },
+                {
+                    name: "Flygon",
+                    item: "Soft Sand",
+                    moves: ["Fly", "Earthquake", "Dragon Claw", "Strength"],
+                },
+                {
+                    name: "Spinda",
+                    moves: [
+                        "Hyper Voice",
+                        "Superpower",
+                        "Shadow Ball",
+                        "Hypnosis",
+                    ],
+                },
+                {
+                    name: "Electrode",
+                    moves: [
+                        "Thunderbolt",
+                        "Signal Beam",
+                        "Explosion",
+                        "Thunder Wave",
+                    ],
+                },
+            ],
         },
         {
-            name: "Vileplume",
-            item: "Miracle Seed",
-            moves: ["Sludge Bomb", "Cut", "Petal Dance", "Toxic"],
+            name: "Isotarge E4 Ideas",
+            team: [
+                {
+                    name: "Hariyama",
+                    moves: [
+                        "Superpower",
+                        "Body Slam",
+                        "Rock Slide",
+                        "Shadow Punch",
+                    ],
+                },
+                {
+                    name: "Magikarp",
+                },
+                {
+                    name: "Magikarp",
+                },
+                {
+                    name: "Magikarp",
+                },
+                {
+                    name: "Magikarp",
+                },
+                {
+                    name: "Magikarp",
+                },
+            ],
         },
         {
-            name: "Gyarados",
-            item: "Silk Scarf",
-            moves: ["Strength", "Surf", "Rock Smash", "Waterfall"],
-        },
-        {
-            name: "Flygon",
-            item: "Soft Sand",
-            moves: ["Fly", "Earthquake", "Dragon Claw", "Strength"],
-        },
-        {
-            name: "Spinda",
-            moves: ["Hyper Voice", "Superpower", "Shadow Ball", "Hypnosis"],
-        },
-        {
-            name: "Electrode",
-            moves: ["Thunderbolt", "Signal Beam", "Explosion", "Thunder Wave"],
+            name: "Pokemon Challenges E4 Team",
+            team: [
+                {
+                    name: "Dusclops",
+                    moves: [
+                        "Shadow Ball",
+                        "Shadow Sneak",
+                        "Earthquake",
+                        "Ice Beam",
+                    ],
+                },
+                {
+                    name: "Wobbuffet",
+                    moves: ["Destiny Bond", "Mirror Coat", "Encore", "Counter"],
+                },
+                {
+                    name: "Ludicolo",
+                    moves: [
+                        "Fake Out",
+                        "Giga Drain",
+                        "Magical Leaf",
+                        "Ice Beam",
+                    ],
+                },
+                {
+                    name: "Slowbro",
+                    moves: ["Surf", "Flamethrower", "Slack Off", "Fire Blast"],
+                },
+                {
+                    name: "Relicanth",
+                    moves: [
+                        "Head Smash",
+                        "Ancientpower",
+                        "Earthquake",
+                        "Ice Beam",
+                    ],
+                },
+                {
+                    name: "Salamence",
+                    moves: [
+                        "Brick Break",
+                        "Dragon Claw",
+                        "Rock Slide",
+                        "Rock Tomb",
+                    ],
+                },
+            ],
         },
     ];
-    // Pokemon Challenges E4 Team
-    // const partyPokemon = [
-    //     {
-    //         name: "Dusclops",
-    //         moves: ["Shadow Ball", "Shadow Sneak", "Earthquake", "Ice Beam"],
-    //     },
-    //     {
-    //         name: "Wobbuffet",
-    //         moves: ["Destiny Bond", "Mirror Coat", "Encore", "Counter"],
-    //     },
-    //     {
-    //         name: "Ludicolo",
-    //         moves: ["Fake Out", "Giga Drain", "Magical Leaf", "Ice Beam"],
-    //     },
-    //     {
-    //         name: "Slowbro",
-    //         moves: ["Surf", "Flamethrower", "Slack Off", "Fire Blast"],
-    //     },
-    //     {
-    //         name: "Relicanth",
-    //         moves: ["Head Smash", "Ancientpower", "Earthquake", "Ice Beam"],
-    //     },
-    //     {
-    //         name: "Salamence",
-    //         moves: ["Brick Break", "Dragon Claw", "Rock Slide", "Rock Tomb"],
-    //     },
-    // ];
 
     const opponentPresets = [
         ...encounterPresets,
@@ -102,17 +171,23 @@
     ];
 
     let collapseOpponent = false;
+    let selectedPartyPreset = partyPresets[0].name;
+    $: partyPokemon = [
+        ...partyPresets.find((preset) => preset.name === selectedPartyPreset)
+            .team,
+    ];
     let selectedOpponentPreset = opponentPresets[0].name;
     $: opponentPokemon = [
         ...opponentPresets.find(
             (preset) => preset.name === selectedOpponentPreset
         ).team,
     ];
-    $: opponentPokemon, recomputeMovesets();
+    $: partyPokemon, opponentPokemon, recomputeMovesets();
     function recomputeMovesets() {
         if (debug) {
             console.log("Recomputing default movesets...");
         }
+        partyPokemon.forEach(givePokemonDefaultMoves);
         opponentPokemon.forEach(givePokemonDefaultMoves);
     }
 
@@ -225,6 +300,11 @@
 <main>
     <h1>Pokémon Emerald Kaizo DB</h1>
     <h2>Your Party</h2>
+    Preset: <AutoComplete
+        items={partyPresets.map((preset) => preset.name)}
+        hideArrow="true"
+        bind:selectedItem={selectedPartyPreset}
+    />
     <div id="party">
         {#each partyPokemon as _}
             <PokemonPanel bind:selectedPokemon={_} />

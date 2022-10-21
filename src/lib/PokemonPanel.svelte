@@ -8,7 +8,6 @@
         abilityData,
         typeData,
         checkTypeEffectiveness,
-        pokemon,
     } from "../state";
     import Move from "./Move.svelte";
 
