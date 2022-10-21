@@ -97,8 +97,25 @@
         return `${attackType} (${pokemonData.specialAttackBias}), ${defenseType} (${pokemonData.specialDefenseBias})`;
     }
 
+    function addHoldItem() {
+        const item = prompt("Please enter an item");
+        if (item !== null) {
+            selectedPokemon.item = item;
+            selectedPokemon = selectedPokemon;
+        }
+    }
+
     function deleteHoldItem() {
         delete selectedPokemon.item;
+        selectedPokemon = selectedPokemon;
+    }
+
+    function addMove() {
+        if (selectedPokemon.moves) {
+            selectedPokemon.moves.push("Pound");
+        } else {
+            selectedPokemon.moves = ["Pound"];
+        }
         selectedPokemon = selectedPokemon;
     }
 </script>
@@ -144,6 +161,8 @@
         {#if selectedPokemon.item}
             Holding: {selectedPokemon.item}
             <button on:click={deleteHoldItem}>X</button>
+        {:else}
+            <button on:click={addHoldItem}>Add Item</button>
         {/if}
     </p>
     <table style="margin: auto; min-height: 4rem;">
@@ -336,6 +355,9 @@
                     <Move bind:moveName={move} bind:user={selectedPokemon} />
                 {/each}
             </table>
+        {/if}
+        {#if !selectedPokemon.moves || selectedPokemon.moves.length < 4}
+            <button on:click={addMove}>Add Move</button>
         {/if}
     {:else if selectedPanel === "Learnset"}
         {#if selectedPokemonData.learnset}

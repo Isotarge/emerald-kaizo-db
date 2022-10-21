@@ -75,10 +75,24 @@
                     ],
                 },
                 {
-                    name: "Magikarp",
+                    name: "Tauros",
+                    item: "Silk Scarf",
+                    moves: [
+                        "Double-Edge",
+                        "Earth Power",
+                        "Quick Attack",
+                        "Iron Tail",
+                    ],
                 },
                 {
-                    name: "Magikarp",
+                    name: "Lapras",
+                    item: "Mystic Water",
+                    moves: [
+                        "Ice Beam",
+                        "Hydro Pump",
+                        "Signal Beam",
+                        "Ancientpower",
+                    ],
                 },
                 {
                     name: "Magikarp",
