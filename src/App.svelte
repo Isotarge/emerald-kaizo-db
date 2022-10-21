@@ -112,7 +112,12 @@
     let showAllMoves = false;
     let justTheArrows = true;
 
-    // TODO: Better condition here?
+    // TODO: Better condition here, seems a bit too eager to recompute everything
+    // I would like it to only recompute on the following changes:
+    // - Pokemon count
+    // - Pokemon species
+    // - Pokemon moves
+    // But currently it's also recomputing when changing tab from learnset to moves
     $: opponentPokemon.length, partyPokemon.length, initMatchupArray();
     let debug = false;
 
@@ -156,32 +161,41 @@
                 (a, b) => b.score - a.score
             );
         }
+
         state.yourBestEffectiveness = state.yourEffectiveness[0]?.score || 0;
         state.opponentBestEffectiveness =
             state.opponentEffectiveness[0]?.score || 0;
-        return state;
+
+        // Add the result of the computation to the party pokemon object
+        yourPokemon.effectiveness.push(state);
+
+        // Flip the perspective of the computations and add the result to the opponent object
+        opponent.effectiveness.push({
+            yourEffectiveness: state.opponentEffectiveness,
+            yourBestEffectiveness: state.opponentBestEffectiveness,
+            opponentEffectiveness: state.yourEffectiveness,
+            opponentBestEffectiveness: state.yourBestEffectiveness,
+        });
     }
 
     function initMatchupArray() {
         if (debug) {
             console.log("Initting matchup array");
         }
-        // TODO: We're doing the same work twice here
-        // updateEffectiveness could be refactored to populate both pokemon.effectiveness and opponent.effectiveness in one call
-        // From your perspective
+
+        // Compute all permutations of effectiveness
         partyPokemon.forEach((pokemon) => {
-            pokemon.totalEffectiveness = 0;
-            pokemon.effectiveness = opponentPokemon.map((opponent) =>
-                updateEffectiveness(pokemon, opponent)
-            );
+            pokemon.effectiveness = [];
         });
-        // From the opponent's perspective
-        opponentPokemon.forEach((pokemon) => {
-            pokemon.totalEffectiveness = 0;
-            pokemon.effectiveness = partyPokemon.map((opponent) =>
-                updateEffectiveness(pokemon, opponent)
-            );
+        opponentPokemon.forEach((opponent) => {
+            opponent.effectiveness = [];
         });
+        partyPokemon.forEach((pokemon) => {
+            opponentPokemon.forEach((opponent) => {
+                updateEffectiveness(pokemon, opponent);
+            });
+        });
+
         // Compute totals
         partyPokemon.forEach((pokemon) => {
             pokemon.totalEffectiveness = pokemon.effectiveness.reduce(
