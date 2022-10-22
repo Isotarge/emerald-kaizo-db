@@ -66,7 +66,28 @@
             name: "Isotarge E4 Ideas",
             team: [
                 {
+                    name: "Scizor",
+                    item: "Silver Powder",
+                    moves: [
+                        "X-Scissors",
+                        "Steel Wing",
+                        "Air Slash",
+                        "Double-Edge",
+                    ],
+                },
+                {
+                    name: "Absol",
+                    item: "Silver Powder",
+                    moves: [
+                        "Superpower",
+                        "Megahorn",
+                        "Double-Edge",
+                        "Shadow Ball",
+                    ],
+                },
+                {
                     name: "Hariyama",
+                    item: "Spell Tag",
                     moves: [
                         "Superpower",
                         "Body Slam",
@@ -95,16 +116,6 @@
                     ],
                 },
                 {
-                    name: "Scizor",
-                    item: "Silver Powder",
-                    moves: [
-                        "X-Scissors",
-                        "Steel Wing",
-                        "Air Slash",
-                        "Double-Edge",
-                    ],
-                },
-                {
                     name: "Heracross",
                     item: "Silver Powder",
                     moves: [
@@ -113,9 +124,6 @@
                         "Rock Slide",
                         "Double-Edge",
                     ],
-                },
-                {
-                    name: "Magikarp",
                 },
             ],
         },

@@ -8,6 +8,7 @@
         abilityData,
         typeData,
         checkTypeEffectiveness,
+        hasAbility,
     } from "../state";
     import Move from "./Move.svelte";
 
@@ -32,13 +33,6 @@
         .map((v) => v.type);
 
     export let selectedPanel = "Stats";
-
-    function hasAbility(pokemonData, abilityName) {
-        return (
-            pokemonData.ability1 === abilityName ||
-            pokemonData.ability2 === abilityName
-        );
-    }
 
     function computeTypeMatchup(pokemonData) {
         const matchup = [];

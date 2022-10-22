@@ -146,6 +146,13 @@ export function moveDoesDamage(move) {
     return move.power > 0;
 }
 
+export function hasAbility(pokemonData, abilityName) {
+    return (
+        pokemonData.ability1 === abilityName ||
+        pokemonData.ability2 === abilityName
+    );
+}
+
 export function computeMoveEffectiveness(moveData, user, opponent) {
     // Move is not attacking, save some cycles
     if (!moveDoesDamage(moveData)) {
@@ -195,11 +202,21 @@ export function computeMoveEffectiveness(moveData, user, opponent) {
             break;
         }
 
-        // TODO: This also raises special defense by 1.5x, check it for the opponent
-        // Soul Dew
+        // Thick Fat (Defender)
+        if (hasAbility(opponentData, "Thick Fat") && (moveData.type === "Fire" || moveData.type === "Ice")) {
+            attackStat /= 2;
+        }
+
+        // Soul Dew (Attacker)
         if (user.item === "Soul Dew" && (userData.name === "Latias" || userData.name === "Latios")) {
             if (type.contact === "Special") {
                 attackStat *= 1.5;
+            }
+        }
+        // Soul Dew (Defender)
+        if (opponent.item === "Soul Dew" && (opponentData.name === "Latias" || opponentData.name === "Latios")) {
+            if (type.contact === "Special") {
+                defenseStat *= 1.5;
             }
         }
 
@@ -227,13 +244,32 @@ export function computeMoveEffectiveness(moveData, user, opponent) {
     effectiveness -= (opponentData.hp + defenseStat) / 2;
 
     // STAB & Opponent type matchup
-    effectiveness *= checkTypeEffectivenessSTAB(
+    const typeEffectiveness = checkTypeEffectivenessSTAB(
         userData.type1,
         userData.type2,
         opponentData.type1,
         opponentData.type2,
         moveData.type
     );
+
+    // Abilities that provide specific type immunity
+    if (hasAbility(opponentData, "Levitate") && moveData.type === "Ground") {
+        return 0;
+    }
+    if (hasAbility(opponentData, "Flash Fire") && moveData.type === "Fire") {
+        return 0;
+    }
+    if (hasAbility(opponentData, "Volt Absorb") && moveData.type === "Electric") {
+        return 0;
+    }
+    if (hasAbility(opponentData, "Water Absorb") && moveData.type === "Water") {
+        return 0;
+    }
+    if (hasAbility(opponentData, "Wonder Guard") && typeEffectiveness < 2) {
+        return 0;
+    }
+
+    effectiveness *= typeEffectiveness;
 
     // Accuracy
     if (moveData.accuracy > 0) {
