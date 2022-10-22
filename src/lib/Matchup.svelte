@@ -33,7 +33,7 @@
             }
         });
 
-        return yourPriority > opponentPriority;
+        return yourPriority - opponentPriority;
     }
 
     $: yourPokemonData = pokemonByName[yourPokemon.name];
@@ -62,7 +62,9 @@
     {:else}
         <span style="color: #980">= SPEED </span>
     {/if}
-    {#if pokemonHasPriority()}<span style="color: #393">!</span>{/if}
+    {#if pokemonHasPriority() > 0}<span style="color: #393">!</span
+        >{:else if pokemonHasPriority() < 0}<span style="color: #933">!</span
+        >{/if}
     {#if !justTheArrows}
         <table>
             {#if showAllMoves}
