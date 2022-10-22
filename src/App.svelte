@@ -63,7 +63,7 @@
             ],
         },
         {
-            name: "Isotarge E4 Ideas",
+            name: "Isotarge E4 Ideas (Tauros)",
             team: [
                 {
                     name: "Scizor",
@@ -103,6 +103,71 @@
                         "Earth Power",
                         "Quick Attack",
                         "Iron Tail",
+                    ],
+                },
+                {
+                    name: "Lapras",
+                    item: "Mystic Water",
+                    moves: [
+                        "Ice Beam",
+                        "Hydro Pump",
+                        "Signal Beam",
+                        "Ancientpower",
+                    ],
+                },
+                {
+                    name: "Heracross",
+                    item: "Silver Powder",
+                    moves: [
+                        "Megahorn",
+                        "Brick Break",
+                        "Rock Slide",
+                        "Double-Edge",
+                    ],
+                },
+            ],
+        },
+        {
+            name: "Isotarge E4 Ideas (Arcanine)",
+            team: [
+                {
+                    name: "Scizor",
+                    item: "Silver Powder",
+                    moves: [
+                        "X-Scissors",
+                        "Steel Wing",
+                        "Air Slash",
+                        "Double-Edge",
+                    ],
+                },
+                {
+                    name: "Absol",
+                    item: "Silver Powder",
+                    moves: [
+                        "Superpower",
+                        "Megahorn",
+                        "Double-Edge",
+                        "Shadow Ball",
+                    ],
+                },
+                {
+                    name: "Hariyama",
+                    item: "Spell Tag",
+                    moves: [
+                        "Superpower",
+                        "Body Slam",
+                        "Rock Slide",
+                        "Shadow Punch",
+                    ],
+                },
+                {
+                    name: "Arcanine",
+                    item: "Silk Scarf",
+                    moves: [
+                        "Dig",
+                        "Overheat",
+                        "Extremespeed",
+                        "Wild Charge",
                     ],
                 },
                 {
