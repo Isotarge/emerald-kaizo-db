@@ -1,5 +1,5 @@
 <script>
-    import { pokemonByName } from "../state";
+    import { pokemonByName, movesByName, moveDoesDamage } from "../state";
     import Move from "./Move.svelte";
 
     export let yourPokemon;
@@ -11,6 +11,30 @@
     export let debug;
     export let yourBestEffectiveness;
     export let opponentBestEffectiveness;
+
+    function pokemonHasPriority() {
+        let opponentPriority = -Infinity;
+        let yourPriority = -Infinity;
+
+        yourPokemon.moves.forEach((move) => {
+            let moveData = movesByName[move];
+            if (moveDoesDamage(moveData)) {
+                yourPriority = Math.max(yourPriority, moveData.priority);
+            }
+        });
+
+        opponent.moves.forEach((move) => {
+            let moveData = movesByName[move];
+            if (moveDoesDamage(moveData)) {
+                opponentPriority = Math.max(
+                    opponentPriority,
+                    moveData.priority
+                );
+            }
+        });
+
+        return yourPriority > opponentPriority;
+    }
 
     $: yourPokemonData = pokemonByName[yourPokemon.name];
     $: opponentData = pokemonByName[opponent.name];
@@ -32,12 +56,13 @@
     {/if}
     <br />
     {#if yourPokemonData.speed > opponentData.speed}
-        <span style="color: #393">⮝ SPEED</span>
+        <span style="color: #393">⮝ SPEED </span>
     {:else if yourPokemonData.speed < opponentData.speed}
-        <span style="color: #933">⮜ SPEED</span>
+        <span style="color: #933">⮜ SPEED </span>
     {:else}
-        <span style="color: #980">= SPEED</span>
+        <span style="color: #980">= SPEED </span>
     {/if}
+    {#if pokemonHasPriority()}<span style="color: #393">!</span>{/if}
     {#if !justTheArrows}
         <table>
             {#if showAllMoves}
