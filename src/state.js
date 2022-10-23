@@ -202,11 +202,6 @@ export function computeMoveEffectiveness(moveData, user, opponent, includeAccura
             break;
         }
 
-        // Thick Fat (Defender)
-        if (hasAbility(opponentData, "Thick Fat") && (moveData.type === "Fire" || moveData.type === "Ice")) {
-            attackStat /= 2;
-        }
-
         // Soul Dew (Attacker)
         if (user.item === "Soul Dew" && (userData.name === "Latias" || userData.name === "Latios")) {
             if (type.contact === "Special") {
@@ -238,6 +233,11 @@ export function computeMoveEffectiveness(moveData, user, opponent, includeAccura
     // Self-destruct / Explosion cut defense in half
     if (moveData.name === "Selfdestruct" || moveData.name === "Explosion") {
         defenseStat *= 0.5;
+    }
+
+    // Thick Fat (Defender)
+    if (hasAbility(opponentData, "Thick Fat") && (moveData.type === "Fire" || moveData.type === "Ice")) {
+        attackStat /= 2;
     }
 
     effectiveness += attackStat;
