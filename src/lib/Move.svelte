@@ -16,6 +16,63 @@
     export let level = 0;
     export let score = 0;
 
+    const isoTMBag = [
+        // Already in bag
+        "Focus Punch",
+        "Dragon Claw",
+        "Water Pulse",
+        "Roar",
+        "Toxic",
+        "Seismic Toss",
+        "Blizzard",
+        "Light Screen",
+        "Giga Drain",
+        "Safeguard",
+        "Iron Tail",
+        "Earthquake",
+        "Return",
+        "Dig",
+        "Shadow Ball",
+        "Brick Break",
+        "Reflect",
+        "Sludge Bomb",
+        "Fire Blast",
+        "Rock Tomb",
+        "Aerial Ace",
+        "Facade",
+        "Secret Power",
+        "Steel Wing",
+        "Skill Swap",
+        "Overheat",
+    ];
+
+    const TMHMRenewable = [
+        // Game Corner
+        "Draco Meteor",
+        "Psychic",
+        "Flamethrower",
+        "Thunderbolt",
+        "Ice Beam",
+        // Lilycove Mart
+        "Fire Blast",
+        "Sludge Bomb",
+        "Blizzard",
+        "Steel Wing",
+        "Aerial Ace",
+        "Safeguard",
+        "Reflect",
+        "Light Screen",
+        // HMs
+        "Cut",
+        "Fly",
+        "Surf",
+        "Strength",
+        "Flash",
+        "Rock Smash",
+        "Waterfall",
+        "Dive",
+    ];
+
     $: userData = pokemonByName[user.name];
     $: moveData = movesByName[moveName];
     $: STAB =
@@ -63,6 +120,15 @@
         <td>
             {moveData.pp}
         </td>
+    {/if}
+    {#if TMHM}
+        {#if TMHMRenewable.includes(moveData.name)}
+            <td style="color: #393"><b>R</b></td>
+        {:else if isoTMBag.includes(moveData.name)}
+            <td style="color: #980"><b>B</b></td>
+        {:else}
+            <td />
+        {/if}
     {/if}
     {#if score > 0}
         <td>

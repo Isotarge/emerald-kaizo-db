@@ -387,6 +387,7 @@
                         <th>Power</th>
                         <th>Accuracy</th>
                         <th>PP</th>
+                        <th>Available</th>
                     </tr>
                 </thead>
                 {#each selectedPokemonData.TMHM as move}

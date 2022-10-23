@@ -164,7 +164,7 @@
                     name: "Arcanine",
                     item: "Silk Scarf",
                     moves: [
-                        "Dig",
+                        "Earthquake",
                         "Overheat",
                         "Extremespeed",
                         "Wild Charge",
@@ -174,7 +174,7 @@
                     name: "Lapras",
                     item: "Mystic Water",
                     moves: [
-                        "Ice Beam",
+                        "Blizzard",
                         "Hydro Pump",
                         "Signal Beam",
                         "Ancientpower",
@@ -294,6 +294,7 @@
 
     let showAllMoves = false;
     let justTheArrows = true;
+    let includeAccuracy = false;
 
     // TODO: Better condition here, seems a bit too eager to recompute everything
     // I would like it to only recompute on the following changes:
@@ -322,7 +323,8 @@
                     score: computeMoveEffectiveness(
                         movesByName[moveName],
                         yourPokemon,
-                        opponent
+                        opponent,
+                        includeAccuracy
                     ),
                 })
             );
@@ -337,7 +339,8 @@
                     score: computeMoveEffectiveness(
                         movesByName[moveName],
                         opponent,
-                        yourPokemon
+                        yourPokemon,
+                        includeAccuracy
                     ),
                 })
             );
@@ -438,6 +441,12 @@
     <h2>Matchup</h2>
     <input type="checkbox" bind:checked={showAllMoves} /> Show All Moves
     <input type="checkbox" bind:checked={justTheArrows} /> Just The Arrows
+    <!-- <input
+        type="checkbox"
+        bind:checked={includeAccuracy}
+        on:change={initMatchupArray}
+    />
+    Include Accuracy -->
     <input type="checkbox" bind:checked={debug} /> Debug
     <div id="matchup">
         <table>

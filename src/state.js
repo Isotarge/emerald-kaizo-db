@@ -153,7 +153,7 @@ export function hasAbility(pokemonData, abilityName) {
     );
 }
 
-export function computeMoveEffectiveness(moveData, user, opponent) {
+export function computeMoveEffectiveness(moveData, user, opponent, includeAccuracy) {
     // Move is not attacking, save some cycles
     if (!moveDoesDamage(moveData)) {
         return 0;
@@ -272,8 +272,10 @@ export function computeMoveEffectiveness(moveData, user, opponent) {
     effectiveness *= typeEffectiveness;
 
     // Accuracy
-    if (moveData.accuracy > 0) {
-        effectiveness *= moveData.accuracy / 100;
+    if (includeAccuracy) {
+        if (moveData.accuracy > 0) {
+            effectiveness *= moveData.accuracy / 100;
+        }
     }
 
     return Math.round(effectiveness);
