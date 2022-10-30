@@ -51,7 +51,8 @@
         "Draco Meteor",
         "Psychic",
         "Flamethrower",
-        "Thunderbolt",
+        // "Thunderbolt", // Note: The prize menu says Thunderbolt is sold, but when you purchase it, you get shadow ball instead
+        "Shadow Ball",
         "Ice Beam",
         // Lilycove Mart
         "Fire Blast",

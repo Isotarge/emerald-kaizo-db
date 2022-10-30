@@ -63,7 +63,7 @@
             ],
         },
         {
-            name: "Isotarge E4 Ideas (Tauros)",
+            name: "Isotarge E4 Ideas",
             team: [
                 {
                     name: "Scizor",
@@ -72,7 +72,7 @@
                         "X-Scissors",
                         "Steel Wing",
                         "Air Slash",
-                        "Double-Edge",
+                        "Superpower",
                     ],
                 },
                 {
@@ -81,72 +81,7 @@
                     moves: [
                         "Superpower",
                         "Megahorn",
-                        "Double-Edge",
-                        "Shadow Ball",
-                    ],
-                },
-                {
-                    name: "Hariyama",
-                    item: "Spell Tag",
-                    moves: [
-                        "Superpower",
-                        "Body Slam",
-                        "Rock Slide",
-                        "Shadow Punch",
-                    ],
-                },
-                {
-                    name: "Tauros",
-                    item: "Silk Scarf",
-                    moves: [
-                        "Double-Edge",
-                        "Earth Power",
                         "Quick Attack",
-                        "Iron Tail",
-                    ],
-                },
-                {
-                    name: "Lapras",
-                    item: "Mystic Water",
-                    moves: [
-                        "Ice Beam",
-                        "Hydro Pump",
-                        "Signal Beam",
-                        "Ancientpower",
-                    ],
-                },
-                {
-                    name: "Heracross",
-                    item: "Silver Powder",
-                    moves: [
-                        "Megahorn",
-                        "Brick Break",
-                        "Rock Slide",
-                        "Double-Edge",
-                    ],
-                },
-            ],
-        },
-        {
-            name: "Isotarge E4 Ideas (Arcanine)",
-            team: [
-                {
-                    name: "Scizor",
-                    item: "Silver Powder",
-                    moves: [
-                        "X-Scissors",
-                        "Steel Wing",
-                        "Air Slash",
-                        "Double-Edge",
-                    ],
-                },
-                {
-                    name: "Absol",
-                    item: "Silver Powder",
-                    moves: [
-                        "Superpower",
-                        "Megahorn",
-                        "Double-Edge",
                         "Shadow Ball",
                     ],
                 },
@@ -174,10 +109,10 @@
                     name: "Lapras",
                     item: "Mystic Water",
                     moves: [
-                        "Blizzard",
+                        "Ice Beam",
                         "Hydro Pump",
-                        "Signal Beam",
                         "Ancientpower",
+                        "Psychic",
                     ],
                 },
                 {
@@ -294,7 +229,10 @@
 
     let showAllMoves = false;
     let justTheArrows = true;
-    let includeAccuracy = false;
+    let includeAccuracy = true;
+    let includeIntimidate = false;
+    let includeStatusBoostAbilities = false; // Guts
+    let includeLowHPBoostAbilities = false; // Torrent, Overgrow, Blaze, Swarm
 
     // TODO: Better condition here, seems a bit too eager to recompute everything
     // I would like it to only recompute on the following changes:
@@ -441,13 +379,39 @@
     <h2>Matchup</h2>
     <input type="checkbox" bind:checked={showAllMoves} /> Show All Moves
     <input type="checkbox" bind:checked={justTheArrows} /> Just The Arrows
-    <!-- <input
+    <input type="checkbox" bind:checked={debug} /> Debug
+    <br />
+    <input
         type="checkbox"
         bind:checked={includeAccuracy}
         on:change={initMatchupArray}
+        disabled
     />
-    Include Accuracy -->
-    <input type="checkbox" bind:checked={debug} /> Debug
+    Include Accuracy
+    <br />
+    <input
+        type="checkbox"
+        bind:checked={includeIntimidate}
+        on:change={initMatchupArray}
+        disabled
+    />
+    Intimidate
+    <br />
+    <input
+        type="checkbox"
+        bind:checked={includeStatusBoostAbilities}
+        on:change={initMatchupArray}
+        disabled
+    />
+    Status Boost Abilities (Guts, Marvel Scale)
+    <br />
+    <input
+        type="checkbox"
+        bind:checked={includeLowHPBoostAbilities}
+        on:change={initMatchupArray}
+        disabled
+    />
+    Low HP Boost Abilities (Torrent, Overgrow, Blaze, Swarm)
     <div id="matchup">
         <table>
             <tr>
