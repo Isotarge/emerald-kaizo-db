@@ -71,7 +71,7 @@
                     moves: [
                         "X-Scissors",
                         "Steel Wing",
-                        "Air Slash",
+                        "Quick Attack",
                         "Superpower",
                     ],
                 },
@@ -99,7 +99,7 @@
                     name: "Arcanine",
                     item: "Silk Scarf",
                     moves: [
-                        "Earthquake",
+                        "Dig",
                         "Overheat",
                         "Extremespeed",
                         "Wild Charge",
