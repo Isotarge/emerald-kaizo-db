@@ -7,6 +7,7 @@
         pokemonByName,
         movesByName,
         computeMoveEffectiveness,
+        pokemonNames,
     } from "./state";
     import trainerPresets from "./trainers.json";
     import Matchup from "./lib/Matchup.svelte";
@@ -98,12 +99,7 @@
                 {
                     name: "Arcanine",
                     item: "Silk Scarf",
-                    moves: [
-                        "Dig",
-                        "Overheat",
-                        "Extremespeed",
-                        "Wild Charge",
-                    ],
+                    moves: ["Dig", "Overheat", "Extremespeed", "Wild Charge"],
                 },
                 {
                     name: "Lapras",
@@ -181,9 +177,12 @@
     const opponentPresets = [
         ...encounterPresets,
         ...trainerPresets,
-        // { name: "National Dex", team: pokemonNames.map((pkmn) => {
-        //     return { name: pkmn };
-        // } },
+        {
+            name: "National Dex",
+            team: pokemonNames.map((pkmn) => {
+                return { name: pkmn };
+            }),
+        },
         {
             name: "Elite Four",
             team: [

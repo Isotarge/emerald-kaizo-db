@@ -74,6 +74,24 @@
         "Dive",
     ];
 
+    const TMHMRenewablePostGame = [
+        // Battle Frontier (Post-Game)
+        "Shockwave",
+        "Hidden Power",
+        "Thunderbolt", 
+        "Protect",
+        "Focus Punch",
+        "Facade",
+        "Rock Tomb",
+        "Iron Tail",
+        "Roar",
+        "Dragon Claw",
+        "Overheat",
+        "Earthquake",
+        "Hyper Beam",
+        // TODO: Battle Frontier Tutors
+    ];
+
     $: userData = pokemonByName[user.name];
     $: moveData = movesByName[moveName];
     $: STAB =
