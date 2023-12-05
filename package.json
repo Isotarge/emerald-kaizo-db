@@ -11,7 +11,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.1",
     "svelte": "^4.0.0",
-    "vite": "^4.0.0"
+    "vite": "^4.4.12"
   },
   "dependencies": {
     "simple-svelte-autocomplete": "^2.4.0"
